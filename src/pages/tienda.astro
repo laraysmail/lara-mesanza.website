@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FilterPills from '../components/FilterPills.astro';
+import ProductFeature from '../components/ProductFeature.astro';
+import ProductCard from '../components/ProductCard.astro';
+import products from '../data/products.json';
+
+const featured = products.find((p) => p.featured);
+const rest = products.filter((p) => !featured || p.id !== featured.id);
+---
+
+<BaseLayout title="Tienda — Lara Mesanza" description="Cada producto que uso de verdad: mis propios diagramas y plantillas, más enlaces directos a Amazon, AliExpress y Leroy Merlin.">
+  <section class="tienda-head">
+    <div class="wrap reveal">
+      <span class="kicker">// el escaparate</span>
+      <h1>Lo que usamos: furgo, camión, terreno o viaje</h1>
+      <p>Enlaces directos a Amazon, AliExpress y Leroy Merlin, más mis propios diagramas y plantillas. Todo lo que aparece aquí lo hemos comprado, instalado o usado nosotros mismos.</p>
+      <FilterPills
+        targetId="tienda-grid"
+        options={[
+          { value: 'todo', label: 'Todo' },
+          { value: 'furgo', label: 'Furgo' },
+          { value: 'camion', label: 'Camión' },
+          { value: 'terreno', label: 'Terreno' },
+          { value: 'viaje', label: 'Viaje' },
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="tienda-body">
+    <div class="wrap">
+      <div id="tienda-grid">
+        {featured && (
+          <div class="featured-row">
+            <ProductFeature tag={featured.tag ?? 'Producto propio'} name={featured.name} price={featured.price} url={featured.url} categories={featured.categories} />
+          </div>
+        )}
+        <div class="product-grid">
+          {rest.map((p) => (
+            <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} />
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .tienda-head { padding: 160px 0 40px; }
+  .tienda-head h1 {
+    font-family: var(--display); font-weight: 700; letter-spacing: -.02em;
+    font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.05; max-width: 700px;
+  }
+  .tienda-head p { margin-top: 20px; max-width: 480px; opacity: .7; font-size: .98rem; line-height: 1.55; }
+  .tienda-body { padding: 40px 0 120px; }
+  .featured-row { margin-bottom: 22px; }
+  .featured-row :global(.p-feature) { min-height: 340px; }
+  .product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  @media (max-width: 900px) { .product-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px) { .product-grid { grid-template-columns: 1fr; } }
+</style>

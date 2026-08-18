@@ -1,0 +1,25 @@
+# 301 redirects: old laramesanza.com (WordPress) URL -> new site URL
+#
+# Why this file exists: every URL Google, YouTube descriptions, Instagram bio links,
+# and old backlinks currently point to on the WordPress site needs to keep working
+# after the domain switches over, or those links (and their SEO value) break.
+#
+# Format (one per line): /old-path  /new-path
+#
+# HOW TO FILL THIS IN:
+# 1. List every indexed URL on the current WordPress site. The fastest way: Google
+#    Search Console > Pages report, or crawl the live site with a tool like Screaming
+#    Frog. Don't guess from memory, missed URLs become dead links.
+# 2. Map each old URL to its real new-site equivalent below.
+# 3. Tell Claude Code once this list is filled in and it'll wire it into whichever
+#    host we deploy to (Vercel and Netlify both support this format with light edits).
+#
+# Known so far (confirm exact old paths before deploying):
+# /home/                    /
+# /descuentos/               /descuentos
+# /tienda/ or /productos-recomendados/ or /nuestros-productos/   /tienda
+# /asesoramiento-camper/     /asesoramiento
+# /contacto/                 /contacto
+#
+# Add every individual old product page below once we have the list:
+# /producto/old-slug/        /tienda

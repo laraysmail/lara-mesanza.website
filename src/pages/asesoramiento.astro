@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import services from '../data/services.json';
+---
+
+<BaseLayout title="Asesoramiento — Lara Mesanza" description="Smaïl diseña tu sistema eléctrico a medida. Tu furgo, tu presupuesto, tu consumo real, desde 200 €.">
+  <section class="asesoramiento-head">
+    <div class="wrap reveal">
+      <span class="kicker">// para cuando quieres ayuda de verdad</span>
+      <h1>Asesoramiento</h1>
+      <p>Servicios de consultoría, diseñados a partir de lo que hemos aprendido en 5 proyectos DIY propios.</p>
+    </div>
+  </section>
+
+  <section class="asesoramiento-body">
+    <div class="wrap services-list">
+      {services.map((s) => (
+        <ServiceCard
+          badge={s.badge}
+          title={s.title}
+          description={s.description}
+          bullets={s.bullets}
+          price={s.price}
+          ctaLabel={s.ctaLabel}
+          ctaHref={s.ctaHref}
+        />
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .asesoramiento-head { padding: 160px 0 40px; }
+  .asesoramiento-head h1 {
+    font-family: var(--display); font-weight: 700; letter-spacing: -.02em;
+    font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.05;
+  }
+  .asesoramiento-head p { margin-top: 20px; max-width: 480px; opacity: .7; font-size: .98rem; line-height: 1.55; }
+  .asesoramiento-body { padding: 40px 0 120px; }
+  .services-list { display: flex; flex-direction: column; gap: 24px; }
+</style>
