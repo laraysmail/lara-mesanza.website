@@ -1,0 +1,52 @@
+---
+const steps = [
+  { num: '01', title: 'Productos recomendados', body: 'Cada producto que usamos de verdad, con enlace directo a la tienda más barata que encontramos.', href: '/tienda', linkLabel: 'Ver tienda →' },
+  { num: '02', title: 'Productos propios', body: 'Diagramas eléctricos y plantillas hechas por nosotros, pensadas para cero experiencia previa.', href: '/tienda', linkLabel: 'Ver productos →' },
+  { num: '03', title: 'Descuentos', body: 'Códigos reales de las marcas con las que colaboramos, actualizados cuando hay algo nuevo.', href: '/descuentos', linkLabel: 'Ver descuentos →' },
+  { num: '04', title: 'Asesoramiento', body: '¿Quieres que Smaïl diseñe tu sistema eléctrico a medida? Aquí te contamos cómo funciona.', href: '/asesoramiento', linkLabel: 'Ver el servicio →' },
+];
+---
+
+<section class="steps-pin">
+  <div class="steps-sticky">
+    <div class="steps-head wrap" id="steps-nav">
+      <span class="kicker">// todo lo que hay aquí</span>
+      <h2>Furgo, camión, piso, terreno o viaje</h2>
+    </div>
+    <div class="steps-track" id="stepsTrack">
+      {steps.map((step) => (
+        <a href={step.href} class="step-card tilt-card">
+          <span class="ghost">{step.num}</span>
+          <h3>{step.title}</h3>
+          <p>{step.body}</p>
+          <span class="step-link">{step.linkLabel}</span>
+        </a>
+      ))}
+    </div>
+    <div class="steps-hint">Sigue bajando para ver cada categoría →</div>
+  </div>
+</section>
+
+<style>
+  .steps-pin { height: 340vh; position: relative; background: var(--cream); }
+  .steps-sticky { position: sticky; top: 0; height: 100vh; overflow: hidden; display: flex; flex-direction: column; justify-content: center; }
+  .steps-head { padding: 0 32px; margin-bottom: 40px; }
+  .steps-track { display: flex; gap: 28px; padding: 0 32px; will-change: transform; }
+  .step-card {
+    flex: 0 0 min(78vw, 460px); height: 56vh; min-height: 380px; border-radius: 26px; padding: 40px 34px;
+    background: var(--forest); color: var(--cream); position: relative; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: flex-end;
+  }
+  .step-card .ghost { position: absolute; top: -6%; right: -4%; font-family: var(--display); font-weight: 700; font-size: 11rem; color: rgba(243,239,228,0.06); line-height: 1; }
+  .step-card h3 { font-family: var(--display); font-weight: 700; font-size: 1.5rem; margin-bottom: 12px; position: relative; z-index: 1; }
+  .step-card p { color: var(--mist); font-size: .95rem; line-height: 1.55; opacity: .85; max-width: 340px; position: relative; z-index: 1; }
+  .step-card .step-link {
+    display: inline-flex; margin-top: 14px; font-family: var(--display); font-weight: 600; font-size: 12.5px;
+    color: var(--pop); position: relative; z-index: 1;
+  }
+  .step-card:nth-child(2) { background: var(--moss); }
+  .step-card:nth-child(3) { background: var(--popd); }
+  .step-card:nth-child(3) p { color: rgba(243,239,228,0.85); }
+  .step-card:nth-child(4) { background: var(--pine); border: 1px solid rgba(243,239,228,0.12); }
+  .steps-hint { padding: 0 32px; margin-top: 28px; font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; opacity: .45; }
+</style>

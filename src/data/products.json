@@ -1,0 +1,36 @@
+[
+  {
+    "id": "diagrama-200ah",
+    "type": "propio",
+    "source": "Propio",
+    "name": "Diagrama eléctrico completo 200Ah",
+    "tag": "Producto propio · más vendido",
+    "price": "2,99 €",
+    "categories": ["furgo", "camion", "terreno"],
+    "url": "#",
+    "image": null,
+    "featured": true
+  },
+  {
+    "id": "placa-solar-200w",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Placa solar 200W",
+    "price": "89,99 €",
+    "categories": ["furgo", "camion", "terreno"],
+    "url": "#",
+    "image": null,
+    "featured": false
+  },
+  {
+    "id": "nevera-compresor-40l",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Nevera compresor 40L",
+    "price": "210,00 €",
+    "categories": ["furgo", "camion", "viaje"],
+    "url": "#",
+    "image": null,
+    "featured": false
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "yescapa",
+    "category": "camper",
+    "name": "Yescapa",
+    "description": "Alquiler de furgonetas camper, tipo Airbnb.",
+    "code": "LARAMESANZA",
+    "off": "8%",
+    "url": "#"
+  },
+  {
+    "id": "jackery",
+    "category": "camper",
+    "name": "Jackery",
+    "description": "Estaciones de energía portátil para tu sistema eléctrico.",
+    "code": "LARAMESANZA5",
+    "off": "5%",
+    "url": "#"
+  },
+  {
+    "id": "amazon-prime-student",
+    "category": "viaje",
+    "name": "Amazon Prime Student",
+    "description": "90 días de prueba gratis: envíos rápidos, Kindle y más.",
+    "code": "Sin código",
+    "off": "Gratis",
+    "url": "#"
+  },
+  {
+    "id": "holafly-esim",
+    "category": "viaje",
+    "name": "Holafly eSIM",
+    "description": "Datos ilimitados en cada país, sin buscar tarjeta SIM local.",
+    "code": "LARA10",
+    "off": "10%",
+    "url": "#"
+  },
+  {
+    "id": "temu",
+    "category": "camper",
+    "name": "Temu",
+    "description": "Accesorios camper y de hogar a precio de racaneo.",
+    "code": "Ver oferta",
+    "off": "Var.",
+    "url": "#"
+  },
+  {
+    "id": "leroy-merlin",
+    "category": "camper",
+    "name": "Leroy Merlin",
+    "description": "Materiales de reforma y camperización, precio de socio.",
+    "code": "Ver oferta",
+    "off": "Var.",
+    "url": "#"
+  }
+]

@@ -1,0 +1,36 @@
+---
+import products from '../data/products.json';
+import ProductFeature from './ProductFeature.astro';
+import ProductCard from './ProductCard.astro';
+
+const featured = products.find((p) => p.featured) ?? products[0];
+const rest = products.filter((p) => p.id !== featured.id).slice(0, 2);
+---
+
+<section class="shop" id="tienda-teaser" style="position:relative; overflow:hidden;">
+  <div class="float-blob" id="shopBlob" style="width:420px; height:420px; top:-10%; right:-8%; background:radial-gradient(circle, rgba(193,96,47,0.1), transparent 70%);"></div>
+  <div class="wrap reveal">
+    <div class="shop-head">
+      <div>
+        <span class="kicker">// el escaparate</span>
+        <h2>Lo que usamos: furgo, camión, terreno o viaje</h2>
+      </div>
+      <p>Enlaces directos a Amazon, AliExpress y Leroy Merlin, más mis propios diagramas y plantillas. <a class="see-all" href="/tienda">Ver toda la tienda →</a></p>
+    </div>
+    <div class="shop-grid">
+      <ProductFeature tag={featured.tag ?? 'Producto propio'} name={featured.name} price={featured.price} url={featured.url} categories={featured.categories} />
+      {rest.map((p, i) => (
+        <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} x="50px" d={`${0.05 + i * 0.1}s`} />
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .shop { padding: 110px 0 100px; }
+  .shop-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; }
+  .shop-head p { max-width: 380px; opacity: .65; font-size: .95rem; line-height: 1.5; }
+  .shop-head .see-all { display: inline-block; margin-top: 6px; opacity: 1; color: var(--popd); font-family: var(--display); font-weight: 600; font-size: .85rem; }
+  .shop-grid { margin-top: 56px; display: grid; grid-template-columns: 1.4fr 1fr; grid-template-rows: auto auto; gap: 22px; }
+  @media (max-width: 860px) { .shop-grid { grid-template-columns: 1fr; } }
+</style>

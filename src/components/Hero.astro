@@ -1,0 +1,46 @@
+---
+import site from '../data/site.json';
+---
+
+<section class="hero-pin">
+  <div class="hero-sticky">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content" id="heroContent">
+      <div class="hero-tag">{site.currentChapterTag}</div>
+      <h1>Vivir bueno,<br>bonito y <span>barato</span></h1>
+      <p>{site.currentChapterSubline}</p>
+    </div>
+    <div class="hero-scroll-cue">Desplázate</div>
+  </div>
+</section>
+
+<style>
+  .hero-pin { height: 220vh; position: relative; }
+  .hero-sticky { position: sticky; top: 0; height: 100vh; overflow: hidden; background: var(--pine); }
+  .hero-bg {
+    position: absolute; inset: -15%; z-index: 0;
+    background: radial-gradient(circle at 72% 22%, rgba(193,96,47,0.22), transparent 45%), radial-gradient(circle at 15% 85%, var(--moss) 0%, transparent 55%), linear-gradient(160deg, var(--forest) 0%, var(--pine) 70%);
+  }
+  .hero-grid {
+    position: absolute; inset: 0; z-index: 1;
+    background-image: linear-gradient(rgba(243,239,228,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(243,239,228,0.05) 1px, transparent 1px);
+    background-size: 64px 64px; mask-image: radial-gradient(circle at center, black 40%, transparent 75%);
+  }
+  .hero-content {
+    position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; transform-origin: center 60%; will-change: transform, opacity;
+  }
+  .hero-tag {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--pop);
+    display: flex; align-items: center; gap: 10px; margin-bottom: 22px;
+  }
+  .hero-tag::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--pop); box-shadow: 0 0 10px var(--pop); }
+  .hero-content h1 { font-family: var(--display); font-weight: 700; letter-spacing: -.03em; font-size: clamp(3.2rem, 12vw, 9rem); line-height: .92; color: var(--cream); }
+  .hero-content h1 span { color: var(--pop); }
+  .hero-content p { margin-top: 26px; color: var(--mist); font-size: 1.1rem; max-width: 460px; }
+  .hero-scroll-cue {
+    position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%); z-index: 3; color: var(--cream); opacity: .6;
+    font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+  }
+</style>

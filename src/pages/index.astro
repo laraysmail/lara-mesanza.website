@@ -1,17 +1,50 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import TrustStrip from '../components/TrustStrip.astro';
+import PathChooser from '../components/PathChooser.astro';
+import CategoryGallery from '../components/CategoryGallery.astro';
+import Interlude from '../components/Interlude.astro';
+import ShopTeaser from '../components/ShopTeaser.astro';
+import AdvisoryTeaser from '../components/AdvisoryTeaser.astro';
+import DiscountsSection from '../components/DiscountsSection.astro';
+import VideosStrip from '../components/VideosStrip.astro';
+import site from '../data/site.json';
+import videosFallback from '../data/videos.json';
 
+// Latest videos: pulled at build time from the channel's public RSS feed (no API key needed).
+// Falls back to src/data/videos.json until site.json's youtubeChannelId is filled in, or if the fetch fails.
+let videos = videosFallback;
+if (site.youtubeChannelId) {
+  try {
+    const res = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${site.youtubeChannelId}`);
+    if (res.ok) {
+      const xml = await res.text();
+      const entries = [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].slice(0, 3);
+      const parsed = entries.map((m) => {
+        const block = m[1];
+        const title = block.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? '';
+        const url = block.match(/<link rel="alternate" href="([^"]+)"/)?.[1] ?? '#';
+        const thumbnail = block.match(/<media:thumbnail url="([^"]+)"/)?.[1] ?? null;
+        return { category: 'YouTube', title, url, thumbnail };
+      });
+      if (parsed.length) videos = parsed;
+    }
+  } catch (e) {
+    // build-time fetch failed (offline, feed down, etc.) — keep the fallback list, don't break the build.
+  }
+}
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Lara Mesanza — Vivir bueno, bonito y barato" description="Camperización, viajes low-cost, y ahora rumbo a Asia con nuestra peque.">
+  <Hero />
+  <TrustStrip />
+  <PathChooser />
+  <CategoryGallery />
+  <Interlude />
+  <ShopTeaser />
+  <AdvisoryTeaser />
+  <DiscountsSection limit={6} viewAllHref="/descuentos" />
+  <VideosStrip videos={videos} />
+  <script src="../scripts/home-motion.js"></script>
+</BaseLayout>

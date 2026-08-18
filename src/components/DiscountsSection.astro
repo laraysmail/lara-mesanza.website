@@ -1,0 +1,109 @@
+---
+import allDiscounts from '../data/discounts.json';
+import DiscountCard from './DiscountCard.astro';
+import FilterPills from './FilterPills.astro';
+
+interface Props {
+  limit?: number;
+  viewAllHref?: string;
+}
+const { limit, viewAllHref } = Astro.props;
+
+const discounts = limit ? allDiscounts.slice(0, limit) : allDiscounts;
+const hasMore = limit ? allDiscounts.length > limit : false;
+
+const columns = [[], [], []];
+discounts.forEach((d, i) => columns[i % 3].push(d));
+const speeds = [0.05, -0.08, 0.1];
+const xDirs = ['-40px', '40px', '-40px'];
+---
+
+<section class="discounts" id="descuentos">
+  <div class="float-blob" id="discountsBlob" style="width:380px; height:380px; bottom:-15%; left:-10%; background:radial-gradient(circle, rgba(60,92,77,0.18), transparent 70%);"></div>
+  <div class="wrap reveal">
+    <span class="kicker">// ahorra de verdad</span>
+    <h2>Descuentos que uso yo misma</h2>
+    <FilterPills targetId="discountCols" options={[{ value: 'todo', label: 'Todo' }, { value: 'camper', label: 'Camper' }, { value: 'viaje', label: 'Viaje' }]} />
+    <div class="discount-cols" id="discountCols">
+      {columns.map((col, ci) => (
+        <div class="discount-col" data-speed={speeds[ci]}>
+          {col.map((d, di) => (
+            <DiscountCard
+              category={d.category}
+              name={d.name}
+              description={d.description}
+              code={d.code}
+              off={d.off}
+              url={d.url}
+              x={xDirs[ci]}
+              d={`${di * 0.05}s`}
+            />
+          ))}
+        </div>
+      ))}
+    </div>
+    {hasMore && viewAllHref && (
+      <div class="view-all"><a href={viewAllHref}>Ver todos los descuentos →</a></div>
+    )}
+    <div class="email-capture">
+      <div>
+        <h4>Avísame de nuevos descuentos</h4>
+        <p>Te aviso solo cuando consigo un código nuevo. Nada de spam.</p>
+      </div>
+      <form onsubmit="return false;">
+        <input type="email" placeholder="tu@email.com" required />
+        <button type="submit">Avisarme</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<style>
+  .discounts { padding: 100px 0 140px; }
+  .discount-cols { margin-top: 44px; display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; align-items: start; }
+  @media (max-width: 860px) { .discount-cols { grid-template-columns: 1fr; gap: 16px; } }
+  .discount-col { display: flex; flex-direction: column; gap: 20px; will-change: transform; }
+  .view-all { margin-top: 32px; text-align: center; }
+  .view-all a {
+    font-family: var(--display); font-weight: 600; font-size: 14px; color: var(--popd);
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .email-capture {
+    margin-top: 50px; background: var(--forest); color: var(--cream); border-radius: 20px;
+    padding: 34px 30px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap;
+  }
+  .email-capture h4 { font-family: var(--display); font-weight: 700; font-size: 1.15rem; }
+  .email-capture p { font-size: .85rem; color: var(--mist); opacity: .75; margin-top: 6px; max-width: 340px; }
+  .email-capture form { display: flex; gap: 10px; flex-wrap: wrap; }
+  .email-capture input {
+    background: rgba(243,239,228,0.08); border: 1px solid rgba(243,239,228,0.2); border-radius: 100px;
+    padding: 12px 18px; color: var(--cream); font-family: var(--body); font-size: .88rem; min-width: 220px;
+  }
+  .email-capture input::placeholder { color: rgba(243,239,228,0.5); }
+  .email-capture button {
+    background: var(--pop); color: var(--pine); border: none; border-radius: 100px; padding: 12px 22px;
+    font-family: var(--display); font-weight: 600; font-size: .85rem; cursor: pointer; transition: background .25s ease;
+  }
+  .email-capture button:hover { background: #d97442; }
+</style>
+
+<script>
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const discountsBlob = document.getElementById('discountsBlob');
+  const discountCols = document.querySelectorAll('#discountCols .discount-col');
+  const section = document.getElementById('descuentos');
+
+  if (!prefersReduced && section && discountsBlob) {
+    const onScroll = () => {
+      const r = section.getBoundingClientRect();
+      discountsBlob.style.transform = `translateY(${r.top * 0.05}px)`;
+      discountCols.forEach((col) => {
+        const speed = parseFloat(col.dataset.speed) || 0;
+        col.style.transform = `translateY(${r.top * speed}px)`;
+      });
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    onScroll();
+  }
+</script>

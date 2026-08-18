@@ -1,0 +1,47 @@
+<section class="paths">
+  <div class="wrap reveal">
+    <div class="paths-head">
+      <span class="kicker">// por dónde empiezo</span>
+      <h2>¿Qué te trae por aquí?</h2>
+    </div>
+    <div class="paths-grid">
+      <a href="/tienda" class="path-card tilt-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 15l2-6a2 2 0 012-1.4h10A2 2 0 0119 9l2 6"/><rect x="2" y="15" width="20" height="5" rx="1.5"/><circle cx="7" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg></div>
+        <div>
+          <h3>Tengo un proyecto DIY</h3>
+          <p>Furgo, camión, piso o terreno. Diagramas, plantillas y cada producto que usamos, con enlace directo.</p>
+        </div>
+        <span class="link">Ver todo →</span>
+      </a>
+      <a href="/descuentos" class="path-card tilt-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h18M3 12l4-4M3 12l4 4M21 12l-4-4M21 12l-4 4"/></svg></div>
+        <div>
+          <h3>Quiero viajar más barato</h3>
+          <p>Los descuentos reales que usamos con las marcas con las que colaboramos.</p>
+        </div>
+        <span class="link">Ver descuentos →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .paths { padding: 110px 0 100px; }
+  .paths-head { max-width: 600px; }
+  .paths-grid { margin-top: 56px; display: grid; grid-template-columns: repeat(2,1fr); gap: 22px; }
+  @media (max-width: 900px) { .paths-grid { grid-template-columns: 1fr; } }
+  .path-card {
+    display: flex; background: var(--forest); color: var(--cream); border-radius: 22px; padding: 34px 28px;
+    flex-direction: column; justify-content: space-between; min-height: 260px;
+    transition: transform .35s cubic-bezier(.16,1,.3,1), background .35s ease;
+  }
+  .path-card:hover { transform: translateY(-8px); background: var(--moss); }
+  .path-card .icon { width: 30px; height: 30px; color: var(--pop); margin-bottom: auto; }
+  .path-card .icon svg { width: 100%; height: 100%; }
+  .path-card h3 { font-family: var(--display); font-weight: 700; font-size: 1.35rem; margin: 22px 0 10px; }
+  .path-card p { color: var(--mist); font-size: .92rem; opacity: .8; line-height: 1.5; }
+  .path-card .link {
+    margin-top: 20px; display: inline-flex; align-items: center; gap: 6px; font-family: var(--display);
+    font-weight: 600; font-size: 12.5px; letter-spacing: .02em; color: var(--pop);
+  }
+</style>

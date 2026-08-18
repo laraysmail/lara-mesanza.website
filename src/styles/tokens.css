@@ -1,0 +1,17 @@
+/* Design tokens — ported 1:1 from lara-homepage-v13_1.html. Do not rename without checking every component. */
+:root {
+  --pine: #101915;
+  --forest: #1c352b;
+  --moss: #3c5c4d;
+  --sage: #a7bdae;
+  --mist: #cdd9cf;
+  --cream: #f3efe4;
+
+  --pop: #c1602f;
+  --popd: #a34f26;
+  --ink: #101915;
+
+  --display: 'Space Grotesk', sans-serif;
+  --body: 'Inter', sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
