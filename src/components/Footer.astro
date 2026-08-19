@@ -1,5 +1,6 @@
 ---
 const year = new Date().getFullYear();
+const youtubeUrl = '#';
 const navLinks = [
   { href: '/tienda', label: 'Tienda' },
   { href: '/descuentos', label: 'Descuentos' },
@@ -13,8 +14,16 @@ const navLinks = [
   <div class="footer-grid-bg"></div>
   <div class="footer-blob" id="footerBlob"></div>
   <div class="wrap">
-    <span class="kicker">// nos vemos pronto</span>
-    <h3 class="footer-huge">¿Nos vemos<br><span>en la carretera</span>?</h3>
+    <span class="kicker">// sigue la aventura</span>
+    <h3 class="footer-huge">¿Nos vemos<br>en el <span>próximo vídeo</span>?</h3>
+
+    <div class="footer-subscribe">
+      <p>Suscríbete en YouTube y no te pierdas nada.</p>
+      <a href={youtubeUrl} class="subscribe-btn" target={youtubeUrl === '#' ? undefined : '_blank'} rel={youtubeUrl === '#' ? undefined : 'noopener noreferrer'}>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-1.5-.15-2.6-.5-3.5a3 3 0 00-2.1-2.1C18 6 12 6 12 6s-6 0-7.4.4A3 3 0 002.5 8.5C2.15 9.4 2 10.5 2 12s.15 2.6.5 3.5a3 3 0 002.1 2.1C6 18 12 18 12 18s6 0 7.4-.4a3 3 0 002.1-2.1c.35-.9.5-2 .5-3.5z"/><path d="M10 9.5l5 2.5-5 2.5v-5z" fill="var(--pine)"/></svg>
+        Suscríbete en YouTube →
+      </a>
+    </div>
 
     <div class="footer-marquee">
       <div class="footer-marquee-track">
@@ -28,7 +37,7 @@ const navLinks = [
 
     <div class="footer-bottom-row">
       <div class="footer-social">
-        <a href="#" class="tilt-card" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-1.5-.15-2.6-.5-3.5a3 3 0 00-2.1-2.1C18 6 12 6 12 6s-6 0-7.4.4A3 3 0 002.5 8.5C2.15 9.4 2 10.5 2 12s.15 2.6.5 3.5a3 3 0 002.1 2.1C6 18 12 18 12 18s6 0 7.4-.4a3 3 0 002.1-2.1c.35-.9.5-2 .5-3.5z"/><path d="M10 9.5l5 2.5-5 2.5v-5z" fill="var(--pine)"/></svg></a>
+        <a href={youtubeUrl} class="tilt-card" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-1.5-.15-2.6-.5-3.5a3 3 0 00-2.1-2.1C18 6 12 6 12 6s-6 0-7.4.4A3 3 0 002.5 8.5C2.15 9.4 2 10.5 2 12s.15 2.6.5 3.5a3 3 0 002.1 2.1C6 18 12 18 12 18s6 0 7.4-.4a3 3 0 002.1-2.1c.35-.9.5-2 .5-3.5z"/><path d="M10 9.5l5 2.5-5 2.5v-5z" fill="var(--pine)"/></svg></a>
         <a href="#" class="tilt-card" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
         <a href="#" class="tilt-card" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 3c.3 2 1.7 3.4 4 3.6v3c-1.5 0-2.8-.4-4-1.2v6.4a5.8 5.8 0 11-5-5.7v3.1a2.7 2.7 0 102.2 2.6V3h2.8z"/></svg></a>
         <a href="mailto:lara.mesanza@gmail.com" class="tilt-card" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 6l8.5 7 8.5-7"/></svg></a>
@@ -58,6 +67,16 @@ const navLinks = [
     font-size: clamp(2.6rem, 8vw, 6.5rem); color: var(--cream); line-height: .98; max-width: 900px;
   }
   .footer-huge span { color: var(--pop); }
+
+  .footer-subscribe { margin-top: 28px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+  .footer-subscribe p { font-size: .98rem; color: var(--mist); opacity: .8; }
+  .subscribe-btn {
+    display: inline-flex; align-items: center; gap: 10px; background: var(--pop); color: var(--pine);
+    font-family: var(--display); font-weight: 600; font-size: 14px; padding: 12px 22px; border-radius: 100px;
+    transition: background .25s ease, transform .25s ease;
+  }
+  .subscribe-btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+  .subscribe-btn:hover { background: #d97442; transform: translateY(-2px); }
 
   .footer-marquee {
     margin-top: 64px; border-top: 1px solid rgba(243,239,228,0.14); border-bottom: 1px solid rgba(243,239,228,0.14);

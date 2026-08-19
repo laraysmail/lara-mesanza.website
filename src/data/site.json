@@ -1,7 +1,7 @@
 {
   "_comment": "Placeholder numbers based on what Lara told Claude in the design chat, not verified live yet. See README for how to update these, and the YouTube API note for making subscriberCount live once an API key exists.",
   "tagline": "Vivir bueno, bonito y barato",
-  "currentChapterTag": "En ruta desde 2023",
+  "currentChapterTag": "Juntos desde 2018",
   "currentChapterSubline": "Camperización, viajes low-cost, y ahora rumbo a Asia con nuestra peque.",
   "stats": {
     "subscribers": { "value": 85, "suffix": "K", "label": "Suscriptores en YouTube" },
