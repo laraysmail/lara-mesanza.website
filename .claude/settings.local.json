@@ -28,7 +28,9 @@
       "Bash(curl -s -A \"Mozilla/5.0\" \"https://cdn.simpleicons.org/amazon\")",
       "Bash(curl -sI -A \"Mozilla/5.0\" \"https://cdn.simpleicons.org/amazon\")",
       "Bash(curl -s -A \"Mozilla/5.0\" \"https://unpkg.com/simple-icons@latest/icons/amazon.svg\")",
-      "WebFetch(domain:www.youtube.com)"
+      "WebFetch(domain:www.youtube.com)",
+      "Bash(astro dev *)",
+      "Bash(curl -s \"https://www.youtube.com/feeds/videos.xml?channel_id=UCr9mygLW--ewcTcrFRfxCzQ\")"
     ]
   }
 }
