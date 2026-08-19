@@ -60,8 +60,11 @@ const amountLabel = discountType === 'percentage' ? `${value}%`
       </div>
     ) : (
       <div class="link-only">
+        <div>
+          <span class="label">Sin código</span>
+          <span class="value">Se aplica al entrar aquí</span>
+        </div>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 007.07 0l2.83-2.83a5 5 0 00-7.07-7.07L11.5 4.5"/><path d="M14 11a5 5 0 00-7.07 0L4.1 13.83a5 5 0 007.07 7.07L12.6 19.5"/></svg>
-        <p><b>Sin código.</b> Se aplica al entrar por este enlace.</p>
       </div>
     )}
   </div>
@@ -99,16 +102,12 @@ const amountLabel = discountType === 'percentage' ? `${value}%`
 
   .mechanism { margin-top: auto; border-top: 1px dashed rgba(243,239,228,0.2); padding-top: 14px; }
 
-  .code-chip {
+  .code-chip, .link-only {
     display: flex; align-items: center; gap: 8px; background: rgba(193,96,47,0.12);
-    border: 1px dashed var(--pop); border-radius: 10px; padding: 8px 12px; cursor: pointer;
+    border: 1px dashed var(--pop); border-radius: 10px; padding: 8px 12px;
   }
-  .code-chip .label { font-family: var(--mono); font-size: 8.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--sage); display: block; }
-  .code-chip .value { font-family: var(--mono); font-weight: 500; font-size: .95rem; color: var(--cream); letter-spacing: .02em; }
-  .code-chip svg { color: var(--sage); width: 14px; height: 14px; margin-left: auto; flex-shrink: 0; }
-
-  .link-only { display: flex; align-items: center; gap: 10px; }
-  .link-only svg { width: 15px; height: 15px; color: var(--pop); flex-shrink: 0; }
-  .link-only p { font-size: .8rem; color: var(--mist); opacity: .85; line-height: 1.4; }
-  .link-only p b { color: var(--cream); font-weight: 600; }
+  .code-chip { cursor: pointer; }
+  .code-chip .label, .link-only .label { font-family: var(--mono); font-size: 8.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--sage); display: block; }
+  .code-chip .value, .link-only .value { font-family: var(--mono); font-weight: 500; font-size: .95rem; color: var(--cream); letter-spacing: .02em; }
+  .code-chip svg, .link-only svg { color: var(--sage); width: 14px; height: 14px; margin-left: auto; flex-shrink: 0; }
 </style>
