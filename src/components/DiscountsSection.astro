@@ -23,18 +23,20 @@ const xDirs = ['-40px', '40px', '-40px'];
   <div class="wrap reveal">
     <span class="kicker">// ahorra de verdad</span>
     <h2>Descuentos que uso yo misma</h2>
-    <FilterPills targetId="discountCols" options={[{ value: 'todo', label: 'Todo' }, { value: 'camper', label: 'Camper' }, { value: 'viaje', label: 'Viaje' }]} />
+    <FilterPills targetId="discountCols" options={[{ value: 'todo', label: 'Todo' }, { value: 'camper', label: 'Camper' }, { value: 'viaje', label: 'Viaje' }, { value: 'vida', label: 'Vida' }]} />
     <div class="discount-cols" id="discountCols">
       {columns.map((col, ci) => (
         <div class="discount-col" data-speed={speeds[ci]}>
           {col.map((d, di) => (
             <DiscountCard
-              category={d.category}
               name={d.name}
               description={d.description}
+              category={d.category}
+              discountType={d.discountType}
+              value={d.value}
               code={d.code}
-              off={d.off}
               url={d.url}
+              logo={d.logo}
               x={xDirs[ci]}
               d={`${di * 0.05}s`}
             />

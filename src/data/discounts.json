@@ -1,56 +1,123 @@
 [
   {
-    "id": "yescapa",
+    "id": "nordkapp",
+    "name": "NordKapp",
+    "description": "Calefacción estacionaria homologable para tu furgo o camión.",
     "category": "camper",
-    "name": "Yescapa",
-    "description": "Alquiler de furgonetas camper, tipo Airbnb.",
-    "code": "LARAMESANZA",
-    "off": "8%",
-    "url": "#"
+    "discountType": "fixed",
+    "value": 20,
+    "code": "LARA",
+    "url": "https://nord-kapp.com?bg_ref=XSjWxanWq7",
+    "logo": null
   },
   {
-    "id": "jackery",
+    "id": "forohomologar",
+    "name": "Forohomologar",
+    "description": "Homologación de instalaciones camper con papeleo en regla.",
     "category": "camper",
-    "name": "Jackery",
-    "description": "Estaciones de energía portátil para tu sistema eléctrico.",
-    "code": "LARAMESANZA5",
-    "off": "5%",
-    "url": "#"
+    "discountType": "percentage",
+    "value": 5,
+    "code": null,
+    "url": "https://www.forohomologar.com/colaboracion-con-lara-mesanza/",
+    "logo": null
+  },
+  {
+    "id": "chapka",
+    "name": "Chapka",
+    "description": "Seguro de viaje para las temporadas largas fuera.",
+    "category": "viaje",
+    "discountType": "percentage",
+    "value": 7,
+    "code": "LARAMESANZA",
+    "url": "https://www.chapkadirect.es/?app=cd_mesenza",
+    "logo": null
+  },
+  {
+    "id": "iati",
+    "name": "Iati Seguros",
+    "description": "Seguro de viaje y de camper, mismo enlace para los dos.",
+    "category": "camper viaje",
+    "discountType": "percentage",
+    "value": 5,
+    "code": null,
+    "url": "https://www.iatiseguros.com?r=06304123368755&utm_source=colaboradores&utm_medium=referral",
+    "logo": null
+  },
+  {
+    "id": "wetaca",
+    "name": "Wetaca",
+    "description": "Comida casera lista para calentar, ideal para tener en ruta.",
+    "category": "vida",
+    "discountType": "fixed",
+    "value": 20,
+    "code": "LARAM8846",
+    "url": "https://www.wetaca.com/home",
+    "logo": null
   },
   {
     "id": "amazon-prime-student",
-    "category": "viaje",
     "name": "Amazon Prime Student",
-    "description": "90 días de prueba gratis: envíos rápidos, Kindle y más.",
-    "code": "Sin código",
-    "off": "Gratis",
-    "url": "#"
+    "description": "Envíos rápidos, Kindle y más, 90 días gratis.",
+    "category": "vida",
+    "discountType": "free",
+    "value": null,
+    "code": null,
+    "url": "https://www.amazon.es/joinstudent",
+    "logo": null
   },
   {
-    "id": "holafly-esim",
-    "category": "viaje",
-    "name": "Holafly eSIM",
-    "description": "Datos ilimitados en cada país, sin buscar tarjeta SIM local.",
-    "code": "LARA10",
-    "off": "10%",
-    "url": "#"
+    "id": "imara",
+    "name": "Imara",
+    "description": "Descuento especial en tus primeros pedidos.",
+    "category": "vida",
+    "discountType": "percentage",
+    "value": 5,
+    "code": "LaraMesanza5%",
+    "url": "https://bit.ly/41UDTRC",
+    "logo": null
   },
   {
-    "id": "temu",
+    "id": "fiverr",
+    "name": "Fiverr",
+    "description": "Servicios freelance para lo que necesites en tu proyecto.",
+    "category": "vida",
+    "discountType": "percentage",
+    "value": 10,
+    "code": null,
+    "url": "https://go.fiverr.com/visit/?bta=909232",
+    "logo": null
+  },
+  {
+    "id": "allpowers",
+    "name": "AllPowers",
+    "description": "Estaciones de energía portátil para tu sistema eléctrico.",
     "category": "camper",
-    "name": "Temu",
-    "description": "Accesorios camper y de hogar a precio de racaneo.",
-    "code": "Ver oferta",
-    "off": "Var.",
-    "url": "#"
+    "discountType": "percentage",
+    "value": 10,
+    "code": "LARAM10",
+    "url": "https://iallpowers.eu/?ref=jrvnzwek",
+    "logo": null
   },
   {
-    "id": "leroy-merlin",
+    "id": "yescapa",
+    "name": "Yescapa",
+    "description": "Alquiler de furgonetas camper, tipo Airbnb.",
+    "category": "camper viaje",
+    "discountType": "fixed",
+    "value": 20,
+    "code": "LARAME",
+    "url": "https://c3po.link/Q9AWVqYruZ",
+    "logo": null
+  },
+  {
+    "id": "campercover",
+    "name": "Campercover",
+    "description": "Seguro específico para vehículos camperizados.",
     "category": "camper",
-    "name": "Leroy Merlin",
-    "description": "Materiales de reforma y camperización, precio de socio.",
-    "code": "Ver oferta",
-    "off": "Var.",
-    "url": "#"
+    "discountType": "percentage",
+    "value": 5,
+    "code": null,
+    "url": "https://www.campercover.es/seguros-campers/precios-seguro-camper?campaign=CAMPERIZA&collaborator=LARA",
+    "logo": null
   }
 ]

@@ -16,7 +16,18 @@
       "Bash(npx astro *)",
       "Bash(ls -la \"/Users/laramesanza/Downloads/lara-homepage-v14_2.html\" 2>&1)",
       "Bash(curl -s http://localhost:4321/ -o /tmp/home.html)",
-      "Read(//tmp/**)"
+      "Read(//tmp/**)",
+      "mcp__d13e3f76-7a52-43c7-8437-5c60b96ac8eb__notion-search",
+      "mcp__d13e3f76-7a52-43c7-8437-5c60b96ac8eb__notion-fetch",
+      "mcp__d13e3f76-7a52-43c7-8437-5c60b96ac8eb__notion-query-data-sources",
+      "mcp__d13e3f76-7a52-43c7-8437-5c60b96ac8eb__notion-update-data-source",
+      "WebFetch(domain:www.laramesanza.com)",
+      "mcp__d13e3f76-7a52-43c7-8437-5c60b96ac8eb__notion-update-page",
+      "mcp__d13e3f76-7a52-43c7-8437-5c60b96ac8eb__notion-create-pages",
+      "WebFetch(domain:cdn.simpleicons.org)",
+      "Bash(curl -s -A \"Mozilla/5.0\" \"https://cdn.simpleicons.org/amazon\")",
+      "Bash(curl -sI -A \"Mozilla/5.0\" \"https://cdn.simpleicons.org/amazon\")",
+      "Bash(curl -s -A \"Mozilla/5.0\" \"https://unpkg.com/simple-icons@latest/icons/amazon.svg\")"
     ]
   }
 }

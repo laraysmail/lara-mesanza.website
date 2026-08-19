@@ -39,6 +39,15 @@ img, svg { display: block; max-width: 100%; }
 
 .float-blob { position: absolute; border-radius: 50%; pointer-events: none; will-change: transform; z-index: 0; }
 
+/* toast confirming the copy-code-and-open-link action, created on demand by discount-copy.js */
+#discount-toast {
+  position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%) translateY(20px);
+  background: var(--pine); color: var(--cream); font-family: var(--display); font-weight: 600; font-size: .9rem;
+  padding: 14px 22px; border-radius: 100px; opacity: 0; transition: opacity .25s ease, transform .25s ease;
+  pointer-events: none; z-index: 300; box-shadow: 0 10px 30px rgba(0,0,0,0.25); max-width: 90vw; text-align: center;
+}
+#discount-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
 .kicker {
   font-family: var(--mono);
   font-size: 14px;

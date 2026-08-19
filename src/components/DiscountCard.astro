@@ -1,46 +1,114 @@
 ---
 interface Props {
-  category: string;
   name: string;
   description: string;
-  code: string;
-  off: string;
+  category: string;
+  discountType: 'percentage' | 'fixed' | 'free' | 'link';
+  value: number | null;
+  code: string | null;
   url: string;
+  logo?: string | null;
   x?: string;
   d?: string;
 }
-const { category, name, description, code, off, url, x = '-40px', d = '0s' } = Astro.props;
-const categoryLabel = category === 'camper' ? 'Camper' : 'Viaje';
+const { name, description, category, discountType, value, code, url, logo = null, x = '-40px', d = '0s' } = Astro.props;
+
+const categoryLabels = { camper: 'Camper', viaje: 'Viaje', vida: 'Vida' };
+const categoryLabel = category.split(' ').map((c) => categoryLabels[c] ?? c).join(' · ');
+
+const amountLabel = discountType === 'percentage' ? `${value}%`
+  : discountType === 'fixed' ? `${value}€`
+  : discountType === 'free' ? 'Gratis'
+  : 'Oferta';
 ---
 
 <a
   href={url}
-  target={url === '#' ? undefined : '_blank'}
-  rel={url === '#' ? undefined : 'noopener noreferrer'}
+  target="_blank"
+  rel="noopener noreferrer"
   class="discount-card tilt-card slide-in"
   data-category={category}
   style={`--x:${x}; --d:${d}`}
 >
-  <span class="cat">{categoryLabel}</span>
-  <h4>{name}</h4>
-  <p>{description}</p>
-  <div class="codeline"><span class="code">{code}</span><span class="off">{off}</span></div>
+  <div class="card-top">
+    <div class="brand">
+      <div class="badge-mark">
+        {logo ? (
+          <img src={logo} alt="" />
+        ) : (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        )}
+      </div>
+      <div class="brand-text">
+        <span class="cat">{categoryLabel}</span>
+        <h4>{name}</h4>
+      </div>
+    </div>
+    <div class="amount-badge">{amountLabel}</div>
+  </div>
+
+  <p class="desc">{description}</p>
+
+  <div class="mechanism">
+    {code ? (
+      <div class="code-chip" data-code={code} data-url={url}>
+        <div>
+          <span class="label">Tu código</span>
+          <span class="value">{code}</span>
+        </div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M4 16V6a2 2 0 012-2h10"/></svg>
+      </div>
+    ) : (
+      <div class="link-only">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 007.07 0l2.83-2.83a5 5 0 00-7.07-7.07L11.5 4.5"/><path d="M14 11a5 5 0 00-7.07 0L4.1 13.83a5 5 0 007.07 7.07L12.6 19.5"/></svg>
+        <p><b>Sin código.</b> Se aplica al entrar por este enlace.</p>
+      </div>
+    )}
+  </div>
 </a>
 
 <style>
   .discount-card {
-    display: block;
-    background: var(--forest); color: var(--cream); border-radius: 20px; padding: 26px 26px 24px;
+    display: flex; flex-direction: column; gap: 16px;
+    background: var(--forest); color: var(--cream); border-radius: 20px; padding: 24px;
     position: relative; overflow: hidden; transition: transform .35s cubic-bezier(.16,1,.3,1);
   }
   .discount-card:hover { transform: translateY(-6px) !important; }
-  .discount-card .cat { font-family: var(--mono); font-size: 10px; text-transform: uppercase; color: var(--sage); letter-spacing: .06em; }
-  .discount-card h4 { font-family: var(--display); font-weight: 700; font-size: 1.5rem; margin: 12px 0 8px; }
-  .discount-card p { font-size: .86rem; color: var(--mist); opacity: .75; line-height: 1.45; min-height: 38px; }
-  .discount-card .codeline {
-    margin-top: 18px; display: flex; align-items: center; justify-content: space-between; gap: 10px;
-    border-top: 1px dashed rgba(243,239,228,0.2); padding-top: 16px;
+
+  .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .badge-mark {
+    width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0;
+    background: rgba(243,239,228,0.05); border: 1px dashed rgba(243,239,228,0.28);
+    display: flex; align-items: center; justify-content: center; color: rgba(243,239,228,0.4);
+    overflow: hidden;
   }
-  .discount-card .codeline .code { font-family: var(--mono); font-size: .9rem; color: var(--pop); font-weight: 500; }
-  .discount-card .codeline .off { font-family: var(--display); font-weight: 700; font-size: 1.1rem; }
+  .badge-mark svg { width: 16px; height: 16px; }
+  .badge-mark img { width: 100%; height: 100%; object-fit: cover; }
+
+  .brand-text .cat { font-family: var(--mono); font-size: 9.5px; text-transform: uppercase; color: var(--sage); letter-spacing: .06em; display: block; }
+  .brand-text h4 { font-family: var(--display); font-weight: 700; font-size: 1.3rem; margin-top: 2px; }
+
+  .amount-badge {
+    background: var(--pop); color: var(--pine); font-family: var(--display); font-weight: 700;
+    font-size: 1.05rem; padding: 7px 14px; border-radius: 100px; white-space: nowrap; flex-shrink: 0;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .desc { font-size: .87rem; color: var(--mist); opacity: .8; line-height: 1.5; min-height: 38px; }
+
+  .mechanism { margin-top: auto; border-top: 1px dashed rgba(243,239,228,0.2); padding-top: 14px; }
+
+  .code-chip {
+    display: flex; align-items: center; gap: 8px; background: rgba(193,96,47,0.12);
+    border: 1px dashed var(--pop); border-radius: 10px; padding: 8px 12px; cursor: pointer;
+  }
+  .code-chip .label { font-family: var(--mono); font-size: 8.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--sage); display: block; }
+  .code-chip .value { font-family: var(--mono); font-weight: 500; font-size: .95rem; color: var(--cream); letter-spacing: .02em; }
+  .code-chip svg { color: var(--sage); width: 14px; height: 14px; margin-left: auto; flex-shrink: 0; }
+
+  .link-only { display: flex; align-items: center; gap: 10px; }
+  .link-only svg { width: 15px; height: 15px; color: var(--pop); flex-shrink: 0; }
+  .link-only p { font-size: .8rem; color: var(--mist); opacity: .85; line-height: 1.4; }
+  .link-only p b { color: var(--cream); font-weight: 600; }
 </style>
