@@ -18,7 +18,6 @@ const navLinks = [
     <h3 class="footer-huge">¿Nos vemos<br>en el <span>próximo vídeo</span>?</h3>
 
     <div class="footer-subscribe">
-      <p>Suscríbete en YouTube y no te pierdas nada.</p>
       <a href={youtubeUrl} class="subscribe-btn" target={youtubeUrl === '#' ? undefined : '_blank'} rel={youtubeUrl === '#' ? undefined : 'noopener noreferrer'}>
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-1.5-.15-2.6-.5-3.5a3 3 0 00-2.1-2.1C18 6 12 6 12 6s-6 0-7.4.4A3 3 0 002.5 8.5C2.15 9.4 2 10.5 2 12s.15 2.6.5 3.5a3 3 0 002.1 2.1C6 18 12 18 12 18s6 0 7.4-.4a3 3 0 002.1-2.1c.35-.9.5-2 .5-3.5z"/><path d="M10 9.5l5 2.5-5 2.5v-5z" fill="var(--pine)"/></svg>
         Suscríbete en YouTube →
@@ -69,7 +68,6 @@ const navLinks = [
   .footer-huge span { color: var(--pop); }
 
   .footer-subscribe { margin-top: 28px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
-  .footer-subscribe p { font-size: .98rem; color: var(--mist); opacity: .8; }
   .subscribe-btn {
     display: inline-flex; align-items: center; gap: 10px; background: var(--pop); color: var(--pine);
     font-family: var(--display); font-weight: 600; font-size: 14px; padding: 12px 22px; border-radius: 100px;
