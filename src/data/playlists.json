@@ -1,15 +1,15 @@
 [
   {
     "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
-    "category": "Playlist",
-    "title": "Furgoneta Australia",
+    "category": "Serie",
+    "title": "Asia en familia",
     "url": "#",
     "thumbnail": null
   },
   {
     "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
     "category": "Playlist",
-    "title": "Furgoneta Camper",
+    "title": "Finca Rural",
     "url": "#",
     "thumbnail": null
   },
@@ -30,14 +30,14 @@
   {
     "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
     "category": "Playlist",
-    "title": "Finca Rural",
+    "title": "Furgoneta Camper",
     "url": "#",
     "thumbnail": null
   },
   {
     "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
-    "category": "Serie",
-    "title": "Asia en familia",
+    "category": "Playlist",
+    "title": "Furgoneta Australia",
     "url": "#",
     "thumbnail": null
   },
@@ -51,7 +51,7 @@
   {
     "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
     "category": "Playlist",
-    "title": "Viajando sola",
+    "title": "Viajando sola por Asia",
     "url": "#",
     "thumbnail": null
   }
