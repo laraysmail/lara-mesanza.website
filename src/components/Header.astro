@@ -12,8 +12,18 @@ const navLinks = [
   <nav>
     {navLinks.map(link => <a href={link.href}>{link.label}</a>)}
     <a href="/contacto" class="cta">Contacto</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span>
+    </button>
   </nav>
 </header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <nav>
+    {navLinks.map(link => <a href={link.href}>{link.label}</a>)}
+    <a href="/contacto" class="mobile-cta">Contacto</a>
+  </nav>
+</div>
 
 <style>
   header {
@@ -23,7 +33,7 @@ const navLinks = [
   }
   .logo { font-family: var(--display); font-weight: 700; font-size: 1.15rem; color: #fff; }
   nav {
-    display: flex; gap: 6px; background: rgba(255,255,255,0.08);
+    display: flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.08);
     backdrop-filter: blur(14px); padding: 6px; border-radius: 100px;
     border: 1px solid rgba(255,255,255,0.2);
   }
@@ -33,5 +43,55 @@ const navLinks = [
     transition: all .25s ease;
   }
   nav a:hover { opacity: 1; background: rgba(255,255,255,0.12); }
-  @media (max-width: 760px) { nav a:not(.cta) { display: none; } }
+  @media (max-width: 760px) { header > nav > a:not(.cta) { display: none; } }
+
+  .menu-toggle {
+    display: none; width: 34px; height: 34px; border-radius: 50%; border: none; background: transparent;
+    cursor: pointer; align-items: center; justify-content: center; flex-direction: column; gap: 5px;
+  }
+  .menu-toggle span { width: 16px; height: 2px; background: #fff; border-radius: 2px; transition: transform .25s ease, opacity .25s ease; }
+  @media (max-width: 760px) { .menu-toggle { display: flex; } }
+  .menu-toggle[aria-expanded="true"] span:first-child { transform: translateY(3.5px) rotate(45deg); }
+  .menu-toggle[aria-expanded="true"] span:last-child { transform: translateY(-3.5px) rotate(-45deg); }
+
+  /* Overlay panel: intentionally NOT mix-blend-mode:difference, since its own solid
+     background needs to stay legible regardless of what's scrolled behind it. */
+  .mobile-menu {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 190;
+    background: var(--pine); padding: 96px 32px 32px;
+    opacity: 0; visibility: hidden; transform: translateY(-12px);
+    transition: opacity .3s ease, transform .3s ease, visibility 0s linear .3s;
+  }
+  .mobile-menu.is-open {
+    opacity: 1; visibility: visible; transform: translateY(0);
+    transition: opacity .3s ease, transform .3s ease, visibility 0s linear 0s;
+  }
+  .mobile-menu nav { display: flex; flex-direction: column; gap: 4px; background: none; border: none; padding: 0; backdrop-filter: none; }
+  .mobile-menu nav a {
+    font-family: var(--display); font-weight: 600; font-size: 1.6rem; color: var(--cream);
+    padding: 14px 4px; border-bottom: 1px solid rgba(243,239,228,0.12); opacity: 1;
+  }
+  .mobile-menu nav a:hover { color: var(--pop); background: none; }
+  .mobile-menu nav a.mobile-cta { color: var(--pop); }
+  @media (min-width: 761px) { .mobile-menu { display: none; } }
 </style>
+
+<script>
+  const menuToggle = document.getElementById('menuToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  function closeMenu() {
+    mobileMenu.classList.remove('is-open');
+    menuToggle.setAttribute('aria-expanded', 'false');
+  }
+
+  if (menuToggle && mobileMenu) {
+    menuToggle.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('is-open');
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+    mobileMenu.querySelectorAll('a').forEach((a) => a.addEventListener('click', closeMenu));
+    window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMenu(); });
+    window.addEventListener('resize', () => { if (window.innerWidth > 760) closeMenu(); });
+  }
+</script>
