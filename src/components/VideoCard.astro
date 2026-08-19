@@ -4,30 +4,20 @@ interface Props {
   title: string;
   url: string;
   thumbnail?: string | null;
-  platform?: 'youtube' | 'instagram' | 'tiktok';
-  featured?: boolean;
   x?: string;
   d?: string;
 }
-const { category, title, url, thumbnail = null, platform = 'youtube', featured = false, x = '-40px', d = '0s' } = Astro.props;
-
-const platformIcons = {
-  youtube: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-1.5-.15-2.6-.5-3.5a3 3 0 00-2.1-2.1C18 6 12 6 12 6s-6 0-7.4.4A3 3 0 002.5 8.5C2.15 9.4 2 10.5 2 12s.15 2.6.5 3.5a3 3 0 002.1 2.1C6 18 12 18 12 18s6 0 7.4-.4a3 3 0 002.1-2.1c.35-.9.5-2 .5-3.5z"/><path d="M10 9.5l5 2.5-5 2.5v-5z" fill="var(--pine)"/></svg>',
-  instagram: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>',
-  tiktok: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 3c.3 2 1.7 3.4 4 3.6v3c-1.5 0-2.8-.4-4-1.2v6.4a5.8 5.8 0 11-5-5.7v3.1a2.7 2.7 0 102.2 2.6V3h2.8z"/></svg>',
-};
+const { category, title, url, thumbnail = null, x = '-40px', d = '0s' } = Astro.props;
 ---
 
 <a
   href={url}
   target={url === '#' ? undefined : '_blank'}
   rel={url === '#' ? undefined : 'noopener noreferrer'}
-  class:list={['video-card', 'tilt-card', 'slide-in', platform, { featured }]}
-  data-category={platform}
+  class="video-card tilt-card slide-in"
   style={`--x:${x}; --d:${d}`}
 >
   <div class="thumb" style={thumbnail ? `background-image:url(${thumbnail}); background-size:cover; background-position:center;` : undefined}></div>
-  <div class="platform-badge" set:html={platformIcons[platform]} />
   <div class="play"><span><svg viewBox="0 0 16 16" fill="none"><path d="M4 2l10 6-10 6V2z" fill="#f3efe4"/></svg></span></div>
   <div class="meta"><span>{category}</span><h4>{title}</h4></div>
 </a>
@@ -37,17 +27,8 @@ const platformIcons = {
     display: block; border-radius: 18px; overflow: hidden; background: var(--pine); position: relative; aspect-ratio: 16/9;
     transition: transform .4s cubic-bezier(.16,1,.3,1);
   }
-  .video-card.instagram, .video-card.tiktok { aspect-ratio: 9/16; }
   .video-card:hover { transform: translateY(-6px); }
   .video-card .thumb { position: absolute; inset: 0; background: linear-gradient(160deg, var(--moss), var(--pine)); }
-
-  .platform-badge {
-    position: absolute; top: 14px; right: 14px; width: 30px; height: 30px; border-radius: 50%;
-    background: rgba(16,25,21,0.55); backdrop-filter: blur(4px); border: 1px solid rgba(243,239,228,0.2);
-    display: flex; align-items: center; justify-content: center; color: var(--cream);
-  }
-  .platform-badge :global(svg) { width: 15px; height: 15px; }
-
   .video-card .play { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
   .video-card .play span {
     width: 52px; height: 52px; border-radius: 50%; background: rgba(243,239,228,0.14); backdrop-filter: blur(6px);
@@ -59,12 +40,4 @@ const platformIcons = {
   .video-card .meta { position: absolute; left: 0; right: 0; bottom: 0; padding: 16px; background: linear-gradient(0deg, rgba(16,25,21,0.92), transparent 70%); }
   .video-card .meta span { font-family: var(--mono); font-size: 10px; color: var(--pop); text-transform: uppercase; letter-spacing: .06em; }
   .video-card .meta h4 { font-family: var(--display); font-weight: 600; font-size: 1rem; color: var(--cream); margin-top: 4px; line-height: 1.3; }
-
-  .video-card.featured { grid-column: span 2; }
-  .video-card.featured .play span { width: 68px; height: 68px; }
-  .video-card.featured .play svg { width: 20px; }
-  .video-card.featured .meta { padding: 26px; }
-  .video-card.featured .meta span { font-size: 11px; }
-  .video-card.featured .meta h4 { font-size: 1.6rem; margin-top: 8px; }
-  @media (max-width: 760px) { .video-card.featured { grid-column: span 1; } }
 </style>

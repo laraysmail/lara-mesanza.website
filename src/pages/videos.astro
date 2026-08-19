@@ -1,51 +1,74 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import VideoCard from '../components/VideoCard.astro';
-import FilterPills from '../components/FilterPills.astro';
 import site from '../data/site.json';
 import videosFallback from '../data/videos.json';
-import socialVideos from '../data/social-videos.json';
+import playlists from '../data/playlists.json';
 import { fetchLatestVideos } from '../lib/youtube.js';
 
-const youtubeVideos = (await fetchLatestVideos(site.youtubeChannelId, 8, videosFallback))
-  .map((v) => ({ ...v, platform: 'youtube' }));
-
-const featured = youtubeVideos[0];
-const rest = [...youtubeVideos.slice(1), ...socialVideos];
-
+const videos = await fetchLatestVideos(site.youtubeChannelId, 6, videosFallback);
 const channelUrl = site.youtubeChannelId ? `https://www.youtube.com/channel/${site.youtubeChannelId}` : '#';
 const xDirs = ['-40px', '40px', '-40px'];
 ---
 
-<BaseLayout title="Vídeos — Lara Mesanza" description="Camperización, viajes low-cost y reformas — YouTube, Instagram y TikTok en un solo sitio.">
+<BaseLayout title="Vídeos — Lara Mesanza" description="Camperización, viajes low-cost y reformas, directo desde el canal de YouTube.">
   <section class="videos-head">
     <div class="wrap reveal">
       <span class="kicker">// consejos buenos, bonitos y baratos</span>
       <h1>Vídeos</h1>
-      <p>Todo lo que subo: YouTube, Reels y TikToks, cada uno con lo suyo.</p>
+      <p>Todo lo que subo al canal: instalaciones eléctricas paso a paso, reformas, y ahora, rumbo a Asia con nuestra peque.</p>
       <a class="channel-link" href={channelUrl} target={channelUrl === '#' ? undefined : '_blank'} rel={channelUrl === '#' ? undefined : 'noopener noreferrer'}>
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-1.5-.15-2.6-.5-3.5a3 3 0 00-2.1-2.1C18 6 12 6 12 6s-6 0-7.4.4A3 3 0 002.5 8.5C2.15 9.4 2 10.5 2 12s.15 2.6.5 3.5a3 3 0 002.1 2.1C6 18 12 18 12 18s6 0 7.4-.4a3 3 0 002.1-2.1c.35-.9.5-2 .5-3.5z"/><path d="M10 9.5l5 2.5-5 2.5v-5z" fill="var(--cream)"/></svg>
         Ver el canal completo en YouTube →
       </a>
-      <FilterPills
-        targetId="videos-grid"
-        options={[
-          { value: 'todo', label: 'Todo' },
-          { value: 'youtube', label: 'YouTube' },
-          { value: 'instagram', label: 'Instagram' },
-          { value: 'tiktok', label: 'TikTok' },
-        ]}
-      />
     </div>
   </section>
 
   <section class="videos-body">
     <div class="wrap">
-      <div class="video-grid" id="videos-grid">
-        {featured && <VideoCard category={featured.category} title={featured.title} url={featured.url} thumbnail={featured.thumbnail} platform="youtube" featured />}
-        {rest.map((v, i) => (
-          <VideoCard category={v.category} title={v.title} url={v.url} thumbnail={v.thumbnail} platform={v.platform} x={xDirs[i % 3]} d={`${(i % 3) * 0.08}s`} />
+      <div class="video-grid">
+        {videos.map((v, i) => (
+          <VideoCard category={v.category} title={v.title} url={v.url} thumbnail={v.thumbnail} x={xDirs[i % 3]} d={`${(i % 3) * 0.08}s`} />
         ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="playlists-body">
+    <div class="wrap reveal">
+      <span class="kicker">// por tema</span>
+      <h2>Playlists</h2>
+      <div class="video-grid">
+        {playlists.map((p, i) => (
+          <VideoCard category={p.category} title={p.title} url={p.url} thumbnail={p.thumbnail} x={xDirs[i % 3]} d={`${(i % 3) * 0.08}s`} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="social-body">
+    <div class="wrap reveal">
+      <span class="kicker">// sígueme también aquí</span>
+      <h2>El resto, en Instagram y TikTok</h2>
+      <div class="social-grid">
+        <a href="#" class="social-card instagram" target="_blank" rel="noopener noreferrer">
+          <div class="social-card-bg"></div>
+          <div class="social-card-body">
+            <div class="social-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></div>
+            <h3>Sígueme en Instagram</h3>
+            <p>Historias, detrás de cámaras y el día a día que no sale en YouTube.</p>
+            <span class="social-cta">Seguir en Instagram →</span>
+          </div>
+        </a>
+        <a href="#" class="social-card tiktok" target="_blank" rel="noopener noreferrer">
+          <div class="social-card-bg"></div>
+          <div class="social-card-body">
+            <div class="social-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 3c.3 2 1.7 3.4 4 3.6v3c-1.5 0-2.8-.4-4-1.2v6.4a5.8 5.8 0 11-5-5.7v3.1a2.7 2.7 0 102.2 2.6V3h2.8z"/></svg></div>
+            <h3>Sígueme en TikTok</h3>
+            <p>Lo más rápido y directo, para cuando no tienes ni cinco minutos.</p>
+            <span class="social-cta">Seguir en TikTok →</span>
+          </div>
+        </a>
       </div>
     </div>
   </section>
@@ -66,8 +89,33 @@ const xDirs = ['-40px', '40px', '-40px'];
   .channel-link svg { width: 18px; height: 18px; }
   .channel-link:hover { background: var(--moss); }
 
-  .videos-body { padding: 40px 0 130px; }
-  .video-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; align-items: start; }
+  .videos-body { padding: 40px 0 0; }
+  .video-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
   @media (max-width: 900px) { .video-grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 600px) { .video-grid { grid-template-columns: 1fr; } }
+
+  .playlists-body { padding: 100px 0 0; }
+
+  .social-body { padding: 100px 0 130px; }
+  .social-grid { margin-top: 44px; display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  @media (max-width: 760px) { .social-grid { grid-template-columns: 1fr; } }
+
+  .social-card {
+    position: relative; overflow: hidden; border-radius: 22px; min-height: 300px;
+    display: flex; align-items: flex-end; transition: transform .35s cubic-bezier(.16,1,.3,1);
+  }
+  .social-card:hover { transform: translateY(-6px); }
+  .social-card-bg { position: absolute; inset: 0; }
+  .social-card.instagram .social-card-bg { background: radial-gradient(circle at 75% 20%, rgba(193,96,47,0.3), transparent 55%), linear-gradient(150deg, var(--moss), var(--pine)); }
+  .social-card.tiktok .social-card-bg { background: radial-gradient(circle at 25% 25%, rgba(60,92,77,0.4), transparent 55%), linear-gradient(160deg, var(--forest), var(--pine)); }
+
+  .social-card-body { position: relative; z-index: 1; padding: 32px; color: var(--cream); }
+  .social-icon {
+    width: 44px; height: 44px; border-radius: 50%; background: rgba(243,239,228,0.1); border: 1px solid rgba(243,239,228,0.25);
+    display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
+  }
+  .social-icon svg { width: 20px; height: 20px; }
+  .social-card-body h3 { font-family: var(--display); font-weight: 700; font-size: 1.5rem; }
+  .social-card-body p { margin-top: 10px; font-size: .92rem; opacity: .8; max-width: 320px; line-height: 1.5; }
+  .social-cta { display: inline-block; margin-top: 18px; font-family: var(--display); font-weight: 600; font-size: .85rem; color: var(--pop); }
 </style>
