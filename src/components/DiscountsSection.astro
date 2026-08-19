@@ -47,15 +47,21 @@ const xDirs = ['-40px', '40px', '-40px'];
     {hasMore && viewAllHref && (
       <div class="view-all"><a href={viewAllHref}>Ver todos los descuentos →</a></div>
     )}
-    <div class="email-capture">
-      <div>
-        <h4>Avísame de nuevos descuentos</h4>
-        <p>Te aviso solo cuando consigo un código nuevo. Nada de spam.</p>
+    <div class="email-feature">
+      <div class="email-feature-bg"></div>
+      <div class="email-feature-inner">
+        <div class="email-feature-text">
+          <div class="bell-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8a6 6 0 00-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+          </div>
+          <h3>No te pierdas el próximo código</h3>
+          <p>Te aviso en cuanto consigo un descuento nuevo, directo a tu correo.</p>
+        </div>
+        <form class="email-feature-form" onsubmit="return false;">
+          <input type="email" placeholder="tu@email.com" required />
+          <button type="submit">Avisarme →</button>
+        </form>
       </div>
-      <form onsubmit="return false;">
-        <input type="email" placeholder="tu@email.com" required />
-        <button type="submit">Avisarme</button>
-      </form>
     </div>
   </div>
 </section>
@@ -70,23 +76,50 @@ const xDirs = ['-40px', '40px', '-40px'];
     font-family: var(--display); font-weight: 600; font-size: 14px; color: var(--popd);
     display: inline-flex; align-items: center; gap: 6px;
   }
-  .email-capture {
-    margin-top: 50px; background: var(--forest); color: var(--cream); border-radius: 20px;
-    padding: 34px 30px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap;
+  .email-feature {
+    margin-top: 50px; position: relative; overflow: hidden; background: var(--pop); color: var(--pine);
+    border-radius: 24px; padding: 48px 40px;
   }
-  .email-capture h4 { font-family: var(--display); font-weight: 700; font-size: 1.15rem; }
-  .email-capture p { font-size: .85rem; color: var(--mist); opacity: .75; margin-top: 6px; max-width: 340px; }
-  .email-capture form { display: flex; gap: 10px; flex-wrap: wrap; }
-  .email-capture input {
-    background: rgba(243,239,228,0.08); border: 1px solid rgba(243,239,228,0.2); border-radius: 100px;
-    padding: 12px 18px; color: var(--cream); font-family: var(--body); font-size: .88rem; min-width: 220px;
+  .email-feature-bg {
+    position: absolute; inset: 0; z-index: 0; opacity: .5;
+    background-image: linear-gradient(rgba(16,25,21,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(16,25,21,0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+    mask-image: radial-gradient(circle at 85% 20%, black 0%, transparent 60%);
   }
-  .email-capture input::placeholder { color: rgba(243,239,228,0.5); }
-  .email-capture button {
-    background: var(--pop); color: var(--pine); border: none; border-radius: 100px; padding: 12px 22px;
-    font-family: var(--display); font-weight: 600; font-size: .85rem; cursor: pointer; transition: background .25s ease;
+  .email-feature-inner { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
+  .email-feature-text { max-width: 460px; }
+
+  .bell-badge {
+    width: 52px; height: 52px; border-radius: 50%; background: rgba(16,25,21,0.1);
+    border: 1.5px solid rgba(16,25,21,0.25); display: flex; align-items: center; justify-content: center;
+    margin-bottom: 20px; position: relative;
   }
-  .email-capture button:hover { background: #d97442; }
+  .bell-badge svg { width: 22px; height: 22px; }
+  .bell-badge::after {
+    content: ""; position: absolute; inset: -6px; border-radius: 50%; border: 1.5px solid rgba(16,25,21,0.25);
+    animation: bell-ping 2.6s cubic-bezier(.4,0,.6,1) infinite;
+  }
+  @keyframes bell-ping { 0% { transform: scale(.9); opacity: .8; } 80%, 100% { transform: scale(1.4); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .bell-badge::after { animation: none; } }
+
+  .email-feature-text h3 {
+    font-family: var(--display); font-weight: 800; letter-spacing: -.02em;
+    font-size: clamp(1.7rem, 3.4vw, 2.4rem); line-height: 1.08; text-wrap: balance;
+  }
+  .email-feature-text p { margin-top: 14px; font-size: .98rem; line-height: 1.55; opacity: .82; max-width: 380px; }
+
+  .email-feature-form { display: flex; gap: 10px; min-width: 300px; flex-wrap: wrap; }
+  .email-feature-form input {
+    flex: 1; background: var(--cream); border: 2px solid transparent; border-radius: 100px;
+    padding: 15px 20px; color: var(--pine); font-family: var(--body); font-size: .95rem; min-width: 200px;
+  }
+  .email-feature-form input:focus { outline: none; border-color: var(--pine); }
+  .email-feature-form button {
+    background: var(--pine); color: var(--cream); border: none; border-radius: 100px; padding: 15px 26px;
+    font-family: var(--display); font-weight: 700; font-size: .95rem; cursor: pointer; white-space: nowrap;
+    transition: transform .25s cubic-bezier(.16,1,.3,1), background .25s ease;
+  }
+  .email-feature-form button:hover { transform: translateY(-3px); background: var(--forest); color: var(--cream); }
 </style>
 
 <script>
