@@ -41,7 +41,7 @@ img, svg { display: block; max-width: 100%; }
 
 .kicker {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--popd);
