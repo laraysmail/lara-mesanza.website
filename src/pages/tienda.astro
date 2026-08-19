@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
 import FilterPills from '../components/FilterPills.astro';
 import ProductFeature from '../components/ProductFeature.astro';
 import ProductCard from '../components/ProductCard.astro';
@@ -10,23 +11,22 @@ const rest = products.filter((p) => !featured || p.id !== featured.id);
 ---
 
 <BaseLayout title="Tienda — Lara Mesanza" description="Cada producto que uso de verdad: mis propios diagramas y plantillas, más enlaces directos a Amazon, AliExpress y Leroy Merlin.">
-  <section class="tienda-head">
-    <div class="wrap reveal">
-      <span class="kicker">// el escaparate</span>
-      <h1>Lo que usamos: furgo, camión, terreno o viaje</h1>
-      <p>Enlaces directos a Amazon, AliExpress y Leroy Merlin, más mis propios diagramas y plantillas. Todo lo que aparece aquí lo hemos comprado, instalado o usado nosotros mismos.</p>
-      <FilterPills
-        targetId="tienda-grid"
-        options={[
-          { value: 'todo', label: 'Todo' },
-          { value: 'furgo', label: 'Furgo' },
-          { value: 'camion', label: 'Camión' },
-          { value: 'terreno', label: 'Terreno' },
-          { value: 'viaje', label: 'Viaje' },
-        ]}
-      />
-    </div>
-  </section>
+  <PageHeader
+    kicker="// el escaparate"
+    description="Enlaces directos a Amazon, AliExpress y Leroy Merlin, más mis propios diagramas y plantillas. Todo lo que aparece aquí lo hemos comprado, instalado o usado nosotros mismos."
+  >
+    <Fragment slot="title">Lo que usamos: furgo, camión o <span>viaje</span></Fragment>
+    <FilterPills
+      targetId="tienda-grid"
+      options={[
+        { value: 'todo', label: 'Todo' },
+        { value: 'furgo', label: 'Furgo' },
+        { value: 'camion', label: 'Camión' },
+        { value: 'terreno', label: 'Terreno' },
+        { value: 'viaje', label: 'Viaje' },
+      ]}
+    />
+  </PageHeader>
 
   <section class="tienda-body">
     <div class="wrap">
@@ -47,13 +47,7 @@ const rest = products.filter((p) => !featured || p.id !== featured.id);
 </BaseLayout>
 
 <style>
-  .tienda-head { padding: 160px 0 40px; }
-  .tienda-head h1 {
-    font-family: var(--display); font-weight: 700; letter-spacing: -.02em;
-    font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.05; max-width: 700px;
-  }
-  .tienda-head p { margin-top: 20px; max-width: 480px; opacity: .7; font-size: .98rem; line-height: 1.55; }
-  .tienda-body { padding: 40px 0 120px; }
+  .tienda-body { padding: 80px 0 120px; }
   .featured-row { margin-bottom: 22px; }
   .featured-row :global(.p-feature) { min-height: 340px; }
   .product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }

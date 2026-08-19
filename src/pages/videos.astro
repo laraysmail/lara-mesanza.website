@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
 import VideoCard from '../components/VideoCard.astro';
 import site from '../data/site.json';
 import videosFallback from '../data/videos.json';
@@ -12,17 +13,16 @@ const xDirs = ['-40px', '40px', '-40px'];
 ---
 
 <BaseLayout title="Vídeos — Lara Mesanza" description="Camperización, viajes low-cost y reformas, directo desde el canal de YouTube.">
-  <section class="videos-head">
-    <div class="wrap reveal">
-      <span class="kicker">// consejos buenos, bonitos y baratos</span>
-      <h1>Vídeos</h1>
-      <p>Todo lo que subo al canal: instalaciones eléctricas paso a paso, reformas, y ahora, rumbo a Asia con nuestra peque.</p>
-      <a class="channel-link" href={channelUrl} target={channelUrl === '#' ? undefined : '_blank'} rel={channelUrl === '#' ? undefined : 'noopener noreferrer'}>
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-1.5-.15-2.6-.5-3.5a3 3 0 00-2.1-2.1C18 6 12 6 12 6s-6 0-7.4.4A3 3 0 002.5 8.5C2.15 9.4 2 10.5 2 12s.15 2.6.5 3.5a3 3 0 002.1 2.1C6 18 12 18 12 18s6 0 7.4-.4a3 3 0 002.1-2.1c.35-.9.5-2 .5-3.5z"/><path d="M10 9.5l5 2.5-5 2.5v-5z" fill="var(--cream)"/></svg>
-        Ver el canal completo en YouTube →
-      </a>
-    </div>
-  </section>
+  <PageHeader
+    kicker="// consejos buenos, bonitos y baratos"
+    description="Todo lo que subo al canal: instalaciones eléctricas paso a paso, reformas, y ahora, rumbo a Asia con nuestra peque."
+  >
+    <Fragment slot="title">Vídeos</Fragment>
+    <a class="channel-link" href={channelUrl} target={channelUrl === '#' ? undefined : '_blank'} rel={channelUrl === '#' ? undefined : 'noopener noreferrer'}>
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-1.5-.15-2.6-.5-3.5a3 3 0 00-2.1-2.1C18 6 12 6 12 6s-6 0-7.4.4A3 3 0 002.5 8.5C2.15 9.4 2 10.5 2 12s.15 2.6.5 3.5a3 3 0 002.1 2.1C6 18 12 18 12 18s6 0 7.4-.4a3 3 0 002.1-2.1c.35-.9.5-2 .5-3.5z"/><path d="M10 9.5l5 2.5-5 2.5v-5z" fill="var(--pine)"/></svg>
+      Ver el canal completo en YouTube →
+    </a>
+  </PageHeader>
 
   <section class="videos-body">
     <div class="wrap">
@@ -75,21 +75,15 @@ const xDirs = ['-40px', '40px', '-40px'];
 </BaseLayout>
 
 <style>
-  .videos-head { padding: 160px 0 40px; }
-  .videos-head h1 {
-    font-family: var(--display); font-weight: 700; letter-spacing: -.02em;
-    font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.05;
-  }
-  .videos-head p { margin-top: 20px; max-width: 480px; opacity: .7; font-size: .98rem; line-height: 1.55; }
   .channel-link {
-    margin-top: 24px; display: inline-flex; align-items: center; gap: 10px; background: var(--forest); color: var(--cream);
+    display: inline-flex; align-items: center; gap: 10px; background: var(--pop); color: var(--pine);
     font-family: var(--display); font-weight: 600; font-size: .88rem; padding: 12px 22px; border-radius: 100px;
     transition: background .25s ease;
   }
   .channel-link svg { width: 18px; height: 18px; }
-  .channel-link:hover { background: var(--moss); }
+  .channel-link:hover { background: #d97442; }
 
-  .videos-body { padding: 40px 0 0; }
+  .videos-body { padding: 80px 0 0; }
   .video-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
   @media (max-width: 900px) { .video-grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 600px) { .video-grid { grid-template-columns: 1fr; } }

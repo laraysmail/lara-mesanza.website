@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
 
 const reasons = [
   { value: 'colaboracion', label: 'Colaboración / patrocinio' },
@@ -10,13 +11,12 @@ const reasons = [
 ---
 
 <BaseLayout title="Contacto — Lara Mesanza" description="Escríbeme para colaboraciones, dudas sobre productos o para reservar una llamada de asesoramiento.">
-  <section class="contacto-head">
-    <div class="wrap reveal">
-      <span class="kicker">// hablemos</span>
-      <h1>Contacto</h1>
-      <p>Para colaboraciones, dudas sobre productos, o para reservar una llamada de asesoramiento con Smaïl.</p>
-    </div>
-  </section>
+  <PageHeader
+    kicker="// hablemos"
+    description="Para colaboraciones, dudas sobre productos, o para reservar una llamada de asesoramiento con Smaïl."
+  >
+    <Fragment slot="title">Contacto</Fragment>
+  </PageHeader>
 
   <section class="contacto-body">
     <div class="wrap contacto-grid">
@@ -82,13 +82,7 @@ const reasons = [
 </BaseLayout>
 
 <style>
-  .contacto-head { padding: 160px 0 40px; }
-  .contacto-head h1 {
-    font-family: var(--display); font-weight: 700; letter-spacing: -.02em;
-    font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.05;
-  }
-  .contacto-head p { margin-top: 20px; max-width: 480px; opacity: .7; font-size: .98rem; line-height: 1.55; }
-  .contacto-body { padding: 40px 0 140px; }
+  .contacto-body { padding: 80px 0 140px; }
   .contacto-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 44px; align-items: start; }
   @media (max-width: 860px) { .contacto-grid { grid-template-columns: 1fr; } }
 

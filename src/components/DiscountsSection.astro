@@ -6,8 +6,9 @@ import FilterPills from './FilterPills.astro';
 interface Props {
   limit?: number;
   viewAllHref?: string;
+  hideHeading?: boolean;
 }
-const { limit, viewAllHref } = Astro.props;
+const { limit, viewAllHref, hideHeading = false } = Astro.props;
 
 const discounts = limit ? allDiscounts.slice(0, limit) : allDiscounts;
 const hasMore = limit ? allDiscounts.length > limit : false;
@@ -21,8 +22,12 @@ const xDirs = ['-40px', '40px', '-40px'];
 <section class="discounts" id="descuentos">
   <div class="float-blob" id="discountsBlob" style="width:380px; height:380px; bottom:-15%; left:-10%; background:radial-gradient(circle, rgba(60,92,77,0.18), transparent 70%);"></div>
   <div class="wrap reveal">
-    <span class="kicker">// ahorra de verdad</span>
-    <h2>Descuentos que uso yo misma</h2>
+    {!hideHeading && (
+      <>
+        <span class="kicker">// ahorra de verdad</span>
+        <h2>Descuentos que uso yo misma</h2>
+      </>
+    )}
     <FilterPills targetId="discountCols" options={[{ value: 'todo', label: 'Todo' }, { value: 'camper', label: 'Camper' }, { value: 'viaje', label: 'Viaje' }, { value: 'vida', label: 'Vida' }]} />
     <div class="discount-cols" id="discountCols">
       {columns.map((col, ci) => (
