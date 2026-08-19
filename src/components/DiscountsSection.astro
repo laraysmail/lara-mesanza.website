@@ -95,13 +95,17 @@ const xDirs = ['-40px', '40px', '-40px'];
   const discountCols = document.querySelectorAll('#discountCols .discount-col');
   const section = document.getElementById('descuentos');
 
+  function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+
   if (!prefersReduced && section && discountsBlob) {
     const onScroll = () => {
       const r = section.getBoundingClientRect();
-      discountsBlob.style.transform = `translateY(${r.top * 0.05}px)`;
+      // transform doesn't affect layout, so an unbounded offset can visually drift
+      // a column into whatever sits after this section — clamp it so it never can.
+      discountsBlob.style.transform = `translateY(${clamp(r.top * 0.05, -60, 60)}px)`;
       discountCols.forEach((col) => {
         const speed = parseFloat(col.dataset.speed) || 0;
-        col.style.transform = `translateY(${r.top * speed}px)`;
+        col.style.transform = `translateY(${clamp(r.top * speed, -40, 40)}px)`;
       });
     };
     window.addEventListener('scroll', onScroll, { passive: true });
