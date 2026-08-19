@@ -7,39 +7,48 @@ import ProductFeature from '../components/ProductFeature.astro';
 import ProductCard from '../components/ProductCard.astro';
 import products from '../data/products.json';
 
-const featured = products.find((p) => p.featured);
-const rest = products.filter((p) => !featured || p.id !== featured.id);
+const digital = products.filter((p) => p.type === 'propio');
+const affiliate = products.filter((p) => p.type === 'afiliado');
 ---
 
-<BaseLayout title="Tienda — Lara Mesanza" description="Cada producto que uso de verdad: mis propios diagramas y plantillas, más enlaces directos a Amazon, AliExpress y Leroy Merlin.">
+<BaseLayout title="Tienda — Lara Mesanza" description="Mis propios diagramas y guías descargables, más enlaces directos a los productos que uso de verdad en Amazon, AliExpress y Leroy Merlin.">
   <PageHeader
     kicker="// el escaparate"
-    description="Enlaces directos a Amazon, AliExpress y Leroy Merlin, más mis propios diagramas y plantillas. Todo lo que aparece aquí lo hemos comprado, instalado o usado nosotros mismos."
+    description="Arriba, lo que creamos nosotros: diagramas y guías descargables. Abajo, enlaces directos a todo lo que hemos comprado, instalado o usado de verdad."
   >
     <Fragment slot="title">Lo que usamos: furgo, camión o <span>viaje</span></Fragment>
-    <FilterPills
-      targetId="tienda-grid"
-      options={[
-        { value: 'todo', label: 'Todo' },
-        { value: 'furgo', label: 'Furgo' },
-        { value: 'camion', label: 'Camión' },
-        { value: 'terreno', label: 'Terreno' },
-        { value: 'viaje', label: 'Viaje' },
-      ]}
-    />
   </PageHeader>
 
   <section class="tienda-body">
     <AmbientBlob size={420} top="-8%" right="-6%" color="rgba(193,96,47,0.14)" speed={0.06} />
     <div class="wrap">
-      <div id="tienda-grid">
-        {featured && (
+      {digital.length > 0 && (
+        <div class="digital-section">
+          <span class="kicker">// nuestros productos</span>
+          <h2>Diagramas y guías descargables</h2>
           <div class="featured-row">
-            <ProductFeature tag={featured.tag ?? 'Producto propio'} name={featured.name} price={featured.price} url={featured.url} categories={featured.categories} />
+            {digital.map((p) => (
+              <ProductFeature tag={p.tag ?? 'Producto propio'} name={p.name} price={p.price} url={p.url} categories={p.categories} />
+            ))}
           </div>
-        )}
-        <div class="product-grid">
-          {rest.map((p) => (
+        </div>
+      )}
+
+      <div class="affiliate-section">
+        <span class="kicker">// lo que compramos de verdad</span>
+        <h2>Todo lo que usamos</h2>
+        <FilterPills
+          targetId="tienda-grid"
+          options={[
+            { value: 'todo', label: 'Todo' },
+            { value: 'furgo', label: 'Furgo' },
+            { value: 'camion', label: 'Camión' },
+            { value: 'terreno', label: 'Terreno' },
+            { value: 'viaje', label: 'Viaje' },
+          ]}
+        />
+        <div id="tienda-grid" class="product-grid">
+          {affiliate.map((p) => (
             <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} />
           ))}
         </div>
@@ -50,9 +59,21 @@ const rest = products.filter((p) => !featured || p.id !== featured.id);
 
 <style>
   .tienda-body { padding: 80px 0 120px; position: relative; overflow: hidden; }
-  .featured-row { margin-bottom: 22px; }
-  .featured-row :global(.p-feature) { min-height: 340px; }
-  .product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+
+  .tienda-body .kicker {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--popd);
+    display: flex; align-items: center; gap: 10px; margin-bottom: 14px;
+  }
+  .tienda-body .kicker::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--pop); box-shadow: 0 0 10px var(--pop); }
+  .tienda-body h2 { font-family: var(--display); font-weight: 700; font-size: clamp(1.5rem, 3vw, 2rem); letter-spacing: -.015em; }
+
+  .digital-section { margin-bottom: 90px; }
+  .featured-row { margin-top: 26px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
+  .featured-row :global(.p-feature) { min-height: 340px; grid-row: auto; }
+  @media (max-width: 760px) { .featured-row { grid-template-columns: 1fr; } }
+
+  .affiliate-section .filter-pills { margin-top: 20px; }
+  .product-grid { margin-top: 30px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
   @media (max-width: 900px) { .product-grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 600px) { .product-grid { grid-template-columns: 1fr; } }
 </style>
