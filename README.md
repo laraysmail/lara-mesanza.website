@@ -40,9 +40,10 @@ src/
   layouts/BaseLayout.astro   — <head>, header, footer, progress rail, shared scripts
   styles/                    — design tokens (tokens.css) + resets/utilities (global.css)
   scripts/                   — motion.js (every page), filters.js (every page), home-motion.js (homepage only)
+  lib/youtube.js             — shared RSS-feed fetch, used by both index.astro and videos.astro
   components/                — one component per section/card, reused across pages where noted above
   data/                      — editable content, see above
-  pages/                     — index.astro, tienda.astro, descuentos.astro, asesoramiento.astro, contacto.astro
+  pages/                     — index.astro, tienda.astro, descuentos.astro, asesoramiento.astro, contacto.astro, videos.astro
 ```
 
 ## Commands
