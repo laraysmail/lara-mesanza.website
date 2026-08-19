@@ -1,25 +1,23 @@
-<section class="interlude-pin">
-  <div class="interlude-sticky">
-    <div class="interlude-mark" id="interludeMark">03</div>
-    <div class="interlude-line" id="line1">Contenido real, sin postureo.<br>Si lo hacemos con cuatro duros, tú también puedes.</div>
+<section class="interlude">
+  <div class="interlude-mark">03</div>
+  <div class="wrap reveal">
+    <div class="interlude-line">Contenido real, sin postureo.<br>Si lo hacemos con cuatro duros, tú también puedes.</div>
   </div>
 </section>
 
 <style>
-  .interlude-pin { height: 160vh; position: relative; }
-  .interlude-sticky {
-    position: sticky; top: 0; height: 100vh; overflow: hidden; background: var(--pop); color: var(--pine);
-    display: flex; align-items: center;
+  .interlude {
+    position: relative; overflow: hidden; background: var(--pop); color: var(--pine);
+    padding: 90px 0; display: flex; align-items: center; justify-content: center;
   }
   .interlude-mark {
-    position: absolute; font-family: var(--display); font-weight: 700; font-size: 26rem; line-height: 1;
-    color: rgba(16,25,21,0.08); top: -8%; right: -4%; z-index: 0; user-select: none; will-change: transform;
+    position: absolute; font-family: var(--display); font-weight: 700; font-size: 13rem; line-height: 1;
+    color: rgba(16,25,21,0.08); top: -12%; right: -3%; z-index: 0; user-select: none;
   }
   @media (max-width: 760px) { .interlude-mark { display: none; } }
   .interlude-line {
-    position: absolute; left: 0; right: 0; padding: 0 32px; z-index: 1; opacity: 0;
-    font-family: var(--display); font-weight: 700; letter-spacing: -.02em;
-    font-size: clamp(2.2rem, 6.5vw, 5rem); line-height: 1.05; max-width: 900px; margin: 0 auto; text-align: center;
-    will-change: transform, opacity;
+    position: relative; z-index: 1;
+    font-family: var(--display); font-weight: 600; letter-spacing: -.02em;
+    font-size: clamp(1.6rem, 4vw, 2.9rem); line-height: 1.2; max-width: 640px; margin: 0 auto; text-align: center;
   }
 </style>

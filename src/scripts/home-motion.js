@@ -5,12 +5,20 @@ const heroContent = document.getElementById('heroContent');
 const heroPin = document.querySelector('.hero-pin');
 const stepsPin = document.querySelector('.steps-pin');
 const stepsTrack = document.getElementById('stepsTrack');
-const interludePin = document.querySelector('.interlude-pin');
-const interludeMark = document.getElementById('interludeMark');
-const line = document.getElementById('line1');
 const shopBlob = document.getElementById('shopBlob');
 
 function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+
+// The pin needs exactly as much scroll room as the horizontal track needs to travel.
+// A fixed vh guess (e.g. 340vh) only matches one screen width — on narrower screens the
+// cards are narrower too, the horizontal scroll finishes early, and the rest of that fixed
+// height becomes "dead" scroll where the last card just sits there before the next section
+// appears underneath it. Computing it from the actual track width fixes that at every width.
+function updateStepsPinHeight() {
+  if (!stepsPin || !stepsTrack) return;
+  const maxTranslate = Math.max(0, stepsTrack.scrollWidth - window.innerWidth + 64);
+  stepsPin.style.height = `${maxTranslate + window.innerHeight}px`;
+}
 
 function onScroll() {
   if (prefersReduced) return;
@@ -31,18 +39,6 @@ function onScroll() {
     stepsTrack.style.transform = `translateX(${-stepsProgress * maxTranslate}px)`;
   }
 
-  if (interludePin && interludeMark && line) {
-    const ir = interludePin.getBoundingClientRect();
-    const ip = clamp(-ir.top / (ir.height - window.innerHeight), 0, 1);
-    interludeMark.style.transform = `translate(${ip * -40}px, ${ip * 30}px)`;
-    let opacity, ty, scale;
-    if (ip < 0.3) { opacity = ip / 0.3; ty = 40 * (1 - opacity); scale = 0.92 + 0.08 * opacity; }
-    else if (ip < 0.7) { opacity = 1; ty = 0; scale = 1; }
-    else { opacity = 1 - (ip - 0.7) / 0.3; ty = -40 * (1 - opacity); scale = 0.92 + 0.08 * opacity; }
-    line.style.opacity = opacity;
-    line.style.transform = `translateY(${ty}px) scale(${scale})`;
-  }
-
   if (shopBlob) {
     const tienda = document.getElementById('tienda-teaser');
     if (tienda) {
@@ -53,6 +49,7 @@ function onScroll() {
 
 }
 
+updateStepsPinHeight();
 window.addEventListener('scroll', onScroll, { passive: true });
-window.addEventListener('resize', onScroll);
+window.addEventListener('resize', () => { updateStepsPinHeight(); onScroll(); });
 onScroll();
