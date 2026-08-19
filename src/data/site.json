@@ -1,13 +1,13 @@
 {
-  "_comment": "Placeholder numbers based on what Lara told Claude in the design chat, not verified live yet. See README for how to update these, and the YouTube API note for making subscriberCount live once an API key exists.",
+  "_comment": "subscribers.value confirmed from the live channel page (85.6K, rounded to 86 since the count-up animation only does whole numbers) on 2026-08-19. countries/diyProjects still Lara's own placeholder numbers from the design chat, not independently verified.",
   "tagline": "Vivir bueno, bonito y barato",
   "currentChapterTag": "Juntos desde 2018",
   "currentChapterSubline": "Camperización, viajes low-cost, y ahora rumbo a Asia con nuestra peque.",
   "stats": {
-    "subscribers": { "value": 85, "suffix": "K", "label": "Suscriptores en YouTube" },
+    "subscribers": { "value": 86, "suffix": "K", "label": "Suscriptores en YouTube" },
     "countries": { "value": 31, "prefix": "+", "label": "Países recorridos juntos" },
     "diyProjects": { "value": 5, "label": "Proyectos DIY", "sub": "furgonetas, camión, piso y terreno" },
     "currentLocation": { "value": "Asia", "label": "Ubicación actual", "sub": "rumbo con nuestra peque" }
   },
-  "youtubeChannelId": ""
+  "youtubeChannelId": "UCr9mygLW--ewcTcrFRfxCzQ"
 }

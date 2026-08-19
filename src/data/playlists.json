@@ -1,58 +1,58 @@
 [
   {
-    "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
+    "_comment": "Couldn't find a matching playlist on the channel yet — probably too new (still filming). Leave as # until it exists, or send me the link once it's up.",
     "category": "Serie",
     "title": "Asia en familia",
     "url": "#",
     "thumbnail": null
   },
   {
-    "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
+    "_comment": "Matched to 'Viviendo una Vida Autosuficiente en nuestra Finca Rural' on the real channel.",
     "category": "Playlist",
     "title": "Finca Rural",
-    "url": "#",
+    "url": "https://www.youtube.com/playlist?list=PLQs-RtQ82X8EdxoB_D5ojCjzKCc6Pjwvx",
     "thumbnail": null
   },
   {
-    "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
+    "_comment": "Matched to 'Camperizar un Camión Camper Paso a Paso ¡NUEVA SERIE CAMPER!' on the real channel.",
     "category": "Playlist",
     "title": "Camión Camper",
-    "url": "#",
+    "url": "https://www.youtube.com/playlist?list=PLQs-RtQ82X8GLMihP-Z9k8KhaCo4wKXfr",
     "thumbnail": null
   },
   {
-    "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
+    "_comment": "Matched to 'REFORMAR UN PISO SIN EXPERIENCIA Y SIN DINERO' on the real channel.",
     "category": "Playlist",
     "title": "Reforma Piso",
-    "url": "#",
+    "url": "https://www.youtube.com/playlist?list=PLQs-RtQ82X8GqPQpnJG0sd8iovhPdFJvp",
     "thumbnail": null
   },
   {
-    "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
+    "_comment": "Matched to 'CAMPERIZAR FURGONETA CAMPER BARATA ESPAÑA' on the real channel (the long-form one, not the #shorts version).",
     "category": "Playlist",
     "title": "Furgoneta Camper",
-    "url": "#",
+    "url": "https://www.youtube.com/playlist?list=PLQs-RtQ82X8FWWw6mzUDZLP6rXE3lPtjW",
     "thumbnail": null
   },
   {
-    "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
+    "_comment": "Matched to 'CAMPERIZACION FURGONETA BARATA AUSTRALIA' on the real channel.",
     "category": "Playlist",
     "title": "Furgoneta Australia",
-    "url": "#",
+    "url": "https://www.youtube.com/playlist?list=PLQs-RtQ82X8EUzjwaDYCPOxi01J9DGFJj",
     "thumbnail": null
   },
   {
-    "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
+    "_comment": "Matched to 'VIVIENDO Y VIAJANDO EN FURGONETA CAMPER' on the real channel, per Lara's explicit mapping.",
     "category": "Playlist",
     "title": "Vida camper en Australia",
-    "url": "#",
+    "url": "https://www.youtube.com/playlist?list=PLQs-RtQ82X8HdPa8y6rhjoytsYD_HAcqL",
     "thumbnail": null
   },
   {
-    "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
+    "_comment": "Matched to 'CONSEJOS DE VIAJE - mochilera minimalista viajando sola-' on the real channel.",
     "category": "Playlist",
     "title": "Viajando sola por Asia",
-    "url": "#",
+    "url": "https://www.youtube.com/playlist?list=PLQs-RtQ82X8GdK_U6BbJTSNviaO17D--a",
     "thumbnail": null
   }
 ]
