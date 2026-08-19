@@ -3,13 +3,56 @@
     "id": "diagrama-200ah",
     "type": "propio",
     "source": "Propio",
-    "name": "Diagrama eléctrico completo 200Ah",
+    "name": "Diagrama eléctrico completo 200Ah (camión camper)",
     "tag": "Producto propio · más vendido",
     "price": "2,99 €",
-    "categories": ["furgo", "camion", "terreno"],
+    "categories": [
+      "camion"
+    ],
     "url": "#",
-    "image": null,
-    "featured": true
+    "image": null
+  },
+  {
+    "id": "diagrama-100ah",
+    "type": "propio",
+    "source": "Propio",
+    "name": "Diagrama eléctrico 100Ah (furgoneta camper)",
+    "tag": "Producto propio",
+    "price": "2,99 €",
+    "categories": [
+      "furgo"
+    ],
+    "url": "#",
+    "image": null
+  },
+  {
+    "id": "esquema-fontaneria",
+    "type": "propio",
+    "source": "Propio",
+    "name": "Esquema de fontanería y sistema de agua",
+    "tag": "Producto propio",
+    "price": "2,99 €",
+    "categories": [
+      "furgo",
+      "camion"
+    ],
+    "url": "#",
+    "image": null
+  },
+  {
+    "id": "plantilla-consumo-electrico",
+    "type": "propio",
+    "source": "Propio",
+    "name": "Plantilla interactiva: calcula tu consumo eléctrico camper",
+    "tag": "Producto propio",
+    "price": "5,99 €",
+    "categories": [
+      "furgo",
+      "camion",
+      "terreno"
+    ],
+    "url": "#",
+    "image": null
   },
   {
     "id": "placa-solar-200w",
@@ -17,10 +60,13 @@
     "source": "Amazon",
     "name": "Placa solar 200W",
     "price": "89,99 €",
-    "categories": ["furgo", "camion", "terreno"],
+    "categories": [
+      "furgo",
+      "camion",
+      "terreno"
+    ],
     "url": "#",
-    "image": null,
-    "featured": false
+    "image": null
   },
   {
     "id": "nevera-compresor-40l",
@@ -28,9 +74,12 @@
     "source": "AliExpress",
     "name": "Nevera compresor 40L",
     "price": "210,00 €",
-    "categories": ["furgo", "camion", "viaje"],
+    "categories": [
+      "furgo",
+      "camion",
+      "viaje"
+    ],
     "url": "#",
-    "image": null,
-    "featured": false
+    "image": null
   }
 ]
