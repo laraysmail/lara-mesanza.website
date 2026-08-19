@@ -33,5 +33,26 @@
     "title": "Finca Rural",
     "url": "#",
     "thumbnail": null
+  },
+  {
+    "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
+    "category": "Serie",
+    "title": "Asia en familia",
+    "url": "#",
+    "thumbnail": null
+  },
+  {
+    "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
+    "category": "Playlist",
+    "title": "Vida camper en Australia",
+    "url": "#",
+    "thumbnail": null
+  },
+  {
+    "_comment": "Placeholder — replace url with the real YouTube playlist link, and thumbnail if you have one.",
+    "category": "Playlist",
+    "title": "Viajando sola",
+    "url": "#",
+    "thumbnail": null
   }
 ]
