@@ -1,15 +1,17 @@
 [
   {
     "id": "electrico-camper",
-    "badge": "Asesoramiento",
-    "title": "Diagrama eléctrico, diseñado para ti",
-    "description": "Smaïl diseña tu sistema eléctrico a medida. Tu furgo, tu presupuesto, tu consumo real.",
+    "badge": "Asesoramiento eléctrico",
+    "title": "Tu diagrama eléctrico camper, diseñado por Smaïl",
+    "description": "Smaïl diseña tu sistema eléctrico a medida: tu vehículo, tu presupuesto, tu consumo real. Más de 20 asesoramientos y estudios en domótica, para que instales con cabeza y sin sustos.",
     "bullets": [
-      "Diseñado para tu furgo, tu presupuesto y tu consumo real.",
-      "Basado en 5 proyectos DIY propios: furgonetas, camión, piso y terreno.",
-      "Pensado para cero experiencia previa en electricidad."
+      "25 preguntas para entender tu proyecto y tus necesidades reales.",
+      "Videollamada de 1 hora para entrar en detalle sobre tu sistema.",
+      "Diagrama eléctrico digital 100% personalizado: cables, fusibles, placa, todo calculado.",
+      "Videollamada de 2 horas para explicarte el diagrama y cómo instalarlo.",
+      "Lista de todos los productos que necesitas, con enlaces directos de compra."
     ],
-    "price": "Desde 200 €",
+    "price": "220 € + IVA",
     "ctaLabel": "Reservar una llamada →",
     "ctaHref": "/contacto"
   }

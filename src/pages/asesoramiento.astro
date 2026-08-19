@@ -6,10 +6,10 @@ import ServiceCard from '../components/ServiceCard.astro';
 import services from '../data/services.json';
 ---
 
-<BaseLayout title="Asesoramiento — Lara Mesanza" description="Smaïl diseña tu sistema eléctrico a medida. Tu furgo, tu presupuesto, tu consumo real, desde 200 €.">
+<BaseLayout title="Asesoramiento eléctrico camper — Lara Mesanza" description="Smaïl diseña tu diagrama eléctrico camper a medida: tu vehículo, tu presupuesto, tu consumo real. Más de 20 asesoramientos, desde 220 € + IVA.">
   <PageHeader
     kicker="// para cuando quieres ayuda de verdad"
-    description="Servicios de consultoría, diseñados a partir de lo que hemos aprendido en 5 proyectos DIY propios."
+    description="El sistema eléctrico es lo que más miedo da de camperizar. Smaïl lleva más de 20 asesoramientos ayudando a gente sin experiencia previa a instalar el suyo con cabeza."
   >
     <Fragment slot="title">Asesoramiento</Fragment>
   </PageHeader>
@@ -30,9 +30,42 @@ import services from '../data/services.json';
       ))}
     </div>
   </section>
+
+  <section class="reviews-body">
+    <div class="wrap reveal">
+      <span class="kicker">// lo que dicen quienes ya lo han hecho</span>
+      <h2>100% clientes felices</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Nosotros contratamos este servicio de asesoramiento para nuestra furgoneta y fue una de las mejores decisiones, así que 100% se lo recomiendo a todos los que lean este comentario. Gracias Smaïl y Lara, nos ayudasteis muchísimo."</p>
+          <span class="author">Sara Servan</span>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Me puse en contacto con ellos para saber si me asesorarían para una pequeña casa de campo aislada y fue todo fantástico. Se preocupan muchísimo de que lo comprendas todo, te mandan muchísima información y, en su línea, nada caros. Repetiré si me lío en otra."</p>
+          <span class="author">Isabel López</span>
+        </div>
+      </div>
+    </div>
+  </section>
 </BaseLayout>
 
 <style>
-  .asesoramiento-body { padding: 80px 0 120px; position: relative; overflow: hidden; }
+  .asesoramiento-body { padding: 80px 0 60px; position: relative; overflow: hidden; }
   .services-list { display: flex; flex-direction: column; gap: 24px; }
+
+  .reviews-body { padding: 60px 0 120px; }
+  .reviews-body .kicker {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--popd);
+    display: flex; align-items: center; gap: 10px; margin-bottom: 14px;
+  }
+  .reviews-body .kicker::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--pop); box-shadow: 0 0 10px var(--pop); }
+  .reviews-body h2 { font-family: var(--display); font-weight: 700; font-size: clamp(1.6rem, 3.4vw, 2.2rem); letter-spacing: -.015em; }
+  .reviews-grid { margin-top: 36px; display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  @media (max-width: 760px) { .reviews-grid { grid-template-columns: 1fr; } }
+  .review-card { background: var(--forest); color: var(--cream); border-radius: 22px; padding: 32px; }
+  .review-card .stars { color: var(--pop); letter-spacing: .1em; font-size: .95rem; }
+  .review-card p { margin-top: 16px; font-size: .95rem; line-height: 1.6; color: var(--mist); }
+  .review-card .author { display: block; margin-top: 18px; font-family: var(--display); font-weight: 600; font-size: .88rem; color: var(--sage); }
 </style>
