@@ -1,7 +1,9 @@
 ---
+import VideoCard from './VideoCard.astro';
+
 interface Video { category: string; title: string; url: string; thumbnail?: string | null; }
-interface Props { videos: Video[]; }
-const { videos } = Astro.props;
+interface Props { videos: Video[]; viewAllHref?: string; }
+const { videos, viewAllHref } = Astro.props;
 const xDirs = ['-40px', '40px', '-40px'];
 ---
 
@@ -9,21 +11,11 @@ const xDirs = ['-40px', '40px', '-40px'];
   <div class="wrap reveal">
     <div class="videos-head">
       <div><span class="kicker">// consejos buenos, bonitos y baratos</span><h2>Últimos vídeos</h2></div>
-      <p>Lo último del canal: camperización, reformas y ahora, rumbo a Asia.</p>
+      <p>Lo último del canal: camperización, reformas y ahora, rumbo a Asia. <a class="see-all" href={viewAllHref}>Ver todos los vídeos →</a></p>
     </div>
     <div class="video-grid">
       {videos.map((v, i) => (
-        <a
-          href={v.url}
-          target={v.url === '#' ? undefined : '_blank'}
-          rel={v.url === '#' ? undefined : 'noopener noreferrer'}
-          class="video-card tilt-card slide-in"
-          style={`--x:${xDirs[i % 3]}; --d:${(i % 3) * 0.1}s`}
-        >
-          <div class="thumb" style={v.thumbnail ? `background-image:url(${v.thumbnail}); background-size:cover; background-position:center;` : undefined}></div>
-          <div class="play"><span><svg viewBox="0 0 16 16" fill="none"><path d="M4 2l10 6-10 6V2z" fill="#f3efe4"/></svg></span></div>
-          <div class="meta"><span>{v.category}</span><h4>{v.title}</h4></div>
-        </a>
+        <VideoCard category={v.category} title={v.title} url={v.url} thumbnail={v.thumbnail} x={xDirs[i % 3]} d={`${(i % 3) * 0.1}s`} />
       ))}
     </div>
   </div>
@@ -32,23 +24,9 @@ const xDirs = ['-40px', '40px', '-40px'];
 <style>
   .videos { padding: 110px 0; background: var(--cream); }
   .videos-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; }
-  .videos-head p { max-width: 360px; opacity: .65; font-size: .95rem; line-height: 1.5; }
+  .videos-head p { max-width: 380px; opacity: .65; font-size: .95rem; line-height: 1.5; }
+  .videos-head .see-all { display: inline-block; margin-top: 6px; opacity: 1; color: var(--popd); font-family: var(--display); font-weight: 600; font-size: .85rem; }
   .video-grid { margin-top: 56px; display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
   @media (max-width: 900px) { .video-grid { grid-template-columns: repeat(2,1fr); } }
   @media (max-width: 600px) { .video-grid { grid-template-columns: 1fr; } }
-  .video-card {
-    display: block; border-radius: 20px; overflow: hidden; background: var(--pine); position: relative; aspect-ratio: 9/13;
-    transition: transform .4s cubic-bezier(.16,1,.3,1);
-  }
-  .video-card:hover { transform: translateY(-6px); }
-  .video-card .thumb { position: absolute; inset: 0; background: linear-gradient(160deg, var(--moss), var(--pine)); }
-  .video-card .play { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
-  .video-card .play span {
-    width: 56px; height: 56px; border-radius: 50%; background: rgba(243,239,228,0.14); backdrop-filter: blur(6px);
-    display: flex; align-items: center; justify-content: center; border: 1px solid rgba(243,239,228,0.3);
-  }
-  .video-card .play svg { width: 16px; margin-left: 3px; }
-  .video-card .meta { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px; background: linear-gradient(0deg, rgba(16,25,21,0.9), transparent); }
-  .video-card .meta span { font-family: var(--mono); font-size: 10px; color: var(--pop); text-transform: uppercase; letter-spacing: .06em; }
-  .video-card .meta h4 { font-family: var(--display); font-weight: 600; font-size: 1.1rem; color: var(--cream); margin-top: 6px; line-height: 1.3; }
 </style>

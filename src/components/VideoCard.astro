@@ -1,0 +1,43 @@
+---
+interface Props {
+  category: string;
+  title: string;
+  url: string;
+  thumbnail?: string | null;
+  x?: string;
+  d?: string;
+}
+const { category, title, url, thumbnail = null, x = '-40px', d = '0s' } = Astro.props;
+---
+
+<a
+  href={url}
+  target={url === '#' ? undefined : '_blank'}
+  rel={url === '#' ? undefined : 'noopener noreferrer'}
+  class="video-card tilt-card slide-in"
+  style={`--x:${x}; --d:${d}`}
+>
+  <div class="thumb" style={thumbnail ? `background-image:url(${thumbnail}); background-size:cover; background-position:center;` : undefined}></div>
+  <div class="play"><span><svg viewBox="0 0 16 16" fill="none"><path d="M4 2l10 6-10 6V2z" fill="#f3efe4"/></svg></span></div>
+  <div class="meta"><span>{category}</span><h4>{title}</h4></div>
+</a>
+
+<style>
+  .video-card {
+    display: block; border-radius: 18px; overflow: hidden; background: var(--pine); position: relative; aspect-ratio: 16/9;
+    transition: transform .4s cubic-bezier(.16,1,.3,1);
+  }
+  .video-card:hover { transform: translateY(-6px); }
+  .video-card .thumb { position: absolute; inset: 0; background: linear-gradient(160deg, var(--moss), var(--pine)); }
+  .video-card .play { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+  .video-card .play span {
+    width: 52px; height: 52px; border-radius: 50%; background: rgba(243,239,228,0.14); backdrop-filter: blur(6px);
+    display: flex; align-items: center; justify-content: center; border: 1px solid rgba(243,239,228,0.3);
+    transition: transform .25s ease, background .25s ease;
+  }
+  .video-card:hover .play span { transform: scale(1.08); background: var(--pop); }
+  .video-card .play svg { width: 15px; margin-left: 3px; }
+  .video-card .meta { position: absolute; left: 0; right: 0; bottom: 0; padding: 16px; background: linear-gradient(0deg, rgba(16,25,21,0.92), transparent 70%); }
+  .video-card .meta span { font-family: var(--mono); font-size: 10px; color: var(--pop); text-transform: uppercase; letter-spacing: .06em; }
+  .video-card .meta h4 { font-family: var(--display); font-weight: 600; font-size: 1rem; color: var(--cream); margin-top: 4px; line-height: 1.3; }
+</style>
