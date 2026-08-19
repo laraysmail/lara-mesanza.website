@@ -30,7 +30,13 @@
       "Bash(curl -s -A \"Mozilla/5.0\" \"https://unpkg.com/simple-icons@latest/icons/amazon.svg\")",
       "WebFetch(domain:www.youtube.com)",
       "Bash(astro dev *)",
-      "Bash(curl -s \"https://www.youtube.com/feeds/videos.xml?channel_id=UCr9mygLW--ewcTcrFRfxCzQ\")"
+      "Bash(curl -s \"https://www.youtube.com/feeds/videos.xml?channel_id=UCr9mygLW--ewcTcrFRfxCzQ\")",
+      "WebSearch",
+      "Bash(curl -sI \"https://laramesanza.com/wp-content/uploads/2024/03/Video-pagina-inicio.mp4\")",
+      "Bash(curl -sL \"https://laramesanza.com/wp-content/uploads/2024/03/Video-pagina-inicio.mp4\" -o \"/Users/laramesanza/Documents/new website/public/videos/hero-loop.mp4\")",
+      "Bash(ffprobe -v error -show_entries format=duration,bit_rate -show_entries stream=width,height,codec_name,bit_rate -of default=noprint_wrappers=1 \"/Users/laramesanza/Documents/new website/public/videos/hero-loop.mp4\")",
+      "Bash(ffmpeg -y -i hero-loop.mp4 -vf \"scale=1920:-2\" -c:v libx264 -crf 26 -preset slow -an -movflags +faststart hero-loop-compressed.mp4)",
+      "Bash(ffmpeg -y -i hero-loop.mp4 -ss 00:00:00.5 -vframes 1 -vf \"scale=1920:-2\" -q:v 4 hero-loop-poster.jpg)"
     ]
   }
 }
