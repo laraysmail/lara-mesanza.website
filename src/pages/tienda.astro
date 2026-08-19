@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHeader from '../components/PageHeader.astro';
+import AmbientBlob from '../components/AmbientBlob.astro';
 import FilterPills from '../components/FilterPills.astro';
 import ProductFeature from '../components/ProductFeature.astro';
 import ProductCard from '../components/ProductCard.astro';
@@ -29,6 +30,7 @@ const rest = products.filter((p) => !featured || p.id !== featured.id);
   </PageHeader>
 
   <section class="tienda-body">
+    <AmbientBlob size={420} top="-8%" right="-6%" color="rgba(193,96,47,0.14)" speed={0.06} />
     <div class="wrap">
       <div id="tienda-grid">
         {featured && (
@@ -47,7 +49,7 @@ const rest = products.filter((p) => !featured || p.id !== featured.id);
 </BaseLayout>
 
 <style>
-  .tienda-body { padding: 80px 0 120px; }
+  .tienda-body { padding: 80px 0 120px; position: relative; overflow: hidden; }
   .featured-row { margin-bottom: 22px; }
   .featured-row :global(.p-feature) { min-height: 340px; }
   .product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }

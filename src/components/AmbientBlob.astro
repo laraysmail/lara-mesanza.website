@@ -1,0 +1,48 @@
+---
+interface Props {
+  size?: number;
+  top?: string;
+  right?: string;
+  left?: string;
+  bottom?: string;
+  color?: string;
+  speed?: number;
+}
+const { size = 400, top, right, left, bottom, color = 'rgba(193,96,47,0.12)', speed = 0.06 } = Astro.props;
+
+const pos = [
+  top !== undefined && `top:${top}`,
+  right !== undefined && `right:${right}`,
+  left !== undefined && `left:${left}`,
+  bottom !== undefined && `bottom:${bottom}`,
+]
+  .filter(Boolean)
+  .join('; ');
+---
+
+<div
+  class="ambient-blob"
+  data-speed={speed}
+  style={`width:${size}px; height:${size}px; ${pos}; background:radial-gradient(circle, ${color}, transparent 70%);`}
+></div>
+
+<style>
+  .ambient-blob { position: absolute; border-radius: 50%; pointer-events: none; z-index: 0; will-change: transform; }
+</style>
+
+<script>
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!prefersReduced) {
+    document.querySelectorAll('.ambient-blob:not([data-wired])').forEach((blob) => {
+      blob.dataset.wired = 'true';
+      const speed = parseFloat(blob.dataset.speed) || 0.06;
+      const container = blob.closest('section') || blob.parentElement;
+      const onScroll = () => {
+        const r = container.getBoundingClientRect();
+        blob.style.transform = `translateY(${r.top * speed}px)`;
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    });
+  }
+</script>
