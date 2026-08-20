@@ -21,7 +21,7 @@ const { source, name, price, url, categories, x = '50px', d = '0s' } = Astro.pro
 >
   <span class="tag">{source}</span>
   <h4>{name}</h4>
-  <div class="price">{price}</div>
+  {price && <div class="price">{price}</div>}
 </a>
 
 <style>

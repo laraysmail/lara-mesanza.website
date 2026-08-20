@@ -49,37 +49,1308 @@
     "categories": [
       "furgo",
       "camion",
-      "terreno"
+      "piso"
     ],
     "url": "#",
     "image": null
   },
   {
-    "id": "placa-solar-200w",
+    "id": "sillas-camping-amazon-0",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Placa solar 200W",
-    "price": "89,99 €",
+    "name": "Sillas camping",
+    "price": null,
     "categories": [
-      "furgo",
-      "camion",
-      "terreno"
+      "furgo"
     ],
-    "url": "#",
+    "url": "https://amzn.to/49kaaDz",
     "image": null
   },
   {
-    "id": "nevera-compresor-40l",
+    "id": "estabilizador-de-tension-amazon-1",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Estabilizador de tension",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/4b74ZaU",
+    "image": null
+  },
+  {
+    "id": "terminales-aliexpress-2",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Nevera compresor 40L",
-    "price": "210,00 €",
+    "name": "Terminales",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_Dlk2dMZ",
+    "image": null
+  },
+  {
+    "id": "nordkapp-nordkapp-3",
+    "type": "afiliado",
+    "source": "Nordkapp",
+    "name": "Nordkapp",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://nord-kapp.com/products/nordkapp™-air-gsm-5kw-8kw-diesel-air-heater?bg_ref=XSjWxanWq7",
+    "image": null
+  },
+  {
+    "id": "termometro-aliexpress-4",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Termometro",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_ooSqBBI",
+    "image": null
+  },
+  {
+    "id": "bomba-flush-aliexpress-5",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Bomba flush",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_oBMwMJi",
+    "image": null
+  },
+  {
+    "id": "depositos-aguas-imara-6",
+    "type": "afiliado",
+    "source": "Imara",
+    "name": "Depositos aguas",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://bit.ly/41UDTRC",
+    "image": null
+  },
+  {
+    "id": "usb-port-aliexpress-7",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "USB port",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_onYdFCC",
+    "image": null
+  },
+  {
+    "id": "taza-cobre-temu-8",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Taza Cobre",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://temu.to/k/ec9nch07wvf",
+    "image": null
+  },
+  {
+    "id": "fregadero-cami-n-leroy-merlin-9",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Fregadero (camión)",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://tidd.ly/4kDO303",
+    "image": null
+  },
+  {
+    "id": "playstation-amazon-10",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Playstation",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://amzn.to/4mQLMAc",
+    "image": null
+  },
+  {
+    "id": "pantalla-portatil-amazon-11",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Pantalla portatil",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://amzn.to/4kOmzo1",
+    "image": null
+  },
+  {
+    "id": "mppt-amazon-12",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Mppt",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://amzn.to/43Nk5PT",
+    "image": null
+  },
+  {
+    "id": "riel-cortina-armario-temu-13",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Riel cortina armario",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://temu.to/k/eg18u8y2x1w",
+    "image": null
+  },
+  {
+    "id": "stove-amazon-14",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Stove",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://amzn.to/4kWsQy9",
+    "image": null
+  },
+  {
+    "id": "silla-outdoor-decathlon-15",
+    "type": "afiliado",
+    "source": "Decathlon",
+    "name": "Silla outdoor",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://www.decathlon.es/es/p/silla-plegable-de-camping-con-reposabrazos-quechua-basic/_/R-p-13372?mc=8852991&c=azul&utm_source=emas&utm_medium=affiliate&utm_campaign=es_t-perf_f-cv_o-conv_31040-creadores",
+    "image": null
+  },
+  {
+    "id": "cafetera-cami-n-amazon-16",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Cafetera (camión)",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://amzn.to/43w4h5n",
+    "image": null
+  },
+  {
+    "id": "luces-lectura-temu-17",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Luces lectura",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://temu.to/k/ev8wgs19xck",
+    "image": null
+  },
+  {
+    "id": "boiler-imara-18",
+    "type": "afiliado",
+    "source": "Imara",
+    "name": "Boiler",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://bit.ly/3XD4Ab4",
+    "image": null
+  },
+  {
+    "id": "lavabo-temu-19",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Lavabo",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://temu.to/k/e3yawfdjxyr",
+    "image": null
+  },
+  {
+    "id": "bateria-sanfou-20",
+    "type": "afiliado",
+    "source": "Sanfou",
+    "name": "Bateria",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://www.sanfoupower.com/?ref=oolgddle",
+    "image": null
+  },
+  {
+    "id": "grifo-dorado-temu-21",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Grifo dorado",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://temu.to/k/ewww0qdoqhz",
+    "image": null
+  },
+  {
+    "id": "cargador-amazon-22",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Cargador",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://amzn.to/4jGPSrZ",
+    "image": null
+  },
+  {
+    "id": "riel-cortina-temu-23",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Riel cortina",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://temu.to/k/ehcjuqlhujl",
+    "image": null
+  },
+  {
+    "id": "suelo-laminado-cami-n-leroy-merlin-24",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Suelo laminado (camión)",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://tidd.ly/3HHtpxm",
+    "image": null
+  },
+  {
+    "id": "cortina-ba-o-temu-25",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Cortina baño",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://temu.to/k/e6wbanny16o",
+    "image": null
+  },
+  {
+    "id": "claraboyas-y-ventana-baiecar-26",
+    "type": "afiliado",
+    "source": "Baiecar",
+    "name": "Claraboyas y Ventana",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://www.baie-car.com/es/",
+    "image": null
+  },
+  {
+    "id": "proyector-amazon-27",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Proyector",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://amzn.to/3SEkyio",
+    "image": null
+  },
+  {
+    "id": "pomos-empotrados-temu-28",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Pomos empotrados",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://temu.to/k/e2n871ouzqi",
+    "image": null
+  },
+  {
+    "id": "inversor-amazon-29",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Inversor",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://amzn.to/3FIh8bw",
+    "image": null
+  },
+  {
+    "id": "tiradores-dorado-temu-30",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Tiradores dorado",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://temu.to/k/e92pqtjfwou",
+    "image": null
+  },
+  {
+    "id": "luces-focos-efectoled-31",
+    "type": "afiliado",
+    "source": "Efectoled",
+    "name": "Luces focos",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://www.efectoled.com/es/comprar-placas-downlight-led-basic/75597-downlight-led-3w-12v-dc-circular-mueble-corte-o-63-mm.html",
+    "image": null
+  },
+  {
+    "id": "pata-lagun-temu-32",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Pata Lagun",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://temu.to/k/e828kaabbta",
+    "image": null
+  },
+  {
+    "id": "porton-registro-leroy-merlin-33",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Porton registro",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://tidd.ly/4kSNTle",
+    "image": null
+  },
+  {
+    "id": "sonda-nivel-agua-aliexpress-34",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Sonda nivel agua",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_opsvwu4",
+    "image": null
+  },
+  {
+    "id": "separador-de-orina-amazon-35",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Separador de orina",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://amzn.to/4dO3sZ0",
+    "image": null
+  },
+  {
+    "id": "booster-cami-n-amazon-36",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Booster (camión)",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://amzn.to/3T9dytZ",
+    "image": null
+  },
+  {
+    "id": "mononmando-ducha-aliexpress-37",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Mononmando ducha",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_ok8dYj2",
+    "image": null
+  },
+  {
+    "id": "champi-on-ba-o-aliexpress-38",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Champiñon baño",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_oEa8yGy",
+    "image": null
+  },
+  {
+    "id": "resina-plato-ducha-nazza-39",
+    "type": "afiliado",
+    "source": "Nazza",
+    "name": "Resina plato ducha",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://www.nazza.es/?refs=113943",
+    "image": null
+  },
+  {
+    "id": "temporazidaor-boiler-aliexpress-40",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Temporazidaor Boiler",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_oBVP2Fi",
+    "image": null
+  },
+  {
+    "id": "interruptores-aliexpress-41",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Interruptores",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_onYdFCC",
+    "image": null
+  },
+  {
+    "id": "nevera-cami-n-electrodepot-42",
+    "type": "afiliado",
+    "source": "Electrodepot",
+    "name": "Nevera (camión)",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://tidd.ly/43OMxkm",
+    "image": null
+  },
+  {
+    "id": "grifo-ba-o-leroy-merlin-43",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Grifo baño",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://tidd.ly/4iVXl6d",
+    "image": null
+  },
+  {
+    "id": "cob-led-aliexpress-44",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "COB LEd",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_oDmSPzw",
+    "image": null
+  },
+  {
+    "id": "gancho-de-puerta-aliexpress-45",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Gancho de puerta",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_opQuSVm",
+    "image": null
+  },
+  {
+    "id": "bomba-de-agua-imara-46",
+    "type": "afiliado",
+    "source": "Imara",
+    "name": "Bomba de agua",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://bit.ly/43y2UDq",
+    "image": null
+  },
+  {
+    "id": "mesa-outdoor-decathlon-47",
+    "type": "afiliado",
+    "source": "Decathlon",
+    "name": "Mesa outdoor",
+    "price": null,
+    "categories": [
+      "camion"
+    ],
+    "url": "https://www.decathlon.es/es/p/mobiliario-camping-mesa-4-personas-verde/_/R-p-6330?mc=8750555&c=azul&utm_source=emas&utm_medium=affiliate&utm_campaign=es_t-perf_f-cv_o-conv_31040-creadores",
+    "image": null
+  },
+  {
+    "id": "camara-de-marcha-atras-aliexpress-48",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Camara de marcha atras",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DCyxtqB",
+    "image": null
+  },
+  {
+    "id": "fregadero-piso-leroy-merlin-49",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Fregadero (piso)",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/47NMR3k",
+    "image": null
+  },
+  {
+    "id": "termostato-electric-box-aliexpress-50",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Termostato electric box",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DmIZeyd",
+    "image": null
+  },
+  {
+    "id": "portable-fan-amazon-51",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Portable Fan",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/4435fo1",
+    "image": null
+  },
+  {
+    "id": "cortina-mosquitera-ikea-52",
+    "type": "afiliado",
+    "source": "IKEA",
+    "name": "Cortina mosquitera",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://www.ikea.com/es/es/p/lill-cortinas-red-par-blanco-10070262/",
+    "image": null
+  },
+  {
+    "id": "pata-de-mesa-amazon-53",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Pata de mesa",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/40lIpq9",
+    "image": null
+  },
+  {
+    "id": "nevera-furgo-electrodepot-54",
+    "type": "afiliado",
+    "source": "Electrodepot",
+    "name": "Nevera (furgo)",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://tidd.ly/3uGRD4k",
+    "image": null
+  },
+  {
+    "id": "computer-fan-aliexpress-55",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Computer Fan",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DCQKguN",
+    "image": null
+  },
+  {
+    "id": "mesa-plegable-amazon-56",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Mesa plegable",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/40rHRPi",
+    "image": null
+  },
+  {
+    "id": "barra-de-cortina-ikea-57",
+    "type": "afiliado",
+    "source": "IKEA",
+    "name": "Barra de cortina",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://www.ikea.com/es/es/p/irja-juego-p-cortina-blanco-70117172/",
+    "image": null
+  },
+  {
+    "id": "fiamma-vent-amazon-58",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Fiamma Vent",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/49YtmH4",
+    "image": null
+  },
+  {
+    "id": "patas-zapatero-aliexpress-59",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Patas zapatero",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DB0aC2h",
+    "image": null
+  },
+  {
+    "id": "rodapies-leroy-merlin-60",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Rodapies",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3uwpwVv",
+    "image": null
+  },
+  {
+    "id": "cruzetas-nivelante-lidl-61",
+    "type": "afiliado",
+    "source": "Lidl",
+    "name": "Cruzetas Nivelante",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://clk.tradedoubler.com/click?p(297358)a(3297946)g(24849500)url(https://www.lidl.es/es/sistema-de-nivelacion-de-baldosas/p51539)",
+    "image": null
+  },
+  {
+    "id": "lavavajillas-electrodepot-62",
+    "type": "afiliado",
+    "source": "Electrodepot",
+    "name": "Lavavajillas",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3RjIhEC",
+    "image": null
+  },
+  {
+    "id": "mueble-alto-leroy-merlin-63",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Mueble Alto",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3v0f88R",
+    "image": null
+  },
+  {
+    "id": "azulejos-otro-64",
+    "type": "afiliado",
+    "source": "Otro",
+    "name": "Azulejos",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://www.artegres.es/",
+    "image": null
+  },
+  {
+    "id": "calzos-amazon-65",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Calzos",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3n7JKS6",
+    "image": null
+  },
+  {
+    "id": "horno-electrodepot-66",
+    "type": "afiliado",
+    "source": "Electrodepot",
+    "name": "Horno",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3RjDHVV",
+    "image": null
+  },
+  {
+    "id": "calefaccion-china-amazon-67",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Calefaccion China",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/47wwFTr",
+    "image": null
+  },
+  {
+    "id": "stove-leroy-merlin-68",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Stove",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/49Twpk3",
+    "image": null
+  },
+  {
+    "id": "bisagras-hidraulicas-amazon-69",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Bisagras hidraulicas",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://amzn.to/47ZOgnc",
+    "image": null
+  },
+  {
+    "id": "camping-gaz-amazon-70",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Camping gaz",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/43Tz2jh",
+    "image": null
+  },
+  {
+    "id": "suelo-laminado-piso-leroy-merlin-71",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Suelo Laminado (piso)",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3sQP9ju",
+    "image": null
+  },
+  {
+    "id": "camara-de-marche-atras-otro-72",
+    "type": "afiliado",
+    "source": "Otro",
+    "name": "Camara de marche atras",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3u7iOF7",
+    "image": null
+  },
+  {
+    "id": "pomos-armario-cocina-aliexpress-73",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Pomos Armario/cocina",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://rb.gy/onzjq0",
+    "image": null
+  },
+  {
+    "id": "boca-de-agua-amazon-74",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Boca de agua",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/45YWTNQ",
+    "image": null
+  },
+  {
+    "id": "booster-furgo-amazon-75",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Booster (furgo)",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/47vCkdt",
+    "image": null
+  },
+  {
+    "id": "anclaje-para-perros-4pcs-amazon-76",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Anclaje para perros 4pcs",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3NlidHO",
+    "image": null
+  },
+  {
+    "id": "adaptador-mariposa-amazon-77",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Adaptador mariposa",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3tTfwoY",
+    "image": null
+  },
+  {
+    "id": "griffo-otro-78",
+    "type": "afiliado",
+    "source": "Otro",
+    "name": "Griffo",
+    "price": null,
     "categories": [
       "furgo",
-      "camion",
-      "viaje"
+      "piso"
     ],
-    "url": "#",
+    "url": "https://s.click.aliexpress.com/e/_DEtyVYZ",
+    "image": null
+  },
+  {
+    "id": "plato-de-ducha-brico-dep-t-79",
+    "type": "afiliado",
+    "source": "Brico Depôt",
+    "name": "Plato de ducha",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://rb.gy/o2qu0a",
+    "image": null
+  },
+  {
+    "id": "nevera-piso-electrodepot-80",
+    "type": "afiliado",
+    "source": "Electrodepot",
+    "name": "Nevera (piso)",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/47PmDO0",
+    "image": null
+  },
+  {
+    "id": "cierre-automatico-otro-81",
+    "type": "afiliado",
+    "source": "Otro",
+    "name": "Cierre automatico",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3u2egQJ",
+    "image": null
+  },
+  {
+    "id": "tablero-madera-maciza-leroy-merlin-82",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Tablero madera Maciza",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/406rUMQ",
+    "image": null
+  },
+  {
+    "id": "mueble-ba-o-leroy-merlin-83",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Mueble baño",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/49gnPdY",
+    "image": null
+  },
+  {
+    "id": "cafetera-piso-amazon-84",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Cafetera (piso)",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://amzn.to/3uavdZE",
+    "image": null
+  },
+  {
+    "id": "luz-pared-aliexpress-85",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Luz Pared",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DdNIyAZ",
+    "image": null
+  },
+  {
+    "id": "proyetor-portatil-amazon-86",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Proyetor portatil",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3MtgtLl",
+    "image": null
+  },
+  {
+    "id": "renogy-mppt-amazon-87",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Renogy MPPT",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3N5IbxY",
+    "image": null
+  },
+  {
+    "id": "kit-termoretractiles-aliexpress-88",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Kit termoretractiles",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DcQ3Zy1",
+    "image": null
+  },
+  {
+    "id": "fiamma-40-amazon-89",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Fiamma 40",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3MtC0U4",
+    "image": null
+  },
+  {
+    "id": "double-stove-amazon-90",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Double stove",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/47wnDGR",
+    "image": null
+  },
+  {
+    "id": "cantos-sin-colar-leroy-merlin-91",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Cantos sin colar",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3toKOnK",
+    "image": null
+  },
+  {
+    "id": "fiamma-28-amazon-92",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Fiamma 28",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/47iNDVL",
+    "image": null
+  },
+  {
+    "id": "autoterm-calefaccion-amazon-93",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Autoterm Calefaccion",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3tAhYkF",
+    "image": null
+  },
+  {
+    "id": "leche-leroy-merlin-94",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Leche",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/45nn7KI",
+    "image": null
+  },
+  {
+    "id": "encimera-bauhaus-95",
+    "type": "afiliado",
+    "source": "Bauhaus",
+    "name": "Encimera",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://rb.gy/o2zr7i",
+    "image": null
+  },
+  {
+    "id": "pelacable-amazon-96",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Pelacable",
+    "price": null,
+    "categories": [
+      "furgo",
+      "piso"
+    ],
+    "url": "https://amzn.to/40Yhz62",
+    "image": null
+  },
+  {
+    "id": "radio-emitter-aliexpress-97",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Radio Emitter",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DBiE0SD",
+    "image": null
+  },
+  {
+    "id": "muebles-esquinero-leroy-merlin-98",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Muebles esquinero",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3uwoJUx",
+    "image": null
+  },
+  {
+    "id": "bateria-eco-worthy-amazon-99",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Bateria ECO-Worthy",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3sSR4UA",
+    "image": null
+  },
+  {
+    "id": "poti-amazon-100",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Poti",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/41VJ2aM",
+    "image": null
+  },
+  {
+    "id": "edecoa-inversor-amazon-101",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Edecoa Inversor",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3MJhtII",
+    "image": null
+  },
+  {
+    "id": "campana-leroy-merlin-102",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Campana",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/47UB0Au",
+    "image": null
+  },
+  {
+    "id": "centralita-350a-amazon-103",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Centralita 350A",
+    "price": null,
+    "categories": [
+      "furgo"
+    ],
+    "url": "https://amzn.to/3Vnv8Li",
+    "image": null
+  },
+  {
+    "id": "base-aislante-leroy-merlin-104",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Base aislante",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3uyrsNn",
+    "image": null
+  },
+  {
+    "id": "paint-ba-o-leroy-merlin-105",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Paint baño",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/486DYS5",
+    "image": null
+  },
+  {
+    "id": "extinctor-amazon-106",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Extinctor",
+    "price": null,
+    "categories": [
+      "furgo",
+      "piso"
+    ],
+    "url": "https://amzn.to/46PtNSh",
+    "image": null
+  },
+  {
+    "id": "crucetas-2mm-amazon-107",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Crucetas 2mm",
+    "price": null,
+    "categories": [
+      "piso"
+    ],
+    "url": "https://amzn.to/43d7YKb",
     "image": null
   }
 ]
