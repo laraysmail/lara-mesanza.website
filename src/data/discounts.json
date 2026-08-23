@@ -30,7 +30,7 @@
     "value": 7,
     "code": "LARAMESANZA",
     "url": "https://www.chapkadirect.es/?app=cd_mesenza",
-    "logo": null
+    "logo": "/logos/chapka-logo.png"
   },
   {
     "id": "iati",
@@ -74,7 +74,7 @@
     "value": 5,
     "code": "LaraMesanza5%",
     "url": "https://bit.ly/41UDTRC",
-    "logo": null
+    "logo": "/logos/imara-logo.png"
   },
   {
     "id": "fiverr",
@@ -85,7 +85,7 @@
     "value": 10,
     "code": null,
     "url": "https://go.fiverr.com/visit/?bta=909232",
-    "logo": null
+    "logo": "/logos/fiverr-logo.png"
   },
   {
     "id": "allpowers",
