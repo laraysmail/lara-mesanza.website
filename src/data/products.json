@@ -58,7 +58,7 @@
     "id": "sillas-camping-amazon-0",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Sillas camping",
+    "name": "Sillas de camping",
     "price": null,
     "categories": [
       "furgo"
@@ -70,7 +70,7 @@
     "id": "estabilizador-de-tension-amazon-1",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Estabilizador de tension",
+    "name": "Estabilizador de tensión",
     "price": "15,99 €",
     "categories": [
       "furgo"
@@ -82,7 +82,7 @@
     "id": "terminales-aliexpress-2",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Terminales",
+    "name": "Terminales eléctricos",
     "price": "5,38 €",
     "categories": [
       "furgo"
@@ -94,7 +94,7 @@
     "id": "nordkapp-nordkapp-3",
     "type": "afiliado",
     "source": "Nordkapp",
-    "name": "Nordkapp",
+    "name": "Calefacción diésel NordKapp",
     "price": null,
     "categories": [
       "camion"
@@ -106,7 +106,7 @@
     "id": "termometro-aliexpress-4",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Termometro",
+    "name": "Termómetro digital",
     "price": "20,02 €",
     "categories": [
       "camion"
@@ -118,7 +118,7 @@
     "id": "bomba-flush-aliexpress-5",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Bomba flush",
+    "name": "Bomba de flush para WC",
     "price": "75€",
     "categories": [
       "camion"
@@ -130,7 +130,7 @@
     "id": "depositos-aguas-imara-6",
     "type": "afiliado",
     "source": "Imara",
-    "name": "Depositos aguas",
+    "name": "Depósito de agua",
     "price": "68€",
     "categories": [
       "camion"
@@ -142,7 +142,7 @@
     "id": "usb-port-aliexpress-7",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "USB port",
+    "name": "Puerto USB empotrable",
     "price": "€4.08",
     "categories": [
       "camion"
@@ -154,7 +154,7 @@
     "id": "taza-cobre-temu-8",
     "type": "afiliado",
     "source": "Temu",
-    "name": "Taza Cobre",
+    "name": "Taza de cobre",
     "price": "9,45 €",
     "categories": [
       "camion"
@@ -178,7 +178,7 @@
     "id": "playstation-amazon-10",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Playstation",
+    "name": "Consola PlayStation",
     "price": null,
     "categories": [
       "camion"
@@ -190,7 +190,7 @@
     "id": "pantalla-portatil-amazon-11",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Pantalla portatil",
+    "name": "Pantalla portátil",
     "price": "139,99 €",
     "categories": [
       "camion"
@@ -202,7 +202,7 @@
     "id": "mppt-amazon-12",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Mppt",
+    "name": "Regulador solar MPPT",
     "price": "178,29 €",
     "categories": [
       "camion"
@@ -214,7 +214,7 @@
     "id": "riel-cortina-armario-temu-13",
     "type": "afiliado",
     "source": "Temu",
-    "name": "Riel cortina armario",
+    "name": "Riel para cortina de armario",
     "price": "6,92 €",
     "categories": [
       "camion"
@@ -226,7 +226,7 @@
     "id": "stove-amazon-14",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Stove",
+    "name": "Hornillo portátil",
     "price": "79,99 €",
     "categories": [
       "camion"
@@ -238,7 +238,7 @@
     "id": "silla-outdoor-decathlon-15",
     "type": "afiliado",
     "source": "Decathlon",
-    "name": "Silla outdoor",
+    "name": "Silla plegable de camping",
     "price": null,
     "categories": [
       "camion"
@@ -262,7 +262,7 @@
     "id": "luces-lectura-temu-17",
     "type": "afiliado",
     "source": "Temu",
-    "name": "Luces lectura",
+    "name": "Luz de lectura",
     "price": "12,10 €",
     "categories": [
       "camion"
@@ -274,7 +274,7 @@
     "id": "boiler-imara-18",
     "type": "afiliado",
     "source": "Imara",
-    "name": "Boiler",
+    "name": "Calentador de agua",
     "price": null,
     "categories": [
       "camion"
@@ -298,7 +298,7 @@
     "id": "bateria-sanfou-20",
     "type": "afiliado",
     "source": "Sanfou",
-    "name": "Bateria",
+    "name": "Batería de litio Sanfou",
     "price": "59,90€",
     "categories": [
       "camion"
@@ -322,7 +322,7 @@
     "id": "cargador-amazon-22",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Cargador",
+    "name": "Cargador de batería",
     "price": "49,99 €",
     "categories": [
       "camion"
@@ -334,7 +334,7 @@
     "id": "riel-cortina-temu-23",
     "type": "afiliado",
     "source": "Temu",
-    "name": "Riel cortina",
+    "name": "Riel para cortina",
     "price": "15,50 €",
     "categories": [
       "camion"
@@ -358,7 +358,7 @@
     "id": "cortina-ba-o-temu-25",
     "type": "afiliado",
     "source": "Temu",
-    "name": "Cortina baño",
+    "name": "Cortina de baño",
     "price": "11,45 €",
     "categories": [
       "camion"
@@ -370,7 +370,7 @@
     "id": "claraboyas-y-ventana-baiecar-26",
     "type": "afiliado",
     "source": "Baiecar",
-    "name": "Claraboyas y Ventana",
+    "name": "Claraboyas y ventanas",
     "price": null,
     "categories": [
       "camion"
@@ -382,7 +382,7 @@
     "id": "proyector-amazon-27",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Proyector",
+    "name": "Proyector portátil",
     "price": "309,97 €",
     "categories": [
       "camion"
@@ -406,7 +406,7 @@
     "id": "inversor-amazon-29",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Inversor",
+    "name": "Inversor de corriente",
     "price": "134,99 €",
     "categories": [
       "camion"
@@ -418,7 +418,7 @@
     "id": "tiradores-dorado-temu-30",
     "type": "afiliado",
     "source": "Temu",
-    "name": "Tiradores dorado",
+    "name": "Tiradores dorados",
     "price": "25,22€",
     "categories": [
       "camion"
@@ -430,7 +430,7 @@
     "id": "luces-focos-efectoled-31",
     "type": "afiliado",
     "source": "Efectoled",
-    "name": "Luces focos",
+    "name": "Foco LED empotrable",
     "price": "2,95 €",
     "categories": [
       "camion"
@@ -442,7 +442,7 @@
     "id": "pata-lagun-temu-32",
     "type": "afiliado",
     "source": "Temu",
-    "name": "Pata Lagun",
+    "name": "Pata de mesa Lagun",
     "price": "€84.54",
     "categories": [
       "camion"
@@ -454,7 +454,7 @@
     "id": "porton-registro-leroy-merlin-33",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Porton registro",
+    "name": "Portón de registro",
     "price": "15,49 €",
     "categories": [
       "camion"
@@ -466,7 +466,7 @@
     "id": "sonda-nivel-agua-aliexpress-34",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Sonda nivel agua",
+    "name": "Sonda de nivel de agua",
     "price": "€18.81",
     "categories": [
       "camion"
@@ -478,7 +478,7 @@
     "id": "separador-de-orina-amazon-35",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Separador de orina",
+    "name": "Separador de orina para WC",
     "price": null,
     "categories": [
       "camion"
@@ -490,7 +490,7 @@
     "id": "booster-cami-n-amazon-36",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Booster (camión)",
+    "name": "Booster de batería (camión)",
     "price": "129,19 €",
     "categories": [
       "camion"
@@ -502,7 +502,7 @@
     "id": "mononmando-ducha-aliexpress-37",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Mononmando ducha",
+    "name": "Monomando de ducha",
     "price": "€71.18",
     "categories": [
       "camion"
@@ -514,7 +514,7 @@
     "id": "champi-on-ba-o-aliexpress-38",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Champiñon baño",
+    "name": "Rejilla de ventilación de baño",
     "price": "24€",
     "categories": [
       "camion"
@@ -526,7 +526,7 @@
     "id": "resina-plato-ducha-nazza-39",
     "type": "afiliado",
     "source": "Nazza",
-    "name": "Resina plato ducha",
+    "name": "Resina para plato de ducha",
     "price": "131€",
     "categories": [
       "camion"
@@ -538,7 +538,7 @@
     "id": "temporazidaor-boiler-aliexpress-40",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Temporazidaor Boiler",
+    "name": "Temporizador para calentador",
     "price": null,
     "categories": [
       "camion"
@@ -550,7 +550,7 @@
     "id": "interruptores-aliexpress-41",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Interruptores",
+    "name": "Interruptores eléctricos",
     "price": "€4.08",
     "categories": [
       "camion"
@@ -574,7 +574,7 @@
     "id": "grifo-ba-o-leroy-merlin-43",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Grifo baño",
+    "name": "Grifo de baño",
     "price": "7,45 €",
     "categories": [
       "camion"
@@ -586,7 +586,7 @@
     "id": "cob-led-aliexpress-44",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "COB LEd",
+    "name": "Tira LED COB",
     "price": "€8.12",
     "categories": [
       "camion"
@@ -610,7 +610,7 @@
     "id": "bomba-de-agua-imara-46",
     "type": "afiliado",
     "source": "Imara",
-    "name": "Bomba de agua",
+    "name": "Bomba de agua Shurflo",
     "price": "83,84 €",
     "categories": [
       "camion"
@@ -622,7 +622,7 @@
     "id": "mesa-outdoor-decathlon-47",
     "type": "afiliado",
     "source": "Decathlon",
-    "name": "Mesa outdoor",
+    "name": "Mesa de camping",
     "price": null,
     "categories": [
       "camion"
@@ -634,7 +634,7 @@
     "id": "camara-de-marcha-atras-aliexpress-48",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Camara de marcha atras",
+    "name": "Cámara de marcha atrás",
     "price": "20,00€",
     "categories": [
       "furgo"
@@ -658,7 +658,7 @@
     "id": "termostato-electric-box-aliexpress-50",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Termostato electric box",
+    "name": "Termostato para caja eléctrica",
     "price": "3,69€",
     "categories": [
       "furgo"
@@ -670,7 +670,7 @@
     "id": "portable-fan-amazon-51",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Portable Fan",
+    "name": "Ventilador portátil",
     "price": null,
     "categories": [
       "furgo"
@@ -718,7 +718,7 @@
     "id": "computer-fan-aliexpress-55",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Computer Fan",
+    "name": "Ventilador 12V",
     "price": "€7.04",
     "categories": [
       "furgo"
@@ -754,7 +754,7 @@
     "id": "fiamma-vent-amazon-58",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Fiamma Vent",
+    "name": "Claraboya Fiamma Vent",
     "price": "291,90 €",
     "categories": [
       "furgo"
@@ -766,7 +766,7 @@
     "id": "patas-zapatero-aliexpress-59",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Patas zapatero",
+    "name": "Patas para zapatero",
     "price": null,
     "categories": [
       "piso"
@@ -778,7 +778,7 @@
     "id": "rodapies-leroy-merlin-60",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Rodapies",
+    "name": "Rodapiés",
     "price": null,
     "categories": [
       "piso"
@@ -790,7 +790,7 @@
     "id": "cruzetas-nivelante-lidl-61",
     "type": "afiliado",
     "source": "Lidl",
-    "name": "Cruzetas Nivelante",
+    "name": "Crucetas nivelantes para baldosas",
     "price": null,
     "categories": [
       "piso"
@@ -814,7 +814,7 @@
     "id": "mueble-alto-leroy-merlin-63",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Mueble Alto",
+    "name": "Mueble alto de cocina",
     "price": null,
     "categories": [
       "piso"
@@ -838,7 +838,7 @@
     "id": "calzos-amazon-65",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Calzos",
+    "name": "Calzos para caravana",
     "price": "20,00€",
     "categories": [
       "furgo"
@@ -862,7 +862,7 @@
     "id": "calefaccion-china-amazon-67",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Calefaccion China",
+    "name": "Calefacción diésel",
     "price": "599€",
     "categories": [
       "furgo"
@@ -874,7 +874,7 @@
     "id": "stove-leroy-merlin-68",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Stove",
+    "name": "Placa de cocina",
     "price": "79,99 €",
     "categories": [
       "piso"
@@ -886,7 +886,7 @@
     "id": "bisagras-hidraulicas-amazon-69",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Bisagras hidraulicas",
+    "name": "Bisagras hidráulicas",
     "price": "12,99 €",
     "categories": [
       "piso"
@@ -898,7 +898,7 @@
     "id": "camping-gaz-amazon-70",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Camping gaz",
+    "name": "Bombona de camping gas",
     "price": "24€",
     "categories": [
       "furgo"
@@ -910,7 +910,7 @@
     "id": "suelo-laminado-piso-leroy-merlin-71",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Suelo Laminado (piso)",
+    "name": "Suelo laminado (piso)",
     "price": null,
     "categories": [
       "piso"
@@ -922,7 +922,7 @@
     "id": "camara-de-marche-atras-otro-72",
     "type": "afiliado",
     "source": "Otro",
-    "name": "Camara de marche atras",
+    "name": "Cámara de marcha atrás",
     "price": "20,00€",
     "categories": [
       "furgo"
@@ -934,7 +934,7 @@
     "id": "pomos-armario-cocina-aliexpress-73",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Pomos Armario/cocina",
+    "name": "Pomos para armario y cocina",
     "price": "1,50€",
     "categories": [
       "piso"
@@ -946,7 +946,7 @@
     "id": "boca-de-agua-amazon-74",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Boca de agua",
+    "name": "Boca de llenado de agua",
     "price": null,
     "categories": [
       "furgo"
@@ -958,7 +958,7 @@
     "id": "booster-furgo-amazon-75",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Booster (furgo)",
+    "name": "Booster de batería (furgo)",
     "price": "153,28 €",
     "categories": [
       "furgo"
@@ -970,7 +970,7 @@
     "id": "anclaje-para-perros-4pcs-amazon-76",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Anclaje para perros 4pcs",
+    "name": "Anclajes para perros (4 uds)",
     "price": null,
     "categories": [
       "furgo"
@@ -982,7 +982,7 @@
     "id": "adaptador-mariposa-amazon-77",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Adaptador mariposa",
+    "name": "Adaptador mariposa de gas",
     "price": "4,92€",
     "categories": [
       "furgo"
@@ -994,7 +994,7 @@
     "id": "griffo-otro-78",
     "type": "afiliado",
     "source": "Otro",
-    "name": "Griffo",
+    "name": "Grifo",
     "price": null,
     "categories": [
       "furgo",
@@ -1031,7 +1031,7 @@
     "id": "cierre-automatico-otro-81",
     "type": "afiliado",
     "source": "Otro",
-    "name": "Cierre automatico",
+    "name": "Cierre automático",
     "price": "25,99 €",
     "categories": [
       "furgo"
@@ -1043,7 +1043,7 @@
     "id": "tablero-madera-maciza-leroy-merlin-82",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Tablero madera Maciza",
+    "name": "Tablero de madera maciza",
     "price": null,
     "categories": [
       "piso"
@@ -1055,7 +1055,7 @@
     "id": "mueble-ba-o-leroy-merlin-83",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Mueble baño",
+    "name": "Mueble de baño",
     "price": null,
     "categories": [
       "piso"
@@ -1079,7 +1079,7 @@
     "id": "luz-pared-aliexpress-85",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Luz Pared",
+    "name": "Luz de pared",
     "price": null,
     "categories": [
       "piso"
@@ -1091,7 +1091,7 @@
     "id": "proyetor-portatil-amazon-86",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Proyetor portatil",
+    "name": "Proyector portátil",
     "price": "309,97 €",
     "categories": [
       "furgo"
@@ -1103,7 +1103,7 @@
     "id": "renogy-mppt-amazon-87",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Renogy MPPT",
+    "name": "Regulador solar Renogy MPPT",
     "price": null,
     "categories": [
       "furgo"
@@ -1115,7 +1115,7 @@
     "id": "kit-termoretractiles-aliexpress-88",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Kit termoretractiles",
+    "name": "Kit de termoretráctiles",
     "price": "1,33€",
     "categories": [
       "furgo"
@@ -1127,7 +1127,7 @@
     "id": "fiamma-40-amazon-89",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Fiamma 40",
+    "name": "Toldo Fiamma F40",
     "price": null,
     "categories": [
       "furgo"
@@ -1139,7 +1139,7 @@
     "id": "double-stove-amazon-90",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Double stove",
+    "name": "Hornillo doble",
     "price": "92,59 €",
     "categories": [
       "furgo"
@@ -1151,7 +1151,7 @@
     "id": "cantos-sin-colar-leroy-merlin-91",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Cantos sin colar",
+    "name": "Cantos sin cola",
     "price": "5,49 €",
     "categories": [
       "piso"
@@ -1163,7 +1163,7 @@
     "id": "fiamma-28-amazon-92",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Fiamma 28",
+    "name": "Toldo Fiamma F28",
     "price": "98,76 €",
     "categories": [
       "furgo"
@@ -1175,7 +1175,7 @@
     "id": "autoterm-calefaccion-amazon-93",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Autoterm Calefaccion",
+    "name": "Calefacción diésel Autoterm",
     "price": "599,00 €",
     "categories": [
       "furgo"
@@ -1187,7 +1187,7 @@
     "id": "leche-leroy-merlin-94",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Leche",
+    "name": "Leche (producto sin verificar, enlace roto)",
     "price": null,
     "categories": [
       "piso"
@@ -1199,7 +1199,7 @@
     "id": "encimera-bauhaus-95",
     "type": "afiliado",
     "source": "Bauhaus",
-    "name": "Encimera",
+    "name": "Encimera de cocina",
     "price": "93,59 €",
     "categories": [
       "piso"
@@ -1211,7 +1211,7 @@
     "id": "pelacable-amazon-96",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Pelacable",
+    "name": "Pelacables",
     "price": "20,81€",
     "categories": [
       "furgo",
@@ -1224,7 +1224,7 @@
     "id": "radio-emitter-aliexpress-97",
     "type": "afiliado",
     "source": "AliExpress",
-    "name": "Radio Emitter",
+    "name": "Emisor de radio FM",
     "price": null,
     "categories": [
       "furgo"
@@ -1236,7 +1236,7 @@
     "id": "muebles-esquinero-leroy-merlin-98",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Muebles esquinero",
+    "name": "Mueble esquinero",
     "price": null,
     "categories": [
       "piso"
@@ -1248,7 +1248,7 @@
     "id": "bateria-eco-worthy-amazon-99",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Bateria ECO-Worthy",
+    "name": "Batería de litio Eco-Worthy",
     "price": "199,99€",
     "categories": [
       "furgo"
@@ -1260,7 +1260,7 @@
     "id": "poti-amazon-100",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Poti",
+    "name": "Inodoro portátil",
     "price": "43,49 €",
     "categories": [
       "furgo"
@@ -1272,7 +1272,7 @@
     "id": "edecoa-inversor-amazon-101",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Edecoa Inversor",
+    "name": "Inversor de corriente Edecoa",
     "price": "139,99 €",
     "categories": [
       "furgo"
@@ -1284,7 +1284,7 @@
     "id": "campana-leroy-merlin-102",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Campana",
+    "name": "Campana extractora",
     "price": "45 €",
     "categories": [
       "piso"
@@ -1296,7 +1296,7 @@
     "id": "centralita-350a-amazon-103",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Centralita 350A",
+    "name": "Centralita de corte de batería",
     "price": "32,75 €",
     "categories": [
       "furgo"
@@ -1308,7 +1308,7 @@
     "id": "base-aislante-leroy-merlin-104",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Base aislante",
+    "name": "Base aislante para suelo",
     "price": "3,19€/m2",
     "categories": [
       "piso"
@@ -1320,7 +1320,7 @@
     "id": "paint-ba-o-leroy-merlin-105",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Paint baño",
+    "name": "Pintura para baño",
     "price": null,
     "categories": [
       "piso"
@@ -1332,7 +1332,7 @@
     "id": "extinctor-amazon-106",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Extinctor",
+    "name": "Extintor",
     "price": "18,80€",
     "categories": [
       "furgo",
@@ -1345,7 +1345,7 @@
     "id": "crucetas-2mm-amazon-107",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Crucetas 2mm",
+    "name": "Crucetas niveladoras 2mm",
     "price": null,
     "categories": [
       "piso"
