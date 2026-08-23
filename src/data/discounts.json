@@ -8,7 +8,7 @@
     "value": 20,
     "code": "LARA",
     "url": "https://nord-kapp.com?bg_ref=XSjWxanWq7",
-    "logo": null
+    "logo": "/logos/nordkapp-logo.png"
   },
   {
     "id": "forohomologar",
@@ -19,7 +19,7 @@
     "value": 5,
     "code": null,
     "url": "https://www.forohomologar.com/colaboracion-con-lara-mesanza/",
-    "logo": null
+    "logo": "/logos/forohomologar-logo.png"
   },
   {
     "id": "chapka",
@@ -41,7 +41,7 @@
     "value": 5,
     "code": null,
     "url": "https://www.iatiseguros.com?r=06304123368755&utm_source=colaboradores&utm_medium=referral",
-    "logo": null
+    "logo": "/logos/iati-logo.png"
   },
   {
     "id": "wetaca",
@@ -52,7 +52,7 @@
     "value": 20,
     "code": "LARAM8846",
     "url": "https://www.wetaca.com/home",
-    "logo": null
+    "logo": "/logos/wetaca-logo.png"
   },
   {
     "id": "amazon-prime-student",
@@ -63,7 +63,7 @@
     "value": null,
     "code": null,
     "url": "https://www.amazon.es/joinstudent",
-    "logo": null
+    "logo": "/logos/amazon-prime-student-logo.png"
   },
   {
     "id": "imara",
@@ -96,7 +96,7 @@
     "value": 10,
     "code": "LARAM10",
     "url": "https://iallpowers.eu/?ref=jrvnzwek",
-    "logo": null
+    "logo": "/logos/allpowers-logo.png"
   },
   {
     "id": "yescapa",
@@ -107,7 +107,7 @@
     "value": 20,
     "code": "LARAME",
     "url": "https://c3po.link/Q9AWVqYruZ",
-    "logo": null
+    "logo": "/logos/yescapa-logo.png"
   },
   {
     "id": "campercover",
@@ -118,6 +118,6 @@
     "value": 5,
     "code": null,
     "url": "https://www.campercover.es/seguros-campers/precios-seguro-camper?campaign=CAMPERIZA&collaborator=LARA",
-    "logo": null
+    "logo": "/logos/campercover-logo.png"
   }
 ]
