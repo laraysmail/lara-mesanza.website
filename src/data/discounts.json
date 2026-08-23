@@ -119,5 +119,49 @@
     "code": null,
     "url": "https://www.campercover.es/seguros-campers/precios-seguro-camper?campaign=CAMPERIZA&collaborator=LARA",
     "logo": "/logos/campercover-logo.png"
+  },
+  {
+    "id": "ecoworthy",
+    "name": "Ecoworthy",
+    "description": "Baterías y placas solares para tu sistema eléctrico camper.",
+    "category": "camper",
+    "discountType": "link",
+    "value": null,
+    "code": null,
+    "url": "https://es.eco-worthy.com?sca_ref=8497929.pfoSziAJjj",
+    "logo": "/logos/ecoworthy-logo.png"
+  },
+  {
+    "id": "hitway",
+    "name": "Hitway",
+    "description": "Generador portátil para tener energía donde sea.",
+    "category": "vida viaje",
+    "discountType": "fixed",
+    "value": 30,
+    "code": "LARAMESANZA",
+    "url": "https://hitway.eu/products/bk35",
+    "logo": "/logos/hitway-logo.png"
+  },
+  {
+    "id": "skyscanner",
+    "name": "Skyscanner",
+    "description": "Compara vuelos y encuentra los más baratos para tu próximo viaje.",
+    "category": "viaje",
+    "discountType": "link",
+    "value": null,
+    "code": null,
+    "url": "https://skyscanner.pxf.io/k4Q7Ld",
+    "logo": "/logos/skyscanner-logo.png"
+  },
+  {
+    "id": "leroymerlin",
+    "name": "Leroy Merlin",
+    "description": "Materiales de bricolaje y reforma para tu proyecto.",
+    "category": "camper",
+    "discountType": "link",
+    "value": null,
+    "code": null,
+    "url": "https://tidd.ly/4hExD59",
+    "logo": "/logos/leroymerlin-logo.png"
   }
 ]
