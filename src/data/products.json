@@ -64,31 +64,31 @@
       "furgo"
     ],
     "url": "https://amzn.to/49kaaDz",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/61iziy0G6VL._AC_SY879_.jpg"
   },
   {
     "id": "estabilizador-de-tension-amazon-1",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Estabilizador de tension",
-    "price": null,
+    "price": "15,99 €",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/4b74ZaU",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/51xsiLw8jEL._AC_SX679_.jpg"
   },
   {
     "id": "terminales-aliexpress-2",
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Terminales",
-    "price": null,
+    "price": "5,38 €",
     "categories": [
       "furgo"
     ],
     "url": "https://s.click.aliexpress.com/e/_Dlk2dMZ",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S44afbc4e94354447ba005228cfcf1eb94.jpg?has_lang=1&ver=2_960x960q75.jpg_.avif"
   },
   {
     "id": "nordkapp-nordkapp-3",
@@ -107,19 +107,19 @@
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Termometro",
-    "price": null,
+    "price": "20,02 €",
     "categories": [
       "camion"
     ],
     "url": "https://s.click.aliexpress.com/e/_ooSqBBI",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa0f74e25150344eda7f666ef1062b9387.jpg?has_lang=1&ver=2_960x960q75.jpg_.avif"
   },
   {
     "id": "bomba-flush-aliexpress-5",
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Bomba flush",
-    "price": null,
+    "price": "75€",
     "categories": [
       "camion"
     ],
@@ -131,7 +131,7 @@
     "type": "afiliado",
     "source": "Imara",
     "name": "Depositos aguas",
-    "price": null,
+    "price": "68€",
     "categories": [
       "camion"
     ],
@@ -143,36 +143,36 @@
     "type": "afiliado",
     "source": "AliExpress",
     "name": "USB port",
-    "price": null,
+    "price": "€4.08",
     "categories": [
       "camion"
     ],
     "url": "https://s.click.aliexpress.com/e/_onYdFCC",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se4e49f45077d42ab852305718605a14eI.jpg?has_lang=1&ver=3_220x220q75.jpg_.avif"
   },
   {
     "id": "taza-cobre-temu-8",
     "type": "afiliado",
     "source": "Temu",
     "name": "Taza Cobre",
-    "price": null,
+    "price": "9,45 €",
     "categories": [
       "camion"
     ],
     "url": "https://temu.to/k/ec9nch07wvf",
-    "image": null
+    "image": "https://img.kwcdn.com/product/fancy/10e11df7-a2c7-475c-98c2-83e3e87efc3a.jpg?imageView2/2/w/800/q/70/format/avif"
   },
   {
     "id": "fregadero-cami-n-leroy-merlin-9",
     "type": "afiliado",
     "source": "Leroy Merlin",
     "name": "Fregadero (camión)",
-    "price": null,
+    "price": "82,99 €",
     "categories": [
       "camion"
     ],
     "url": "https://tidd.ly/4kDO303",
-    "image": null
+    "image": "https://media.adeo.com/media/4009751/media.png?width=650&height=650&format=jpg&quality=80&fit=bounds"
   },
   {
     "id": "playstation-amazon-10",
@@ -184,55 +184,55 @@
       "camion"
     ],
     "url": "https://amzn.to/4mQLMAc",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/71bF3ErRGML._AC_SX679_.jpg"
   },
   {
     "id": "pantalla-portatil-amazon-11",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Pantalla portatil",
-    "price": null,
+    "price": "139,99 €",
     "categories": [
       "camion"
     ],
     "url": "https://amzn.to/4kOmzo1",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/81Gv77eHXJL._AC_SX679_.jpg"
   },
   {
     "id": "mppt-amazon-12",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Mppt",
-    "price": null,
+    "price": "178,29 €",
     "categories": [
       "camion"
     ],
     "url": "https://amzn.to/43Nk5PT",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/51T8Zl-YuBL._SX522_.jpg"
   },
   {
     "id": "riel-cortina-armario-temu-13",
     "type": "afiliado",
     "source": "Temu",
     "name": "Riel cortina armario",
-    "price": null,
+    "price": "6,92 €",
     "categories": [
       "camion"
     ],
     "url": "https://temu.to/k/eg18u8y2x1w",
-    "image": null
+    "image": "https://img.kwcdn.com/product/fancy/daf36c43-d362-4625-a68e-ba117dac0344.jpg?imageView2/2/w/800/q/70/format/avif"
   },
   {
     "id": "stove-amazon-14",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Stove",
-    "price": null,
+    "price": "79,99 €",
     "categories": [
       "camion"
     ],
     "url": "https://amzn.to/4kWsQy9",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/71ogJ+spRtL._AC_SX679_.jpg"
   },
   {
     "id": "silla-outdoor-decathlon-15",
@@ -251,24 +251,24 @@
     "type": "afiliado",
     "source": "Amazon",
     "name": "Cafetera (camión)",
-    "price": null,
+    "price": "59,90 €",
     "categories": [
       "camion"
     ],
     "url": "https://amzn.to/43w4h5n",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/61ykeQlZTfL._AC_SX679_.jpg"
   },
   {
     "id": "luces-lectura-temu-17",
     "type": "afiliado",
     "source": "Temu",
     "name": "Luces lectura",
-    "price": null,
+    "price": "12,10 €",
     "categories": [
       "camion"
     ],
     "url": "https://temu.to/k/ev8wgs19xck",
-    "image": null
+    "image": "https://img.kwcdn.com/product/fancy/c0530111-b8b9-42dc-9735-a21dc4592c0d.jpg?imageView2/2/w/800/q/70/format/avif"
   },
   {
     "id": "boiler-imara-18",
@@ -287,19 +287,19 @@
     "type": "afiliado",
     "source": "Temu",
     "name": "Lavabo",
-    "price": null,
+    "price": "6,30 €",
     "categories": [
       "camion"
     ],
     "url": "https://temu.to/k/e3yawfdjxyr",
-    "image": null
+    "image": "https://img.kwcdn.com/product/fancy/2a5fd027-e82f-4745-ad93-950049ed684a.jpg?imageView2/2/w/800/q/70/format/avif"
   },
   {
     "id": "bateria-sanfou-20",
     "type": "afiliado",
     "source": "Sanfou",
     "name": "Bateria",
-    "price": null,
+    "price": "59,90€",
     "categories": [
       "camion"
     ],
@@ -311,7 +311,7 @@
     "type": "afiliado",
     "source": "Temu",
     "name": "Grifo dorado",
-    "price": null,
+    "price": "25,22€",
     "categories": [
       "camion"
     ],
@@ -323,48 +323,48 @@
     "type": "afiliado",
     "source": "Amazon",
     "name": "Cargador",
-    "price": null,
+    "price": "49,99 €",
     "categories": [
       "camion"
     ],
     "url": "https://amzn.to/4jGPSrZ",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/716pPKjfvaL._AC_SX679_.jpg"
   },
   {
     "id": "riel-cortina-temu-23",
     "type": "afiliado",
     "source": "Temu",
     "name": "Riel cortina",
-    "price": null,
+    "price": "15,50 €",
     "categories": [
       "camion"
     ],
     "url": "https://temu.to/k/ehcjuqlhujl",
-    "image": null
+    "image": "https://img.kwcdn.com/product/fancy/f3a7b0cf-647b-4213-830e-c7a5b479d92e.jpg?imageView2/2/w/800/q/70/format/avif"
   },
   {
     "id": "suelo-laminado-cami-n-leroy-merlin-24",
     "type": "afiliado",
     "source": "Leroy Merlin",
     "name": "Suelo laminado (camión)",
-    "price": null,
+    "price": "15,49 €",
     "categories": [
       "camion"
     ],
     "url": "https://tidd.ly/3HHtpxm",
-    "image": null
+    "image": "https://media.adeo.com/media/2861724/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds"
   },
   {
     "id": "cortina-ba-o-temu-25",
     "type": "afiliado",
     "source": "Temu",
     "name": "Cortina baño",
-    "price": null,
+    "price": "11,45 €",
     "categories": [
       "camion"
     ],
     "url": "https://temu.to/k/e6wbanny16o",
-    "image": null
+    "image": "https://img.kwcdn.com/product/fancy/3d168901-5e7c-4bc3-bed0-c44bd70a75a9.jpg?imageView2/2/w/800/q/70/format/avif"
   },
   {
     "id": "claraboyas-y-ventana-baiecar-26",
@@ -383,12 +383,12 @@
     "type": "afiliado",
     "source": "Amazon",
     "name": "Proyector",
-    "price": null,
+    "price": "309,97 €",
     "categories": [
       "camion"
     ],
     "url": "https://amzn.to/3SEkyio",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/71OBMkT5biL._AC_SX522_.jpg"
   },
   {
     "id": "pomos-empotrados-temu-28",
@@ -407,19 +407,19 @@
     "type": "afiliado",
     "source": "Amazon",
     "name": "Inversor",
-    "price": null,
+    "price": "134,99 €",
     "categories": [
       "camion"
     ],
     "url": "https://amzn.to/3FIh8bw",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/710qt9zRuEL._AC_SX679_.jpg"
   },
   {
     "id": "tiradores-dorado-temu-30",
     "type": "afiliado",
     "source": "Temu",
     "name": "Tiradores dorado",
-    "price": null,
+    "price": "25,22€",
     "categories": [
       "camion"
     ],
@@ -431,48 +431,48 @@
     "type": "afiliado",
     "source": "Efectoled",
     "name": "Luces focos",
-    "price": null,
+    "price": "2,95 €",
     "categories": [
       "camion"
     ],
     "url": "https://www.efectoled.com/es/comprar-placas-downlight-led-basic/75597-downlight-led-3w-12v-dc-circular-mueble-corte-o-63-mm.html",
-    "image": null
+    "image": "https://www.efectoled.com/2612906-thickbox_sklum/downlight-led-3w-12v-dc-circular-mueble-corte-o-63-mm.jpg"
   },
   {
     "id": "pata-lagun-temu-32",
     "type": "afiliado",
     "source": "Temu",
     "name": "Pata Lagun",
-    "price": null,
+    "price": "€84.54",
     "categories": [
       "camion"
     ],
     "url": "https://temu.to/k/e828kaabbta",
-    "image": null
+    "image": "https://img.kwcdn.com/product/fancy/cc3c31e1-3d97-4a06-8a7c-9021b1614862.jpg?imageView2/2/w/800/q/70/format/avif"
   },
   {
     "id": "porton-registro-leroy-merlin-33",
     "type": "afiliado",
     "source": "Leroy Merlin",
     "name": "Porton registro",
-    "price": null,
+    "price": "15,49 €",
     "categories": [
       "camion"
     ],
     "url": "https://tidd.ly/4kSNTle",
-    "image": null
+    "image": "https://media.adeo.com/media/1825772/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds"
   },
   {
     "id": "sonda-nivel-agua-aliexpress-34",
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Sonda nivel agua",
-    "price": null,
+    "price": "€18.81",
     "categories": [
       "camion"
     ],
     "url": "https://s.click.aliexpress.com/e/_opsvwu4",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S906ef2f1fe1a4a8684c9c0d61d792aabP.png_960x960.png_.avif"
   },
   {
     "id": "separador-de-orina-amazon-35",
@@ -484,38 +484,38 @@
       "camion"
     ],
     "url": "https://amzn.to/4dO3sZ0",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/41fe+ET9qsL._AC_SX679_.jpg"
   },
   {
     "id": "booster-cami-n-amazon-36",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Booster (camión)",
-    "price": null,
+    "price": "129,19 €",
     "categories": [
       "camion"
     ],
     "url": "https://amzn.to/3T9dytZ",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/51MBwRc+pWL._AC_SX679_.jpg"
   },
   {
     "id": "mononmando-ducha-aliexpress-37",
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Mononmando ducha",
-    "price": null,
+    "price": "€71.18",
     "categories": [
       "camion"
     ],
     "url": "https://s.click.aliexpress.com/e/_ok8dYj2",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Hb05bab17db2747f18c1e4539118fd941d.jpg_220x220q75.jpg_.avif"
   },
   {
     "id": "champi-on-ba-o-aliexpress-38",
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Champiñon baño",
-    "price": null,
+    "price": "24€",
     "categories": [
       "camion"
     ],
@@ -527,7 +527,7 @@
     "type": "afiliado",
     "source": "Nazza",
     "name": "Resina plato ducha",
-    "price": null,
+    "price": "131€",
     "categories": [
       "camion"
     ],
@@ -551,12 +551,12 @@
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Interruptores",
-    "price": null,
+    "price": "€4.08",
     "categories": [
       "camion"
     ],
     "url": "https://s.click.aliexpress.com/e/_onYdFCC",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se4e49f45077d42ab852305718605a14eI.jpg?has_lang=1&ver=3_220x220q75.jpg_.avif"
   },
   {
     "id": "nevera-cami-n-electrodepot-42",
@@ -575,48 +575,48 @@
     "type": "afiliado",
     "source": "Leroy Merlin",
     "name": "Grifo baño",
-    "price": null,
+    "price": "7,45 €",
     "categories": [
       "camion"
     ],
     "url": "https://tidd.ly/4iVXl6d",
-    "image": null
+    "image": "https://media.adeo.com/media/2007574/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds"
   },
   {
     "id": "cob-led-aliexpress-44",
     "type": "afiliado",
     "source": "AliExpress",
     "name": "COB LEd",
-    "price": null,
+    "price": "€8.12",
     "categories": [
       "camion"
     ],
     "url": "https://s.click.aliexpress.com/e/_oDmSPzw",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se0c5dd44263e427ba77d8fd3413559c3s.jpg_220x220q75.jpg_.avif"
   },
   {
     "id": "gancho-de-puerta-aliexpress-45",
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Gancho de puerta",
-    "price": null,
+    "price": "€11.10",
     "categories": [
       "camion"
     ],
     "url": "https://s.click.aliexpress.com/e/_opQuSVm",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S831c755213084b8695b0f853d97cb50da.jpg_220x220q75.jpg_.avif"
   },
   {
     "id": "bomba-de-agua-imara-46",
     "type": "afiliado",
     "source": "Imara",
     "name": "Bomba de agua",
-    "price": null,
+    "price": "83,84 €",
     "categories": [
       "camion"
     ],
     "url": "https://bit.ly/43y2UDq",
-    "image": null
+    "image": "https://www.imara.es/3593-medium_default/bomba-de-agua-shurflo-10-litros.jpg"
   },
   {
     "id": "mesa-outdoor-decathlon-47",
@@ -635,7 +635,7 @@
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Camara de marcha atras",
-    "price": null,
+    "price": "20,00€",
     "categories": [
       "furgo"
     ],
@@ -647,19 +647,19 @@
     "type": "afiliado",
     "source": "Leroy Merlin",
     "name": "Fregadero (piso)",
-    "price": null,
+    "price": "95,89 €",
     "categories": [
       "piso"
     ],
     "url": "https://tidd.ly/47NMR3k",
-    "image": null
+    "image": "https://media.adeo.com/media/4009763/media.png?width=650&height=650&format=jpg&quality=80&fit=bounds"
   },
   {
     "id": "termostato-electric-box-aliexpress-50",
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Termostato electric box",
-    "price": null,
+    "price": "3,69€",
     "categories": [
       "furgo"
     ],
@@ -683,24 +683,24 @@
     "type": "afiliado",
     "source": "IKEA",
     "name": "Cortina mosquitera",
-    "price": null,
+    "price": "6,99 €",
     "categories": [
       "furgo"
     ],
     "url": "https://www.ikea.com/es/es/p/lill-cortinas-red-par-blanco-10070262/",
-    "image": null
+    "image": "https://www.ikea.com/es/es/images/products/lill-cortinas-red-pack-2-unidades-blanco-con-bolsillo-barra__0598717_pe677784_s5.jpg?f=s"
   },
   {
     "id": "pata-de-mesa-amazon-53",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Pata de mesa",
-    "price": null,
+    "price": "5,85€",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/40lIpq9",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/41nIaKtttuL._AC_SX679_.jpg"
   },
   {
     "id": "nevera-furgo-electrodepot-54",
@@ -719,48 +719,48 @@
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Computer Fan",
-    "price": null,
+    "price": "€7.04",
     "categories": [
       "furgo"
     ],
     "url": "https://s.click.aliexpress.com/e/_DCQKguN",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scae0284f5cd54ee3bc93b7d9795016c6J.jpg?has_lang=1&ver=2_220x220q75.jpg_.avif"
   },
   {
     "id": "mesa-plegable-amazon-56",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Mesa plegable",
-    "price": null,
+    "price": "18,99€",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/40rHRPi",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/51jzuMRkBsL._AC_SX679_.jpg"
   },
   {
     "id": "barra-de-cortina-ikea-57",
     "type": "afiliado",
     "source": "IKEA",
     "name": "Barra de cortina",
-    "price": null,
+    "price": "2,99 €",
     "categories": [
       "furgo"
     ],
     "url": "https://www.ikea.com/es/es/p/irja-juego-p-cortina-blanco-70117172/",
-    "image": null
+    "image": "https://www.ikea.com/es/es/images/products/irja-set-barra-cortina-blanco__0601962_pe680072_s5.jpg?f=u"
   },
   {
     "id": "fiamma-vent-amazon-58",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Fiamma Vent",
-    "price": null,
+    "price": "291,90 €",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/49YtmH4",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/71oC3e0UODL._AC_SX679_.jpg"
   },
   {
     "id": "patas-zapatero-aliexpress-59",
@@ -803,7 +803,7 @@
     "type": "afiliado",
     "source": "Electrodepot",
     "name": "Lavavajillas",
-    "price": null,
+    "price": "219,95€",
     "categories": [
       "piso"
     ],
@@ -827,7 +827,7 @@
     "type": "afiliado",
     "source": "Otro",
     "name": "Azulejos",
-    "price": null,
+    "price": "6,05€/m2",
     "categories": [
       "piso"
     ],
@@ -839,12 +839,12 @@
     "type": "afiliado",
     "source": "Amazon",
     "name": "Calzos",
-    "price": null,
+    "price": "20,00€",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/3n7JKS6",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/81F+dMArXhL._AC_SX679_.jpg"
   },
   {
     "id": "horno-electrodepot-66",
@@ -863,7 +863,7 @@
     "type": "afiliado",
     "source": "Amazon",
     "name": "Calefaccion China",
-    "price": null,
+    "price": "599€",
     "categories": [
       "furgo"
     ],
@@ -875,36 +875,36 @@
     "type": "afiliado",
     "source": "Leroy Merlin",
     "name": "Stove",
-    "price": null,
+    "price": "79,99 €",
     "categories": [
       "piso"
     ],
     "url": "https://tidd.ly/49Twpk3",
-    "image": null
+    "image": "https://media.adeo.com/media/3084560/media.png?width=650&height=650&format=jpg&quality=80&fit=bounds"
   },
   {
     "id": "bisagras-hidraulicas-amazon-69",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Bisagras hidraulicas",
-    "price": null,
+    "price": "12,99 €",
     "categories": [
       "piso"
     ],
     "url": "https://amzn.to/47ZOgnc",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/41sxGEiw5vL._AC_SX679_.jpg"
   },
   {
     "id": "camping-gaz-amazon-70",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Camping gaz",
-    "price": null,
+    "price": "24€",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/43Tz2jh",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/61-WM6vLIFL._AC_SX679_.jpg"
   },
   {
     "id": "suelo-laminado-piso-leroy-merlin-71",
@@ -923,19 +923,19 @@
     "type": "afiliado",
     "source": "Otro",
     "name": "Camara de marche atras",
-    "price": null,
+    "price": "20,00€",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/3u7iOF7",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/61p3vkXzFsL._AC_SX679_.jpg"
   },
   {
     "id": "pomos-armario-cocina-aliexpress-73",
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Pomos Armario/cocina",
-    "price": null,
+    "price": "1,50€",
     "categories": [
       "piso"
     ],
@@ -952,19 +952,19 @@
       "furgo"
     ],
     "url": "https://amzn.to/45YWTNQ",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/51amR1mZ27L._AC_SX679_.jpg"
   },
   {
     "id": "booster-furgo-amazon-75",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Booster (furgo)",
-    "price": null,
+    "price": "153,28 €",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/47vCkdt",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/71Uojd5syML._AC_SX679_.jpg"
   },
   {
     "id": "anclaje-para-perros-4pcs-amazon-76",
@@ -983,12 +983,12 @@
     "type": "afiliado",
     "source": "Amazon",
     "name": "Adaptador mariposa",
-    "price": null,
+    "price": "4,92€",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/3tTfwoY",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/81gNB-48CCL._AC_SX679_.jpg"
   },
   {
     "id": "griffo-otro-78",
@@ -1008,12 +1008,12 @@
     "type": "afiliado",
     "source": "Brico Depôt",
     "name": "Plato de ducha",
-    "price": null,
+    "price": "131 €",
     "categories": [
       "piso"
     ],
     "url": "https://rb.gy/o2qu0a",
-    "image": null
+    "image": "https://www.bricodepot.es/media/catalog/product/cache/181b0992bdbb42961a53e6d1e13ca178/a/b/ab699419881878c.jpg"
   },
   {
     "id": "nevera-piso-electrodepot-80",
@@ -1032,12 +1032,12 @@
     "type": "afiliado",
     "source": "Otro",
     "name": "Cierre automatico",
-    "price": null,
+    "price": "25,99 €",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/3u2egQJ",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/61bedA2nCIL._AC_SX679_.jpg"
   },
   {
     "id": "tablero-madera-maciza-leroy-merlin-82",
@@ -1068,12 +1068,12 @@
     "type": "afiliado",
     "source": "Amazon",
     "name": "Cafetera (piso)",
-    "price": null,
+    "price": "59,90 €",
     "categories": [
       "piso"
     ],
     "url": "https://amzn.to/3uavdZE",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/71426+uppqL._AC_SX679_.jpg"
   },
   {
     "id": "luz-pared-aliexpress-85",
@@ -1092,12 +1092,12 @@
     "type": "afiliado",
     "source": "Amazon",
     "name": "Proyetor portatil",
-    "price": null,
+    "price": "309,97 €",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/3MtgtLl",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/71OBMkT5biL._AC_SX522_.jpg"
   },
   {
     "id": "renogy-mppt-amazon-87",
@@ -1109,14 +1109,14 @@
       "furgo"
     ],
     "url": "https://amzn.to/3N5IbxY",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/51oSnt0uweL._AC_SX679_.jpg"
   },
   {
     "id": "kit-termoretractiles-aliexpress-88",
     "type": "afiliado",
     "source": "AliExpress",
     "name": "Kit termoretractiles",
-    "price": null,
+    "price": "1,33€",
     "categories": [
       "furgo"
     ],
@@ -1133,55 +1133,55 @@
       "furgo"
     ],
     "url": "https://amzn.to/3MtC0U4",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/71zs8Usg0ML._AC_SX679_.jpg"
   },
   {
     "id": "double-stove-amazon-90",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Double stove",
-    "price": null,
+    "price": "92,59 €",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/47wnDGR",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/71uE-UaUOvL._AC_SY879_.jpg"
   },
   {
     "id": "cantos-sin-colar-leroy-merlin-91",
     "type": "afiliado",
     "source": "Leroy Merlin",
     "name": "Cantos sin colar",
-    "price": null,
+    "price": "5,49 €",
     "categories": [
       "piso"
     ],
     "url": "https://tidd.ly/3toKOnK",
-    "image": null
+    "image": "https://media.adeo.com/media/1835242/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds"
   },
   {
     "id": "fiamma-28-amazon-92",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Fiamma 28",
-    "price": null,
+    "price": "98,76 €",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/47iNDVL",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/519GNqdx1wL._AC_SX679_.jpg"
   },
   {
     "id": "autoterm-calefaccion-amazon-93",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Autoterm Calefaccion",
-    "price": null,
+    "price": "599,00 €",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/3tAhYkF",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/61R3plE6h1L._AC_SX679_.jpg"
   },
   {
     "id": "leche-leroy-merlin-94",
@@ -1200,25 +1200,25 @@
     "type": "afiliado",
     "source": "Bauhaus",
     "name": "Encimera",
-    "price": null,
+    "price": "93,59 €",
     "categories": [
       "piso"
     ],
     "url": "https://rb.gy/o2zr7i",
-    "image": null
+    "image": "https://media.cdn.bauhaus/m/509196/12.jpg"
   },
   {
     "id": "pelacable-amazon-96",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Pelacable",
-    "price": null,
+    "price": "20,81€",
     "categories": [
       "furgo",
       "piso"
     ],
     "url": "https://amzn.to/40Yhz62",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/51N+PF0RyQS._AC_SX679_.jpg"
   },
   {
     "id": "radio-emitter-aliexpress-97",
@@ -1249,67 +1249,67 @@
     "type": "afiliado",
     "source": "Amazon",
     "name": "Bateria ECO-Worthy",
-    "price": null,
+    "price": "199,99€",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/3sSR4UA",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/61dp9Jd1DoL._AC_SX679_.jpg"
   },
   {
     "id": "poti-amazon-100",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Poti",
-    "price": null,
+    "price": "43,49 €",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/41VJ2aM",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/51YDHg8-HpL._AC_SX679_.jpg"
   },
   {
     "id": "edecoa-inversor-amazon-101",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Edecoa Inversor",
-    "price": null,
+    "price": "139,99 €",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/3MJhtII",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/71qT+k5adBL._AC_SX679_.jpg"
   },
   {
     "id": "campana-leroy-merlin-102",
     "type": "afiliado",
     "source": "Leroy Merlin",
     "name": "Campana",
-    "price": null,
+    "price": "45 €",
     "categories": [
       "piso"
     ],
     "url": "https://tidd.ly/47UB0Au",
-    "image": null
+    "image": "https://media.adeo.com/media/3118759/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds"
   },
   {
     "id": "centralita-350a-amazon-103",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Centralita 350A",
-    "price": null,
+    "price": "32,75 €",
     "categories": [
       "furgo"
     ],
     "url": "https://amzn.to/3Vnv8Li",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/71g4RbL-uFL._SX522_.jpg"
   },
   {
     "id": "base-aislante-leroy-merlin-104",
     "type": "afiliado",
     "source": "Leroy Merlin",
     "name": "Base aislante",
-    "price": null,
+    "price": "3,19€/m2",
     "categories": [
       "piso"
     ],
@@ -1333,13 +1333,13 @@
     "type": "afiliado",
     "source": "Amazon",
     "name": "Extinctor",
-    "price": null,
+    "price": "18,80€",
     "categories": [
       "furgo",
       "piso"
     ],
     "url": "https://amzn.to/46PtNSh",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/61qVNEmJ3FL._SY679_.jpg"
   },
   {
     "id": "crucetas-2mm-amazon-107",
@@ -1351,6 +1351,6 @@
       "piso"
     ],
     "url": "https://amzn.to/43d7YKb",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/51Ev2ou2aCL._AC_SX679_.jpg"
   }
 ]

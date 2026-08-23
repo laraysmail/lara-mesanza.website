@@ -49,7 +49,7 @@ const affiliate = products.filter((p) => p.type === 'afiliado');
         />
         <div id="tienda-grid" class="product-grid">
           {affiliate.map((p) => (
-            <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} />
+            <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} image={p.image} />
           ))}
         </div>
       </div>
