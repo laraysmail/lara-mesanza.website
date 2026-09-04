@@ -127,18 +127,6 @@
     "image": null
   },
   {
-    "id": "depositos-aguas-imara-6",
-    "type": "afiliado",
-    "source": "Imara",
-    "name": "Depósito de agua",
-    "price": "68€",
-    "categories": [
-      "camion"
-    ],
-    "url": "https://bit.ly/41UDTRC",
-    "image": null
-  },
-  {
     "id": "usb-port-aliexpress-7",
     "type": "afiliado",
     "source": "AliExpress",
@@ -271,18 +259,6 @@
     "image": "https://img.kwcdn.com/product/fancy/c0530111-b8b9-42dc-9735-a21dc4592c0d.jpg?imageView2/2/w/800/q/70/format/avif"
   },
   {
-    "id": "boiler-imara-18",
-    "type": "afiliado",
-    "source": "Imara",
-    "name": "Calentador de agua",
-    "price": "204,78 €",
-    "categories": [
-      "camion"
-    ],
-    "url": "https://bit.ly/3XD4Ab4",
-    "image": "https://www.imara.es/8723-large_default/boiler-presion-cz-12v200w-10-l-aire.jpg"
-  },
-  {
     "id": "lavabo-temu-19",
     "type": "afiliado",
     "source": "Temu",
@@ -304,7 +280,7 @@
       "camion"
     ],
     "url": "https://www.sanfoupower.com/?ref=oolgddle",
-    "image": null
+    "image": "https://www.sanfoupower.com/cdn/shop/collections/IMG_9524.jpg?v=1729825327&width=1080"
   },
   {
     "id": "grifo-dorado-temu-21",
@@ -376,7 +352,7 @@
       "camion"
     ],
     "url": "https://www.baie-car.com/es/",
-    "image": null
+    "image": "https://www.baie-car.com/wp-content/uploads/2019/10/IMG-8729-1-440x330.jpg"
   },
   {
     "id": "proyector-amazon-27",
@@ -605,18 +581,6 @@
     ],
     "url": "https://s.click.aliexpress.com/e/_opQuSVm",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S831c755213084b8695b0f853d97cb50da.jpg_220x220q75.jpg_.avif"
-  },
-  {
-    "id": "bomba-de-agua-imara-46",
-    "type": "afiliado",
-    "source": "Imara",
-    "name": "Bomba de agua Shurflo",
-    "price": "83,84 €",
-    "categories": [
-      "camion"
-    ],
-    "url": "https://bit.ly/43y2UDq",
-    "image": "https://www.imara.es/3593-medium_default/bomba-de-agua-shurflo-10-litros.jpg"
   },
   {
     "id": "mesa-outdoor-decathlon-47",
