@@ -3,10 +3,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import VideoCard from '../components/VideoCard.astro';
 import site from '../data/site.json';
 import videosFallback from '../data/videos.json';
-import playlists from '../data/playlists.json';
-import { fetchLatestVideos } from '../lib/youtube.js';
+import playlistsData from '../data/playlists.json';
+import { fetchLatestVideos, withPlaylistThumbnails } from '../lib/youtube.js';
 
 const videos = await fetchLatestVideos(site.youtubeChannelId, 6, videosFallback);
+const playlists = await withPlaylistThumbnails(playlistsData);
 const channelUrl = site.youtubeChannelId ? `https://www.youtube.com/channel/${site.youtubeChannelId}` : '#';
 const instagramUrl = 'https://www.instagram.com/lara_mesanza';
 const tiktokUrl = 'https://www.tiktok.com/@laramesanza';
