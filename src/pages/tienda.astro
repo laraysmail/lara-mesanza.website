@@ -28,7 +28,7 @@ const affiliate = products.filter((p) => p.type === 'afiliado');
           <h2>Diagramas y guías descargables</h2>
           <div class="featured-row">
             {digital.map((p) => (
-              <ProductFeature tag={p.tag ?? 'Producto propio'} name={p.name} price={p.price} url={p.url} categories={p.categories} />
+              <ProductFeature tag={p.tag ?? 'Producto propio'} name={p.name} price={p.price} url={p.url} categories={p.categories} image={p.image} />
             ))}
           </div>
         </div>
