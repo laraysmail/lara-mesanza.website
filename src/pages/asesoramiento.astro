@@ -4,6 +4,7 @@ import PageHeader from '../components/PageHeader.astro';
 import AmbientBlob from '../components/AmbientBlob.astro';
 import ServiceCard from '../components/ServiceCard.astro';
 import services from '../data/services.json';
+import asesoramientoElectrico from '../assets/pages/asesoramiento-electrico.jpeg';
 
 // TODO: swap for the real Google Business Profile review link once it exists
 const googleReviewsUrl = '#';
@@ -29,6 +30,7 @@ const googleReviewsUrl = '#';
           price={s.price}
           ctaLabel={s.ctaLabel}
           ctaHref={s.ctaHref}
+          image={asesoramientoElectrico}
         />
       ))}
     </div>

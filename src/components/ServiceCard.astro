@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+
 interface Props {
   badge: string;
   title: string;
@@ -7,12 +9,18 @@ interface Props {
   bullets: string[];
   ctaLabel: string;
   ctaHref: string;
+  image?: ImageMetadata | null;
 }
-const { badge, title, description, price, bullets, ctaLabel, ctaHref } = Astro.props;
+const { badge, title, description, price, bullets, ctaLabel, ctaHref, image = null } = Astro.props;
 ---
 
 <div class="service-card">
-  <div class="service-visual"><span class="badge">{badge}</span></div>
+  <div class:list={['service-visual', { 'has-image': !!image }]}>
+    {image && (
+      <Image class="service-visual-img" src={image} alt={`Asesoramiento eléctrico: ${title}`} widths={[400, 700, 1000]} sizes="(max-width: 860px) 100vw, 50vw" format="webp" quality={78} loading="lazy" />
+    )}
+    <span class="badge">{badge}</span>
+  </div>
   <div class="service-body">
     <h2>{title}</h2>
     <p class="desc">{description}</p>
@@ -35,9 +43,10 @@ const { badge, title, description, price, bullets, ctaLabel, ctaHref } = Astro.p
     background: radial-gradient(circle at 75% 20%, rgba(193,96,47,0.28), transparent 55%), linear-gradient(150deg, var(--moss), var(--pine));
   }
   .service-visual .badge {
-    position: absolute; top: 18px; left: 18px; font-family: var(--mono); font-size: 10.5px; text-transform: uppercase;
+    position: absolute; top: 18px; left: 18px; z-index: 1; font-family: var(--mono); font-size: 10.5px; text-transform: uppercase;
     background: rgba(16,25,21,0.55); color: var(--pop); padding: 6px 14px; border-radius: 100px; border: 1px solid rgba(193,96,47,0.35);
   }
+  .service-visual-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
   .service-body h2 { font-family: var(--display); font-weight: 700; font-size: clamp(1.6rem, 3vw, 2.1rem); letter-spacing: -.015em; }
   .service-body .desc { margin-top: 14px; color: var(--mist); opacity: .85; font-size: .98rem; line-height: 1.6; max-width: 440px; }
   .service-body ul { margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
