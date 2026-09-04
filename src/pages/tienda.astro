@@ -6,6 +6,17 @@ import FilterPills from '../components/FilterPills.astro';
 import ProductFeature from '../components/ProductFeature.astro';
 import ProductCard from '../components/ProductCard.astro';
 import products from '../data/products.json';
+import diagrama200ah from '../assets/products/diagrama-200ah.png';
+import diagrama100ah from '../assets/products/diagrama-100ah.jpg';
+import esquemaFontaneria from '../assets/products/esquema-fontaneria.png';
+import plantillaConsumo from '../assets/products/plantilla-consumo.jpg';
+
+const digitalImages: Record<string, ImageMetadata> = {
+  'diagrama-200ah': diagrama200ah,
+  'diagrama-100ah': diagrama100ah,
+  'esquema-fontaneria': esquemaFontaneria,
+  'plantilla-consumo-electrico': plantillaConsumo,
+};
 
 const digital = products.filter((p) => p.type === 'propio');
 const affiliate = products.filter((p) => p.type === 'afiliado');
@@ -28,7 +39,7 @@ const affiliate = products.filter((p) => p.type === 'afiliado');
           <h2>Diagramas y guías descargables</h2>
           <div class="featured-row">
             {digital.map((p) => (
-              <ProductFeature tag={p.tag ?? 'Producto propio'} name={p.name} price={p.price} url={p.url} categories={p.categories} image={p.image} />
+              <ProductFeature tag={p.tag ?? 'Producto propio'} name={p.name} price={p.price} url={p.url} categories={p.categories} image={digitalImages[p.id] ?? p.image} />
             ))}
           </div>
         </div>

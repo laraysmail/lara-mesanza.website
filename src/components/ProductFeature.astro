@@ -1,17 +1,24 @@
 ---
+import { Image } from 'astro:assets';
+
 interface Props {
   tag: string;
   name: string;
   price: string;
   url: string;
   categories: string[];
-  image?: string | null;
+  image?: ImageMetadata | string | null;
 }
 const { tag, name, price, url, categories, image = null } = Astro.props;
 ---
 
 <a href={url} target={url === '#' ? undefined : '_blank'} rel={url === '#' ? undefined : 'noopener noreferrer'} class:list={['p-feature', 'tilt-card', { 'has-image': !!image }]} data-category={categories.join(' ')}>
-  {image && <img class="p-feature-img" src={image} alt="" loading="lazy" />}
+  {image && typeof image !== 'string' && (
+    <Image class="p-feature-img" src={image} alt={`Vista previa de ${name}`} widths={[400, 700, 1000]} sizes="(max-width: 760px) 100vw, 50vw" format="webp" quality={75} loading="lazy" />
+  )}
+  {image && typeof image === 'string' && (
+    <img class="p-feature-img" src={image} alt={`Vista previa de ${name}`} loading="lazy" decoding="async" />
+  )}
   <div class="p-feature-body">
     <span class="tag">{tag}</span>
     <h3>{name}</h3>

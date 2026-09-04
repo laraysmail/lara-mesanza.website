@@ -21,7 +21,7 @@ const { source, name, price, url, categories, image = null, x = '50px', d = '0s'
   style={`--x:${x}; --d:${d}`}
 >
   <div class="p-small-visual">
-    {image ? <img src={image} alt="" loading="lazy" /> : <div class="p-small-visual-fallback"></div>}
+    {image ? <img src={image} alt={name} loading="lazy" decoding="async" width="400" height="300" /> : <div class="p-small-visual-fallback"></div>}
   </div>
   <div class="p-small-body">
     <span class="tag">{source}</span>
