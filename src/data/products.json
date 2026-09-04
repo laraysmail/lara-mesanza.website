@@ -124,7 +124,7 @@
       "camion"
     ],
     "url": "https://s.click.aliexpress.com/e/_oBMwMJi",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb1f748f2e3d24526afdb1716be07de8fQ.jpg_480x480q75.jpg_.avif"
   },
   {
     "id": "usb-port-aliexpress-7",
@@ -283,18 +283,6 @@
     "image": "https://www.sanfoupower.com/cdn/shop/collections/IMG_9524.jpg?v=1729825327&width=1080"
   },
   {
-    "id": "grifo-dorado-temu-21",
-    "type": "afiliado",
-    "source": "Temu",
-    "name": "Grifo dorado",
-    "price": "25,22€",
-    "categories": [
-      "camion"
-    ],
-    "url": "https://temu.to/k/ewww0qdoqhz",
-    "image": null
-  },
-  {
     "id": "cargador-amazon-22",
     "type": "afiliado",
     "source": "Amazon",
@@ -367,18 +355,6 @@
     "image": "https://m.media-amazon.com/images/I/71OBMkT5biL._AC_SX522_.jpg"
   },
   {
-    "id": "pomos-empotrados-temu-28",
-    "type": "afiliado",
-    "source": "Temu",
-    "name": "Pomos empotrados",
-    "price": null,
-    "categories": [
-      "camion"
-    ],
-    "url": "https://temu.to/k/e2n871ouzqi",
-    "image": null
-  },
-  {
     "id": "inversor-amazon-29",
     "type": "afiliado",
     "source": "Amazon",
@@ -389,18 +365,6 @@
     ],
     "url": "https://amzn.to/3FIh8bw",
     "image": "https://m.media-amazon.com/images/I/710qt9zRuEL._AC_SX679_.jpg"
-  },
-  {
-    "id": "tiradores-dorado-temu-30",
-    "type": "afiliado",
-    "source": "Temu",
-    "name": "Tiradores dorados",
-    "price": "25,22€",
-    "categories": [
-      "camion"
-    ],
-    "url": "https://temu.to/k/e92pqtjfwou",
-    "image": null
   },
   {
     "id": "luces-focos-efectoled-31",
@@ -496,7 +460,7 @@
       "camion"
     ],
     "url": "https://s.click.aliexpress.com/e/_oEa8yGy",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S813453afcd384b38bb397af6e8923beaH.jpg_480x480q75.jpg_.avif"
   },
   {
     "id": "resina-plato-ducha-nazza-39",
@@ -520,7 +484,7 @@
       "camion"
     ],
     "url": "https://s.click.aliexpress.com/e/_oBVP2Fi",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf8e56bf02e9646019c39fda87dff12b1l.jpg_480x480q75.jpg_.avif"
   },
   {
     "id": "interruptores-aliexpress-41",
@@ -544,7 +508,7 @@
       "camion"
     ],
     "url": "https://tidd.ly/43OMxkm",
-    "image": null
+    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10013280.jpg"
   },
   {
     "id": "grifo-ba-o-leroy-merlin-43",
@@ -604,7 +568,7 @@
       "furgo"
     ],
     "url": "https://s.click.aliexpress.com/e/_DCyxtqB",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3b58a3cdabed42109cf82de1f4a03223m.jpg_480x480q75.jpg_.avif"
   },
   {
     "id": "fregadero-piso-leroy-merlin-49",
@@ -628,7 +592,7 @@
       "furgo"
     ],
     "url": "https://s.click.aliexpress.com/e/_DmIZeyd",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4f64dc7b346d45e6800f3a5dfd4918476.jpg_480x480q75.jpg_.avif"
   },
   {
     "id": "portable-fan-amazon-51",
@@ -640,7 +604,7 @@
       "furgo"
     ],
     "url": "https://amzn.to/4435fo1",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/51IpYhKQLGL._AC_UL320_.jpg"
   },
   {
     "id": "cortina-mosquitera-ikea-52",
@@ -676,7 +640,7 @@
       "furgo"
     ],
     "url": "https://tidd.ly/3uGRD4k",
-    "image": null
+    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10013280.jpg"
   },
   {
     "id": "computer-fan-aliexpress-55",
@@ -736,7 +700,7 @@
       "piso"
     ],
     "url": "https://s.click.aliexpress.com/e/_DB0aC2h",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbc1c2912dbb74fdda297d281e0fcb7f4l.jpg_480x480q75.jpg_.avif"
   },
   {
     "id": "rodapies-leroy-merlin-60",
@@ -748,19 +712,19 @@
       "piso"
     ],
     "url": "https://tidd.ly/3uwpwVv",
-    "image": null
+    "image": "https://media.adeo.com/media/1837326/media.png?width=640"
   },
   {
     "id": "cruzetas-nivelante-lidl-61",
     "type": "afiliado",
     "source": "Lidl",
     "name": "Crucetas nivelantes para baldosas",
-    "price": null,
+    "price": "3,49 €",
     "categories": [
       "piso"
     ],
     "url": "https://clk.tradedoubler.com/click?p(297358)a(3297946)g(24849500)url(https://www.lidl.es/es/sistema-de-nivelacion-de-baldosas/p51539)",
-    "image": null
+    "image": "https://www.lidl.es/assets/gcp345292472b79464d9efc9b09fb009015.jpg"
   },
   {
     "id": "lavavajillas-electrodepot-62",
@@ -772,7 +736,7 @@
       "piso"
     ],
     "url": "https://tidd.ly/3RjIhEC",
-    "image": null
+    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10001092.jpg"
   },
   {
     "id": "mueble-alto-leroy-merlin-63",
@@ -784,7 +748,7 @@
       "piso"
     ],
     "url": "https://tidd.ly/3v0f88R",
-    "image": null
+    "image": "https://media.adeo.com/media/2262955/media.png?width=640"
   },
   {
     "id": "azulejos-otro-64",
@@ -796,7 +760,7 @@
       "piso"
     ],
     "url": "https://www.artegres.es/",
-    "image": null
+    "image": "https://www.artegres.es/wp-content/uploads/2026/07/stn1002a.jpg"
   },
   {
     "id": "calzos-amazon-65",
@@ -820,7 +784,7 @@
       "piso"
     ],
     "url": "https://tidd.ly/3RjDHVV",
-    "image": null
+    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10016650.jpg"
   },
   {
     "id": "calefaccion-china-amazon-67",
@@ -832,7 +796,7 @@
       "furgo"
     ],
     "url": "https://amzn.to/47wwFTr",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/7122DeN0ofL._AC_UL320_.jpg"
   },
   {
     "id": "stove-leroy-merlin-68",
@@ -880,7 +844,7 @@
       "piso"
     ],
     "url": "https://tidd.ly/3sQP9ju",
-    "image": null
+    "image": "https://media.adeo.com/media/3059331/media.jpg?width=640"
   },
   {
     "id": "camara-de-marche-atras-otro-72",
@@ -904,7 +868,7 @@
       "piso"
     ],
     "url": "https://rb.gy/onzjq0",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Ha60a017d35384d01a266a0b071bb5deds.jpg_480x480q75.jpg_.avif"
   },
   {
     "id": "boca-de-agua-amazon-74",
@@ -940,7 +904,7 @@
       "furgo"
     ],
     "url": "https://amzn.to/3NlidHO",
-    "image": null
+    "image": "https://m.media-amazon.com/images/I/61g1P31O-9L._AC_UL320_.jpg"
   },
   {
     "id": "adaptador-mariposa-amazon-77",
@@ -965,7 +929,7 @@
       "piso"
     ],
     "url": "https://s.click.aliexpress.com/e/_DEtyVYZ",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0a7d36856440490695c2b00d243147bbJ.jpg_480x480q75.jpg_.avif"
   },
   {
     "id": "plato-de-ducha-brico-dep-t-79",
@@ -989,7 +953,7 @@
       "piso"
     ],
     "url": "https://tidd.ly/47PmDO0",
-    "image": null
+    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10013280.jpg"
   },
   {
     "id": "cierre-automatico-otro-81",
@@ -1013,7 +977,7 @@
       "piso"
     ],
     "url": "https://tidd.ly/406rUMQ",
-    "image": null
+    "image": "https://media.adeo.com/media/1835417/media.jpg?width=640"
   },
   {
     "id": "mueble-ba-o-leroy-merlin-83",
@@ -1025,7 +989,7 @@
       "piso"
     ],
     "url": "https://tidd.ly/49gnPdY",
-    "image": null
+    "image": "https://media.adeo.com/mkp/673c390c48f70613b635696d7a89e43c/media.png?width=640"
   },
   {
     "id": "cafetera-piso-amazon-84",
@@ -1049,7 +1013,7 @@
       "piso"
     ],
     "url": "https://s.click.aliexpress.com/e/_DdNIyAZ",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Seb126a038f0d423ea75760771a34f9d3W.jpg_480x480q75.jpg_.avif"
   },
   {
     "id": "proyetor-portatil-amazon-86",
@@ -1085,7 +1049,7 @@
       "furgo"
     ],
     "url": "https://s.click.aliexpress.com/e/_DcQ3Zy1",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35790e457fe14cfb9c16387699d211ac5.png_480x480.png_.avif"
   },
   {
     "id": "fiamma-40-amazon-89",
@@ -1148,18 +1112,6 @@
     "image": "https://m.media-amazon.com/images/I/61R3plE6h1L._AC_SX679_.jpg"
   },
   {
-    "id": "leche-leroy-merlin-94",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Leche (producto sin verificar, enlace roto)",
-    "price": null,
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/45nn7KI",
-    "image": null
-  },
-  {
     "id": "encimera-bauhaus-95",
     "type": "afiliado",
     "source": "Bauhaus",
@@ -1194,7 +1146,7 @@
       "furgo"
     ],
     "url": "https://s.click.aliexpress.com/e/_DBiE0SD",
-    "image": null
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd6a07f18837942db8c736823ad4f5e715.jpg_480x480q75.jpg_.avif"
   },
   {
     "id": "muebles-esquinero-leroy-merlin-98",
@@ -1206,7 +1158,7 @@
       "piso"
     ],
     "url": "https://tidd.ly/3uwoJUx",
-    "image": null
+    "image": "https://media.adeo.com/mkp/952721cb0f4ba9a014a0e92d145e7ae2/media.jpg?width=640"
   },
   {
     "id": "bateria-eco-worthy-amazon-99",
@@ -1278,7 +1230,7 @@
       "piso"
     ],
     "url": "https://tidd.ly/3uyrsNn",
-    "image": null
+    "image": "https://media.adeo.com/media/1921783/media.jpg?width=640"
   },
   {
     "id": "paint-ba-o-leroy-merlin-105",
@@ -1290,7 +1242,7 @@
       "piso"
     ],
     "url": "https://tidd.ly/486DYS5",
-    "image": null
+    "image": "https://media.adeo.com/media/3523874/media.png?width=640"
   },
   {
     "id": "extinctor-amazon-106",
