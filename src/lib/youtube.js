@@ -1,6 +1,22 @@
 // Fetches the latest videos from a YouTube channel's public RSS feed at build time.
 // No API key needed. Falls back to the given list if channelId is empty or the fetch fails,
 // so a missing/temporarily-down feed never breaks the build.
+//
+// In production this whole module only ever runs once, at build time - the deployed
+// page is static HTML, so real visitors never wait on YouTube. This cache only matters
+// for local dev, where Astro re-runs page frontmatter on every navigation: it keeps
+// repeated preview reloads within a few minutes of each other instant instead of
+// re-fetching and re-checking every video against YouTube again each time.
+const CACHE_TTL_MS = 5 * 60 * 1000;
+const cache = new Map();
+
+async function cached(key, fn) {
+  const hit = cache.get(key);
+  if (hit && Date.now() - hit.time < CACHE_TTL_MS) return hit.value;
+  const value = await fn();
+  cache.set(key, { value, time: Date.now() });
+  return value;
+}
 
 // The RSS feed doesn't flag Shorts vs. regular uploads. But requesting a video's
 // /shorts/{id} URL redirects to /watch?v={id} for regular long-form videos, and stays
@@ -16,7 +32,10 @@ async function isShort(videoId) {
 
 export async function fetchLatestVideos(channelId, limit, fallback) {
   if (!channelId) return fallback;
+  return cached(`videos:${channelId}:${limit}`, () => fetchLatestVideosUncached(channelId, limit, fallback));
+}
 
+async function fetchLatestVideosUncached(channelId, limit, fallback) {
   try {
     const res = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`);
     if (!res.ok) return fallback;
@@ -56,8 +75,12 @@ export async function fetchLatestVideos(channelId, limit, fallback) {
 async function fetchPlaylistThumbnail(url) {
   const match = url.match(/[?&]list=([^&]+)/);
   if (!match) return null;
+  return cached(`playlist-thumb:${match[1]}`, () => fetchPlaylistThumbnailUncached(match[1]));
+}
+
+async function fetchPlaylistThumbnailUncached(playlistId) {
   try {
-    const res = await fetch(`https://www.youtube.com/playlist?list=${match[1]}`);
+    const res = await fetch(`https://www.youtube.com/playlist?list=${playlistId}`);
     if (!res.ok) return null;
     const html = await res.text();
     return html.match(/property="og:image" content="([^"]+)"/)?.[1]?.replace(/&amp;/g, '&') ?? null;
