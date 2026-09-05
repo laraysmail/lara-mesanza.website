@@ -1,11 +1,13 @@
 ---
+import { Image } from 'astro:assets';
+
 interface Props {
   source: string;
   name: string;
   price: string | null;
   url: string;
   categories: string[];
-  image?: string | null;
+  image?: ImageMetadata | string | null;
   x?: string;
   d?: string;
 }
@@ -21,7 +23,13 @@ const { source, name, price, url, categories, image = null, x = '50px', d = '0s'
   style={`--x:${x}; --d:${d}`}
 >
   <div class="p-small-visual">
-    {image ? <img src={image} alt={name} loading="lazy" decoding="async" width="400" height="300" /> : <div class="p-small-visual-fallback"></div>}
+    {image && typeof image !== 'string' && (
+      <Image src={image} alt={name} widths={[300, 500]} sizes="(max-width: 900px) 50vw, 33vw" format="webp" quality={75} loading="lazy" />
+    )}
+    {image && typeof image === 'string' && (
+      <img src={image} alt={name} loading="lazy" decoding="async" width="400" height="300" />
+    )}
+    {!image && <div class="p-small-visual-fallback"></div>}
   </div>
   <div class="p-small-body">
     <span class="tag">{source}</span>

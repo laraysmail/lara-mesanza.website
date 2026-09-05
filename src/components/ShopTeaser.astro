@@ -2,6 +2,17 @@
 import products from '../data/products.json';
 import ProductFeature from './ProductFeature.astro';
 import ProductCard from './ProductCard.astro';
+import diagrama200ah from '../assets/products/diagrama-200ah.png';
+import diagrama100ah from '../assets/products/diagrama-100ah.jpg';
+import esquemaFontaneria from '../assets/products/esquema-fontaneria.png';
+import plantillaConsumo from '../assets/products/plantilla-consumo.jpg';
+
+const digitalImages: Record<string, ImageMetadata> = {
+  'diagrama-200ah': diagrama200ah,
+  'diagrama-100ah': diagrama100ah,
+  'esquema-fontaneria': esquemaFontaneria,
+  'plantilla-consumo-electrico': plantillaConsumo,
+};
 
 const featured = products.find((p) => p.featured) ?? products[0];
 const rest = products.filter((p) => p.id !== featured.id).slice(0, 2);
@@ -18,9 +29,9 @@ const rest = products.filter((p) => p.id !== featured.id).slice(0, 2);
       <p>Enlaces directos a Amazon, AliExpress y Leroy Merlin, más mis propios diagramas y plantillas. <a class="see-all" href="/tienda">Ver toda la tienda →</a></p>
     </div>
     <div class="shop-grid">
-      <ProductFeature tag={featured.tag ?? 'Producto propio'} name={featured.name} price={featured.price} url={featured.url} categories={featured.categories} />
+      <ProductFeature tag={featured.tag ?? 'Producto propio'} name={featured.name} price={featured.price} url={featured.url} categories={featured.categories} image={digitalImages[featured.id] ?? featured.image} />
       {rest.map((p, i) => (
-        <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} x="50px" d={`${0.05 + i * 0.1}s`} />
+        <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} image={digitalImages[p.id] ?? p.image} x="50px" d={`${0.05 + i * 0.1}s`} />
       ))}
     </div>
   </div>
