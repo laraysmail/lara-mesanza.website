@@ -1,14 +1,23 @@
 ---
+import { getImage } from 'astro:assets';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import defaultOgImage from '../assets/site/lara-avatar.jpg';
 import '../styles/global.css';
 
 interface Props {
   title: string;
   description: string;
+  ogImage?: ImageMetadata;
 }
 
-const { title, description } = Astro.props;
+const { title, description, ogImage = defaultOgImage } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const optimizedOg = await getImage({ src: ogImage, width: 1200, height: 1200, format: 'jpg' });
+const ogImageURL = new URL(optimizedOg.src, Astro.site);
+
+const siteName = 'Lara Mesanza';
 ---
 
 <!DOCTYPE html>
@@ -18,8 +27,38 @@ const { title, description } = Astro.props;
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
   <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalURL} />
+  <meta name="theme-color" content="#101915" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={siteName} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonicalURL} />
+  <meta property="og:image" content={ogImageURL} />
+  <meta property="og:locale" content="es_ES" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImageURL} />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Lara Mesanza',
+    url: 'https://laramesanza.com',
+    image: ogImageURL.toString(),
+    sameAs: [
+      'https://www.youtube.com/@LaraMesanza',
+      'https://www.instagram.com/lara_mesanza',
+      'https://www.tiktok.com/@laramesanza',
+    ],
+    jobTitle: 'Creadora de contenido de camperización y viajes',
+  })} />
 </head>
 <body>
   <Header />
