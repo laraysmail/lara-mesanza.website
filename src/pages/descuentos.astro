@@ -2,10 +2,16 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHeader from '../components/PageHeader.astro';
 import DiscountsSection from '../components/DiscountsSection.astro';
+import descuentosHeaderPhoto from '../assets/site/header-tea-plantation.jpg';
 ---
 
 <BaseLayout title="Descuentos — Lara Mesanza" description="Los códigos de descuento reales que uso yo misma, de las marcas con las que colaboramos.">
-  <PageHeader kicker="// ahorra de verdad" description="Los códigos y enlaces reales que uso yo misma, de las marcas con las que colaboramos.">
+  <PageHeader
+    kicker="// ahorra de verdad"
+    description="Los códigos y enlaces reales que uso yo misma, de las marcas con las que colaboramos."
+    image={descuentosHeaderPhoto}
+    imageAlt="Lara Mesanza caminando entre plantaciones de té en un viaje"
+  >
     <Fragment slot="title">Descuentos que <span>uso yo misma</span></Fragment>
   </PageHeader>
   <div class="descuentos-spacer"></div>

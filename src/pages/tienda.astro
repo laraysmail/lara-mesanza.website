@@ -10,6 +10,7 @@ import diagrama200ah from '../assets/products/diagrama-200ah.png';
 import diagrama100ah from '../assets/products/diagrama-100ah.jpg';
 import esquemaFontaneria from '../assets/products/esquema-fontaneria.png';
 import plantillaConsumo from '../assets/products/plantilla-consumo.jpg';
+import tiendaHeaderPhoto from '../assets/site/path-diy-painting.webp';
 
 const digitalImages: Record<string, ImageMetadata> = {
   'diagrama-200ah': diagrama200ah,
@@ -26,6 +27,8 @@ const affiliate = products.filter((p) => p.type === 'afiliado');
   <PageHeader
     kicker="// el escaparate"
     description="Arriba, lo que creamos nosotros: diagramas y guías descargables. Abajo, enlaces directos a todo lo que hemos comprado, instalado o usado de verdad."
+    image={tiendaHeaderPhoto}
+    imageAlt="Lara Mesanza pintando el interior de una furgoneta camperizada"
   >
     <Fragment slot="title">Lo que usamos: furgo, camión o <span>piso</span></Fragment>
   </PageHeader>

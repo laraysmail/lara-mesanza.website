@@ -5,6 +5,7 @@ import AmbientBlob from '../components/AmbientBlob.astro';
 import ServiceCard from '../components/ServiceCard.astro';
 import services from '../data/services.json';
 import asesoramientoElectrico from '../assets/pages/asesoramiento-electrico.jpeg';
+import asesoramientoHeaderPhoto from '../assets/site/hero-van-build.jpg';
 
 // TODO: swap for the real Google Business Profile review link once it exists
 const googleReviewsUrl = '#';
@@ -14,6 +15,8 @@ const googleReviewsUrl = '#';
   <PageHeader
     kicker="// para cuando quieres ayuda de verdad"
     description="El sistema eléctrico es lo que más miedo da de camperizar. Smaïl lleva más de 20 asesoramientos ayudando a gente sin experiencia previa a instalar el suyo con cabeza."
+    image={asesoramientoHeaderPhoto}
+    imageAlt="Lara Mesanza y su pareja trabajando en la reforma eléctrica de una furgoneta"
   >
     <Fragment slot="title">Asesoramiento</Fragment>
   </PageHeader>

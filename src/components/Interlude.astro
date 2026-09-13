@@ -1,4 +1,18 @@
+---
+import { Image } from 'astro:assets';
+import interludePhoto from '../assets/site/interlude-campsite-coffee.jpg';
+---
+
 <section class="interlude">
+  <Image
+    src={interludePhoto}
+    alt="Lara Mesanza preparando café en un desayuno improvisado junto al coche camperizado"
+    class="interlude-photo"
+    widths={[480, 800, 1200, 1800]}
+    sizes="100vw"
+    loading="lazy"
+  />
+  <div class="interlude-tint"></div>
   <div class="interlude-mark">03</div>
   <div class="wrap reveal">
     <div class="interlude-line">Contenido real, sin postureo.<br>Para inspirarte, porque tú también puedes hacerlo.</div>
@@ -10,9 +24,15 @@
     position: relative; overflow: hidden; background: var(--pop); color: var(--pine);
     padding: 90px 0; display: flex; align-items: center; justify-content: center;
   }
+  .interlude-photo {
+    position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 65%;
+  }
+  .interlude-tint {
+    position: absolute; inset: 0; z-index: 0; background: var(--pop); opacity: 0.82;
+  }
   .interlude-mark {
     position: absolute; font-family: var(--display); font-weight: 700; font-size: 13rem; line-height: 1;
-    color: rgba(16,25,21,0.08); top: -12%; right: -3%; z-index: 0; user-select: none;
+    color: rgba(16,25,21,0.08); top: -12%; right: -3%; z-index: 1; user-select: none;
   }
   @media (max-width: 760px) { .interlude-mark { display: none; } }
   .interlude-line {
