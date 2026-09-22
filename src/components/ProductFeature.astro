@@ -8,11 +8,20 @@ interface Props {
   url: string;
   categories: string[];
   image?: ImageMetadata | string | null;
+  href?: string;
 }
-const { tag, name, price, url, categories, image = null } = Astro.props;
+const { tag, name, price, url, categories, image = null, href } = Astro.props;
+const linkHref = href ?? url;
+const isExternal = linkHref.startsWith('http');
 ---
 
-<a href={url} target={url === '#' ? undefined : '_blank'} rel={url === '#' ? undefined : 'noopener noreferrer'} class:list={['p-feature', 'tilt-card', { 'has-image': !!image }]} data-category={categories.join(' ')}>
+<a
+  href={linkHref}
+  target={isExternal ? '_blank' : undefined}
+  rel={isExternal ? 'noopener noreferrer' : undefined}
+  class:list={['p-feature', 'tilt-card', { 'has-image': !!image }]}
+  data-category={categories.join(' ')}
+>
   {image && typeof image !== 'string' && (
     <Image class="p-feature-img" src={image} alt={`Vista previa de ${name}`} widths={[400, 700, 1000]} sizes="(max-width: 760px) 100vw, 50vw" format="webp" quality={75} loading="lazy" />
   )}
@@ -23,7 +32,7 @@ const { tag, name, price, url, categories, image = null } = Astro.props;
     <span class="tag">{tag}</span>
     <h3>{name}</h3>
     <div class="price">{price}</div>
-    <span class="cta">Comprar ahora →</span>
+    <span class="cta">{href ? 'Ver el producto →' : 'Comprar ahora →'}</span>
   </div>
 </a>
 

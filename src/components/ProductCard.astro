@@ -10,14 +10,17 @@ interface Props {
   image?: ImageMetadata | string | null;
   x?: string;
   d?: string;
+  href?: string;
 }
-const { source, name, price, url, categories, image = null, x = '50px', d = '0s' } = Astro.props;
+const { source, name, price, url, categories, image = null, x = '50px', d = '0s', href } = Astro.props;
+const linkHref = href ?? url;
+const isExternal = linkHref.startsWith('http');
 ---
 
 <a
-  href={url}
-  target={url === '#' ? undefined : '_blank'}
-  rel={url === '#' ? undefined : 'noopener noreferrer'}
+  href={linkHref}
+  target={isExternal ? '_blank' : undefined}
+  rel={isExternal ? 'noopener noreferrer' : undefined}
   class="p-small tilt-card slide-in"
   data-category={categories.join(' ')}
   style={`--x:${x}; --d:${d}`}

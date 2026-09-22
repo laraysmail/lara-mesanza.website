@@ -1,0 +1,121 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import products from '../../data/products.json';
+import diagrama200ah from '../../assets/products/diagrama-200ah.png';
+import diagrama100ah from '../../assets/products/diagrama-100ah.jpg';
+import esquemaFontaneria from '../../assets/products/esquema-fontaneria.png';
+import plantillaConsumo from '../../assets/products/plantilla-consumo.jpg';
+
+const digitalImages: Record<string, ImageMetadata> = {
+  'diagrama-200ah': diagrama200ah,
+  'diagrama-100ah': diagrama100ah,
+  'esquema-fontaneria': esquemaFontaneria,
+  'plantilla-consumo-electrico': plantillaConsumo,
+};
+
+export function getStaticPaths() {
+  return products
+    .filter((p) => p.type === 'propio')
+    .map((p) => ({ params: { id: p.id }, props: { product: p } }));
+}
+
+const { product } = Astro.props;
+const image = digitalImages[product.id] ?? product.image;
+const canBuy = product.url && product.url !== '#';
+const payhipProduct = canBuy ? product.url.split('/').pop() : undefined;
+---
+
+<BaseLayout title={`${product.name} — Lara Mesanza`} description={product.intro ?? product.name}>
+  <PageHeader kicker="// producto propio" description={product.intro}>
+    <Fragment slot="title">{product.name}</Fragment>
+  </PageHeader>
+
+  <section class="product-detail">
+    <div class="wrap detail-grid reveal">
+      <div class="detail-visual">
+        {typeof image !== 'string' ? (
+          <Image src={image} alt={`Vista previa de ${product.name}`} widths={[500, 800, 1100]} sizes="(max-width: 860px) 100vw, 50vw" format="webp" quality={80} loading="eager" />
+        ) : (
+          <img src={image} alt={`Vista previa de ${product.name}`} loading="eager" decoding="async" />
+        )}
+      </div>
+      <div class="detail-body">
+        <span class="tag">{product.tag ?? 'Producto propio'}</span>
+        <h2>{product.name}</h2>
+        <div class="price">{product.price}</div>
+
+        {product.bullets && (
+          <ul>
+            {product.bullets.map((b: string) => <li>{b}</li>)}
+          </ul>
+        )}
+
+        {product.outro && <p class="outro">{product.outro}</p>}
+
+        {canBuy ? (
+          <a class="buy-btn payhip-buy-button" href={product.url} data-product={payhipProduct} target="_blank" rel="noopener noreferrer">Comprar ahora →</a>
+        ) : (
+          <span class="buy-btn is-disabled">Próximamente</span>
+        )}
+
+        <a class="back-link" href="/tienda">← Volver a la tienda</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .product-detail { padding: 70px 0 120px; }
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+  @media (max-width: 860px) { .detail-grid { grid-template-columns: 1fr; } }
+
+  .detail-visual {
+    aspect-ratio: 4/3; border-radius: 24px; overflow: hidden;
+    background: radial-gradient(circle at 75% 20%, rgba(193,96,47,0.22), transparent 55%), linear-gradient(150deg, var(--moss), var(--pine));
+  }
+  .detail-visual img { width: 100%; height: 100%; object-fit: cover; }
+
+  .detail-body .tag {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase; color: var(--popd);
+    background: rgba(193,96,47,0.1); padding: 6px 14px; border-radius: 100px; display: inline-block;
+  }
+  .detail-body h2 { font-family: var(--display); font-weight: 700; font-size: clamp(1.7rem, 3.2vw, 2.3rem); margin: 18px 0 8px; letter-spacing: -.015em; }
+  .detail-body .price { font-family: var(--mono); font-size: 1.1rem; color: var(--forest); opacity: .8; }
+
+  .detail-body ul { margin-top: 26px; display: flex; flex-direction: column; gap: 12px; }
+  .detail-body li { font-size: .96rem; line-height: 1.55; color: var(--forest); opacity: .85; display: flex; gap: 10px; align-items: flex-start; }
+  .detail-body li::before { content: "—"; color: var(--popd); flex-shrink: 0; }
+
+  .detail-body .outro { margin-top: 22px; font-size: .96rem; line-height: 1.6; opacity: .8; max-width: 480px; }
+
+  .buy-btn {
+    margin-top: 30px; display: inline-flex; align-items: center; gap: 8px; background: var(--pop); color: var(--pine);
+    font-family: var(--display); font-weight: 600; font-size: 14.5px; padding: 15px 28px; border-radius: 100px;
+    transition: background .25s ease, transform .25s ease;
+  }
+  .buy-btn:hover { background: #d97442; transform: translateY(-2px); }
+  .buy-btn.is-disabled { background: rgba(60,92,77,0.15); color: var(--forest); opacity: .6; cursor: default; }
+
+  /* Payhip's embed script injects its own theme classes (e.g. payhip-green-styled-button)
+     with their own colors — override so the button matches the site instead. */
+  .buy-btn.payhip-buy-button,
+  .buy-btn.payhip-styled-button,
+  .buy-btn.payhip-green-styled-button {
+    background: var(--pop) !important;
+    border: none !important;
+    border-radius: 100px !important;
+    color: var(--pine) !important;
+    font-family: var(--display) !important;
+    font-weight: 600 !important;
+    font-size: 14.5px !important;
+    padding: 15px 28px !important;
+  }
+  .buy-btn.payhip-buy-button:hover { background: #d97442 !important; }
+
+  .back-link {
+    display: block; margin-top: 18px; font-family: var(--display); font-weight: 600; font-size: 13.5px; color: var(--popd); opacity: .8;
+  }
+  .back-link:hover { opacity: 1; }
+</style>

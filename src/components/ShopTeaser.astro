@@ -29,9 +29,9 @@ const rest = products.filter((p) => p.id !== featured.id).slice(0, 2);
       <p>Enlaces directos a Amazon, AliExpress y Leroy Merlin, más mis propios diagramas y plantillas. <a class="see-all" href="/tienda">Ver toda la tienda →</a></p>
     </div>
     <div class="shop-grid">
-      <ProductFeature tag={featured.tag ?? 'Producto propio'} name={featured.name} price={featured.price} url={featured.url} categories={featured.categories} image={digitalImages[featured.id] ?? featured.image} />
+      <ProductFeature tag={featured.tag ?? 'Producto propio'} name={featured.name} price={featured.price} url={featured.url} categories={featured.categories} image={digitalImages[featured.id] ?? featured.image} href={featured.type === 'propio' ? `/tienda/${featured.id}` : undefined} />
       {rest.map((p, i) => (
-        <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} image={digitalImages[p.id] ?? p.image} x="50px" d={`${0.05 + i * 0.1}s`} />
+        <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} image={digitalImages[p.id] ?? p.image} x="50px" d={`${0.05 + i * 0.1}s`} href={p.type === 'propio' ? `/tienda/${p.id}` : undefined} />
       ))}
     </div>
   </div>
