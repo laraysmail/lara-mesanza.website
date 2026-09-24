@@ -11,9 +11,9 @@
     ],
     "url": "https://payhip.com/b/oOZb1",
     "image": "https://laramesanza.com/wp-content/uploads/2025/04/notebook-mockup-on-desk-1.png",
-    "intro": "Este es el diagrama eléctrico que usamos nosotros en nuestro camión camper: un sistema de 200Ah en litio LiFePO4, 840W de solar entre dos placas, e inversor de 1500W para tener 220V cuando lo necesitamos. No es una plantilla genérica sacada de internet, es el esquema real, montado y probado, con cada cable, cada sección y cada amperaje marcado.",
+    "intro": "Este es el diagrama que usamos nosotros en nuestro camión camper: un sistema completo a 12 voltios, con tres formas de carga (solar, punto externo y alternador) e inversor para poder cargar también a 220V. No es una plantilla genérica sacada de internet, es el esquema real, montado y probado.",
     "bullets": [
-      "El diagrama completo, ampliable con zoom para seguir el recorrido de cada cable desde la batería hasta cada consumo, con la leyenda explicada al lado",
+      "El diagrama completo, ampliable con zoom, con la leyenda explicada al lado",
       "Una guía para leerlo paso a paso, pensada para gente sin experiencia previa en electricidad",
       "Una lista de material interactiva, con enlaces directos a donde comprar cada cosa",
       "Descuentos reales en algunas de las marcas que usamos"
@@ -32,9 +32,9 @@
     ],
     "url": "https://payhip.com/b/euQ01",
     "image": "https://laramesanza.com/wp-content/uploads/2024/03/CALCULADORA-DE-CONSUMO-CAMPER.jpg",
-    "intro": "Este es el diagrama eléctrico de nuestra furgoneta camper: un sistema de 100Ah en litio LiFePO4, 320W de solar entre dos placas, booster Victron de 18A para cargar desde el motor, e inversor de 1000W para tener 220V. Es el sistema real que usamos como referencia, no una plantilla genérica, así que puedes copiarlo tal cual si tu furgo tiene un consumo parecido, o usarlo de base y ajustarlo al tuyo.",
+    "intro": "Este es el diagrama que usamos nosotros en nuestra furgoneta camper: un sistema completo a 12 voltios, con varias formas de carga e inversor para tener también 220V. Es el sistema real que usamos como referencia, así que puedes copiarlo tal cual o usarlo de base y ajustarlo al tuyo.",
     "bullets": [
-      "El diagrama completo, ampliable con zoom para seguir cada cable desde la batería hasta cada consumo, con la leyenda explicada al lado",
+      "El diagrama completo, ampliable con zoom, con la leyenda explicada al lado",
       "Una guía para leerlo paso a paso, pensada para gente sin experiencia previa en electricidad",
       "Una lista de material interactiva, con enlaces directos a donde comprar cada cosa",
       "Descuentos reales en algunas de las marcas que usamos"
@@ -54,9 +54,9 @@
     ],
     "url": "https://payhip.com/b/Lw84u",
     "image": "https://laramesanza.com/wp-content/uploads/2025/03/drawing-on-tablet-screen-sockup.png",
-    "intro": "Este es el esquema de fontanería de nuestro camper: el sistema real que usamos, calculado y montado por nosotros, no una plantilla genérica sacada de internet. Aquí tienes el recorrido completo del agua, pieza a pieza, con todo lo que necesitas para copiarlo tal cual o adaptarlo al tuyo.",
+    "intro": "Este es el esquema de fontanería que usamos nosotros en nuestro camper: el sistema de agua completo, montado y probado, no una plantilla genérica sacada de internet. Puedes copiarlo tal cual o adaptarlo al tuyo.",
     "bullets": [
-      "El esquema completo, ampliable con zoom, para seguir el recorrido del agua desde el depósito hasta cada grifo",
+      "El esquema completo, ampliable con zoom, para seguir el recorrido del agua",
       "Una guía para leerlo paso a paso, incluyendo cómo ajustar tu sistema si tienes más o menos puntos de agua",
       "La lista de material exacta, con enlaces directos a donde comprar cada cosa",
       "Descuentos reales en algunas de las marcas que usamos"
@@ -77,10 +77,10 @@
     ],
     "url": "#",
     "image": "https://laramesanza.com/wp-content/uploads/2024/03/CALCULADORA-DE-CONSUMO-CAMPER-1.jpg",
-    "intro": "Antes de montar cualquier sistema eléctrico, hay que saber cuánto vas a gastar de verdad. Esta plantilla interactiva te lo calcula: metes tus aparatos y sus horas de uso, y te dice el consumo diario real, para que elijas la batería y el solar que necesitas sin quedarte corto ni pagar de más.",
+    "intro": "Antes de montar cualquier sistema eléctrico, hay que saber cuánto vas a gastar de verdad. Esta plantilla interactiva te lo calcula, para que elijas la batería y el solar que necesitas sin quedarte corto ni pagar de más.",
     "bullets": [
       "Plantilla interactiva donde vas metiendo tus aparatos y horas de uso",
-      "Cálculo automático de tu consumo diario en Ah y Wh",
+      "Cálculo automático de tu consumo diario",
       "Pensada para gente sin experiencia previa en electricidad"
     ],
     "outro": "Si todavía no sabes qué batería o qué solar necesitas, empieza por aquí antes de comprar nada."
