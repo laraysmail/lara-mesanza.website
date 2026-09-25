@@ -1,7 +1,15 @@
+---
+import { Image } from 'astro:assets';
+import advisoryPhoto from '../assets/pages/asesoramiento-electrico.jpeg';
+---
+
 <section class="advisory" id="asesoramiento-teaser">
   <div class="wrap reveal">
     <div class="advisory-grid">
-      <div class="advisory-visual"><span class="badge">Asesoramiento</span></div>
+      <div class="advisory-visual">
+        <Image class="advisory-img" src={advisoryPhoto} alt="Diagrama eléctrico camper diseñado a medida" widths={[400, 700, 1000]} sizes="(max-width: 860px) 100vw, 50vw" format="webp" quality={78} loading="lazy" />
+        <span class="badge">Asesoramiento</span>
+      </div>
       <div class="advisory-body">
         <span class="kicker" style="color:var(--pop);">// para cuando quieres ayuda de verdad</span>
         <h2>Diagrama eléctrico, diseñado para ti</h2>
@@ -21,7 +29,9 @@
     aspect-ratio: 4/3; border-radius: 22px; position: relative; overflow: hidden;
     background: radial-gradient(circle at 75% 20%, rgba(193,96,47,0.28), transparent 55%), linear-gradient(150deg, var(--moss), var(--pine));
   }
+  .advisory-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
   .advisory-visual .badge {
+    z-index: 1;
     position: absolute; top: 18px; left: 18px; font-family: var(--mono); font-size: 10.5px; text-transform: uppercase;
     background: rgba(16,25,21,0.55); color: var(--pop); padding: 6px 14px; border-radius: 100px; border: 1px solid rgba(193,96,47,0.35);
   }
