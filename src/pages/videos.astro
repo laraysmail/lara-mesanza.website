@@ -3,6 +3,8 @@ import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import VideoCard from '../components/VideoCard.astro';
 import videoHeaderPhoto from '../assets/site/header-diving.jpg';
+import instagramPhoto from '../assets/site/path-viaje-hitchhiking.jpg';
+import tiktokPhoto from '../assets/site/header-tea-plantation.jpg';
 import site from '../data/site.json';
 import videosFallback from '../data/videos.json';
 import playlistsData from '../data/playlists.json';
@@ -60,6 +62,7 @@ const xDirs = ['-40px', '40px', '-40px'];
       <h2>El resto, en Instagram y TikTok</h2>
       <div class="social-grid">
         <a href={instagramUrl} class="social-card instagram" target="_blank" rel="noopener noreferrer">
+          <Image class="social-card-photo" src={instagramPhoto} alt="Lara Mesanza haciendo autostop en una carretera" widths={[400, 700, 1000]} sizes="(max-width: 860px) 100vw, 50vw" loading="lazy" />
           <div class="social-card-bg"></div>
           <div class="social-card-body">
             <div class="social-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></div>
@@ -69,6 +72,7 @@ const xDirs = ['-40px', '40px', '-40px'];
           </div>
         </a>
         <a href={tiktokUrl} class="social-card tiktok" target="_blank" rel="noopener noreferrer">
+          <Image class="social-card-photo" src={tiktokPhoto} alt="Lara Mesanza caminando entre plantaciones de té" widths={[400, 700, 1000]} sizes="(max-width: 860px) 100vw, 50vw" loading="lazy" />
           <div class="social-card-bg"></div>
           <div class="social-card-body">
             <div class="social-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 3c.3 2 1.7 3.4 4 3.6v3c-1.5 0-2.8-.4-4-1.2v6.4a5.8 5.8 0 11-5-5.7v3.1a2.7 2.7 0 102.2 2.6V3h2.8z"/></svg></div>
@@ -145,7 +149,8 @@ const xDirs = ['-40px', '40px', '-40px'];
     display: flex; align-items: flex-end; transition: transform .35s cubic-bezier(.16,1,.3,1);
   }
   .social-card:hover { transform: translateY(-6px); }
-  .social-card-bg { position: absolute; inset: 0; }
+  .social-card-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; }
+  .social-card-bg { position: absolute; inset: 0; opacity: .82; }
   .social-card.instagram .social-card-bg { background: radial-gradient(circle at 75% 20%, rgba(193,96,47,0.3), transparent 55%), linear-gradient(150deg, var(--moss), var(--pine)); }
   .social-card.tiktok .social-card-bg { background: radial-gradient(circle at 25% 25%, rgba(60,92,77,0.4), transparent 55%), linear-gradient(160deg, var(--forest), var(--pine)); }
 
