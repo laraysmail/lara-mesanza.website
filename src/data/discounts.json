@@ -1,25 +1,14 @@
 [
   {
-    "id": "nordkapp",
-    "name": "NordKapp",
-    "description": "Calefacción estacionaria homologable para tu furgo o camión.",
-    "category": "camper",
-    "discountType": "fixed",
-    "value": 20,
-    "code": "LARA",
-    "url": "https://nord-kapp.com?bg_ref=XSjWxanWq7",
-    "logo": "/logos/nordkapp-logo.png"
-  },
-  {
-    "id": "forohomologar",
-    "name": "Forohomologar",
-    "description": "Homologación de instalaciones camper con papeleo en regla.",
-    "category": "camper",
+    "id": "iati",
+    "name": "Iati Seguros",
+    "description": "Seguro de viaje y de camper, mismo enlace para los dos.",
+    "category": "camper viaje",
     "discountType": "percentage",
     "value": 5,
     "code": null,
-    "url": "https://www.forohomologar.com/colaboracion-con-lara-mesanza/",
-    "logo": "/logos/forohomologar-logo.png"
+    "url": "https://www.iatiseguros.com?r=06304123368755&utm_source=colaboradores&utm_medium=referral",
+    "logo": "/logos/iati-logo.png"
   },
   {
     "id": "chapka",
@@ -33,15 +22,103 @@
     "logo": "/logos/chapka-logo.png"
   },
   {
-    "id": "iati",
-    "name": "Iati Seguros",
-    "description": "Seguro de viaje y de camper, mismo enlace para los dos.",
-    "category": "camper viaje",
+    "id": "campercover",
+    "name": "Campercover",
+    "description": "Seguro específico para vehículos camperizados.",
+    "category": "camper",
     "discountType": "percentage",
     "value": 5,
     "code": null,
-    "url": "https://www.iatiseguros.com?r=06304123368755&utm_source=colaboradores&utm_medium=referral",
-    "logo": "/logos/iati-logo.png"
+    "url": "https://www.campercover.es/seguros-campers/precios-seguro-camper?campaign=CAMPERIZA&collaborator=LARA",
+    "logo": "/logos/campercover-logo.png"
+  },
+  {
+    "id": "yescapa",
+    "name": "Yescapa",
+    "description": "Alquiler de furgonetas camper, tipo Airbnb.",
+    "category": "camper viaje",
+    "discountType": "fixed",
+    "value": 20,
+    "code": "LARAME",
+    "url": "https://c3po.link/Q9AWVqYruZ",
+    "logo": "/logos/yescapa-logo.png"
+  },
+  {
+    "id": "nordkapp",
+    "name": "NordKapp",
+    "description": "Calefacción estacionaria homologable para tu furgo o camión.",
+    "category": "camper",
+    "discountType": "fixed",
+    "value": 20,
+    "code": "LARA",
+    "url": "https://nord-kapp.com?bg_ref=XSjWxanWq7",
+    "logo": "/logos/nordkapp-logo.png"
+  },
+  {
+    "id": "ecoworthy",
+    "name": "Ecoworthy",
+    "description": "Baterías y placas solares para tu sistema eléctrico camper.",
+    "category": "camper",
+    "discountType": "link",
+    "value": null,
+    "code": null,
+    "url": "https://es.eco-worthy.com?sca_ref=8497929.pfoSziAJjj",
+    "logo": "/logos/ecoworthy-logo.png"
+  },
+  {
+    "id": "allpowers",
+    "name": "AllPowers",
+    "description": "Estaciones de energía portátil para tu sistema eléctrico.",
+    "category": "camper",
+    "discountType": "percentage",
+    "value": 10,
+    "code": "LARAM10",
+    "url": "https://iallpowers.eu/?ref=jrvnzwek",
+    "logo": "/logos/allpowers-logo.png"
+  },
+  {
+    "id": "hitway",
+    "name": "Hitway",
+    "description": "Generador portátil para tener energía donde sea.",
+    "category": "vida viaje",
+    "discountType": "fixed",
+    "value": 30,
+    "code": "LARAMESANZA",
+    "url": "https://hitway.eu/products/bk35",
+    "logo": "/logos/hitway-logo.png"
+  },
+  {
+    "id": "forohomologar",
+    "name": "Forohomologar",
+    "description": "Homologación de instalaciones camper con papeleo en regla.",
+    "category": "camper",
+    "discountType": "percentage",
+    "value": 5,
+    "code": null,
+    "url": "https://www.forohomologar.com/colaboracion-con-lara-mesanza/",
+    "logo": "/logos/forohomologar-logo.png"
+  },
+  {
+    "id": "fiverr",
+    "name": "Fiverr",
+    "description": "Servicios freelance para lo que necesites en tu proyecto.",
+    "category": "vida",
+    "discountType": "percentage",
+    "value": 10,
+    "code": null,
+    "url": "https://go.fiverr.com/visit/?bta=909232",
+    "logo": "/logos/fiverr-logo.png"
+  },
+  {
+    "id": "skyscanner",
+    "name": "Skyscanner",
+    "description": "Compara vuelos y encuentra los más baratos para tu próximo viaje.",
+    "category": "viaje",
+    "discountType": "link",
+    "value": null,
+    "code": null,
+    "url": "https://skyscanner.pxf.io/k4Q7Ld",
+    "logo": "/logos/skyscanner-logo.png"
   },
   {
     "id": "wetaca",
@@ -53,6 +130,17 @@
     "code": "LARAM8846",
     "url": "https://www.wetaca.com/home",
     "logo": "/logos/wetaca-logo.png"
+  },
+  {
+    "id": "leroymerlin",
+    "name": "Leroy Merlin",
+    "description": "Materiales de bricolaje y reforma para tu proyecto.",
+    "category": "camper",
+    "discountType": "link",
+    "value": null,
+    "code": null,
+    "url": "https://tidd.ly/4hExD59",
+    "logo": "/logos/leroymerlin-logo.png"
   },
   {
     "id": "amazon-prime-student",
@@ -75,93 +163,5 @@
     "code": "LaraMesanza5%",
     "url": "https://bit.ly/41UDTRC",
     "logo": "/logos/imara-logo.png"
-  },
-  {
-    "id": "fiverr",
-    "name": "Fiverr",
-    "description": "Servicios freelance para lo que necesites en tu proyecto.",
-    "category": "vida",
-    "discountType": "percentage",
-    "value": 10,
-    "code": null,
-    "url": "https://go.fiverr.com/visit/?bta=909232",
-    "logo": "/logos/fiverr-logo.png"
-  },
-  {
-    "id": "allpowers",
-    "name": "AllPowers",
-    "description": "Estaciones de energía portátil para tu sistema eléctrico.",
-    "category": "camper",
-    "discountType": "percentage",
-    "value": 10,
-    "code": "LARAM10",
-    "url": "https://iallpowers.eu/?ref=jrvnzwek",
-    "logo": "/logos/allpowers-logo.png"
-  },
-  {
-    "id": "yescapa",
-    "name": "Yescapa",
-    "description": "Alquiler de furgonetas camper, tipo Airbnb.",
-    "category": "camper viaje",
-    "discountType": "fixed",
-    "value": 20,
-    "code": "LARAME",
-    "url": "https://c3po.link/Q9AWVqYruZ",
-    "logo": "/logos/yescapa-logo.png"
-  },
-  {
-    "id": "campercover",
-    "name": "Campercover",
-    "description": "Seguro específico para vehículos camperizados.",
-    "category": "camper",
-    "discountType": "percentage",
-    "value": 5,
-    "code": null,
-    "url": "https://www.campercover.es/seguros-campers/precios-seguro-camper?campaign=CAMPERIZA&collaborator=LARA",
-    "logo": "/logos/campercover-logo.png"
-  },
-  {
-    "id": "ecoworthy",
-    "name": "Ecoworthy",
-    "description": "Baterías y placas solares para tu sistema eléctrico camper.",
-    "category": "camper",
-    "discountType": "link",
-    "value": null,
-    "code": null,
-    "url": "https://es.eco-worthy.com?sca_ref=8497929.pfoSziAJjj",
-    "logo": "/logos/ecoworthy-logo.png"
-  },
-  {
-    "id": "hitway",
-    "name": "Hitway",
-    "description": "Generador portátil para tener energía donde sea.",
-    "category": "vida viaje",
-    "discountType": "fixed",
-    "value": 30,
-    "code": "LARAMESANZA",
-    "url": "https://hitway.eu/products/bk35",
-    "logo": "/logos/hitway-logo.png"
-  },
-  {
-    "id": "skyscanner",
-    "name": "Skyscanner",
-    "description": "Compara vuelos y encuentra los más baratos para tu próximo viaje.",
-    "category": "viaje",
-    "discountType": "link",
-    "value": null,
-    "code": null,
-    "url": "https://skyscanner.pxf.io/k4Q7Ld",
-    "logo": "/logos/skyscanner-logo.png"
-  },
-  {
-    "id": "leroymerlin",
-    "name": "Leroy Merlin",
-    "description": "Materiales de bricolaje y reforma para tu proyecto.",
-    "category": "camper",
-    "discountType": "link",
-    "value": null,
-    "code": null,
-    "url": "https://tidd.ly/4hExD59",
-    "logo": "/logos/leroymerlin-logo.png"
   }
 ]
