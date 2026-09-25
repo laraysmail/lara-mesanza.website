@@ -152,16 +152,5 @@
     "code": null,
     "url": "https://www.amazon.es/joinstudent",
     "logo": "/logos/amazon-prime-student-logo.png"
-  },
-  {
-    "id": "imara",
-    "name": "Imara",
-    "description": "Descuento especial en tus primeros pedidos.",
-    "category": "vida",
-    "discountType": "percentage",
-    "value": 5,
-    "code": "LaraMesanza5%",
-    "url": "https://bit.ly/41UDTRC",
-    "logo": "/logos/imara-logo.png"
   }
 ]
