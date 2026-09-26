@@ -48,8 +48,8 @@
     "name": "Kangura",
     "description": "Portabebés ergonómicos: las mochilas con las que viajamos con la peque.",
     "category": "viaje",
-    "discountType": "link",
-    "value": null,
+    "discountType": "percentage",
+    "value": 10,
     "code": "LARAMESANZA",
     "url": "https://kangura.com/es/",
     "logo": "/logos/kangura-logo.svg"
