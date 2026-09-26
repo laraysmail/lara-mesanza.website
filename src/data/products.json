@@ -1323,5 +1323,18 @@
     ],
     "url": "https://kangura.com/es/tienda-online/mochilas/mochila-portabebes-ultraligera-beco-fly",
     "image": "https://kangura.com/uploads/colors/mochila-ultraligera-beco-fly-grey-kangura-portabebes-1-copia.jpg"
+  },
+  {
+    "id": "bk35-hitway-102",
+    "type": "afiliado",
+    "source": "Hitway",
+    "name": "Bicicleta eléctrica plegable Hitway BK35",
+    "price": null,
+    "categories": [
+      "furgo",
+      "viaje"
+    ],
+    "url": "https://hitway.eu/products/bk35",
+    "image": "https://hitway.eu/cdn/shop/files/hitway-bk35s-app_3.jpg?v=1763709459"
   }
 ]
