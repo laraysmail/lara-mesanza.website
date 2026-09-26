@@ -1,0 +1,29 @@
+# Old WordPress addresses -> new site (301 = permanent, keeps old links and Google rankings working)
+
+# Pages with a different address on the new site
+/home                  /                     301
+/home/                 /                     301
+/store                 /tienda               301
+/store/                /tienda               301
+/asesoramiento-camper  /asesoramiento        301
+/asesoramiento-camper/ /asesoramiento        301
+
+# WordPress shop pages that no longer exist
+/cart                  /tienda               301
+/cart/                 /tienda               301
+/cesta-productos-camper  /tienda             301
+/cesta-productos-camper/ /tienda             301
+/account               /tienda               301
+/account/              /tienda               301
+/categoria-producto/sin-categorizar  /tienda 301
+/categoria-producto/sin-categorizar/ /tienda 301
+
+# Old product pages -> new product pages
+/producto/diagrama-sistema-electrico-completo-de-200ah-de-nuestro-camion-camper-y-enlaces-de-productos  /tienda/diagrama-200ah 301
+/producto/diagrama-sistema-electrico-completo-de-200ah-de-nuestro-camion-camper-y-enlaces-de-productos/ /tienda/diagrama-200ah 301
+/producto/diagrama-sistema-electrico-y-lista-de-productos-correspondientes-para-un-sistema-de-100ah-consumo  /tienda/diagrama-100ah 301
+/producto/diagrama-sistema-electrico-y-lista-de-productos-correspondientes-para-un-sistema-de-100ah-consumo/ /tienda/diagrama-100ah 301
+/producto/esquema-completo-de-fontaneria-diagrama-del-sistema-de-agua-y-lista-con-enlaces-a-todos-los-productos-de-nuestro-camion-camper  /tienda/esquema-fontaneria 301
+/producto/esquema-completo-de-fontaneria-diagrama-del-sistema-de-agua-y-lista-con-enlaces-a-todos-los-productos-de-nuestro-camion-camper/ /tienda/esquema-fontaneria 301
+/producto/plantilla-interactiva-para-calcular-automaticamente-tu-consumo-electrico-camper  /tienda/plantilla-consumo-electrico 301
+/producto/plantilla-interactiva-para-calcular-automaticamente-tu-consumo-electrico-camper/ /tienda/plantilla-consumo-electrico 301
