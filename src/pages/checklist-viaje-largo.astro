@@ -1,0 +1,65 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import headerPhoto from '../assets/site/header-tea-plantation.jpg';
+import sidePhoto from '../assets/site/path-viaje-hitchhiking.jpg';
+
+const payhipUrl = 'https://payhip.com/b/9AglK';
+const payhipProduct = payhipUrl.split('/').pop();
+const intro = 'Todo lo que tienes que hacer antes de irte de viaje largo, en una checklist interactiva para ir marcando. Es la que uso yo, y la que sale en el vídeo.';
+---
+
+<BaseLayout title="Checklist gratis: todo antes de un viaje largo — Lara Mesanza" description={intro}>
+  <PageHeader kicker="// checklist gratuita" description={intro} image={headerPhoto} imageAlt="Lara Mesanza caminando entre plantaciones de té durante un viaje">
+    <Fragment slot="title">Todo lo que tienes que hacer antes de un <span>viaje largo</span></Fragment>
+  </PageHeader>
+
+  <section class="checklist-detail">
+    <div class="wrap detail-grid reveal">
+      <div class="detail-visual">
+        <Image src={sidePhoto} alt="Lara Mesanza haciendo autostop con la mochila" widths={[500, 800, 1100]} sizes="(max-width: 860px) 100vw, 50vw" format="webp" quality={80} loading="eager" />
+      </div>
+      <div class="detail-body">
+        <span class="tag">Gratis · Checklist interactiva</span>
+        <h2>Que no se te olvide nada</h2>
+        <ul>
+          <li>52 puntos organizados por bloques, del papeleo a la maleta</li>
+          <li>Interactiva: vas marcando lo que llevas hecho y se guarda sola</li>
+          <li>Pensada para familias, parejas o viajeros en solitario</li>
+          <li>Con los consejos que a mí me habría gustado saber antes de salir</li>
+        </ul>
+        <p class="outro">Descárgala gratis: solo te pedirá tu email para enviártela.</p>
+        <a class="buy-btn payhip-buy-button" href={payhipUrl} data-product={payhipProduct} target="_blank" rel="noopener noreferrer">Descargar gratis →</a>
+        <a class="back-link" href="/">← Volver al inicio</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .checklist-detail { padding: 70px 0 120px; }
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+  @media (max-width: 860px) { .detail-grid { grid-template-columns: 1fr; } }
+  .detail-visual { aspect-ratio: 4/3; border-radius: 24px; overflow: hidden; background: linear-gradient(150deg, var(--moss), var(--pine)); }
+  .detail-visual img { width: 100%; height: 100%; object-fit: cover; }
+  .detail-body .tag { font-family: var(--mono); font-size: 11px; text-transform: uppercase; color: var(--popd); background: rgba(193,96,47,0.1); padding: 6px 14px; border-radius: 100px; display: inline-block; }
+  .detail-body h2 { font-family: var(--display); font-weight: 700; font-size: clamp(1.7rem, 3.2vw, 2.3rem); margin: 18px 0 8px; letter-spacing: -.015em; }
+  .detail-body ul { margin-top: 22px; display: flex; flex-direction: column; gap: 12px; }
+  .detail-body li { font-size: .96rem; line-height: 1.55; color: var(--forest); opacity: .85; display: flex; gap: 10px; align-items: flex-start; }
+  .detail-body li::before { content: "—"; color: var(--popd); flex-shrink: 0; }
+  .detail-body .outro { margin-top: 22px; font-size: .96rem; line-height: 1.6; opacity: .8; max-width: 480px; }
+  .buy-btn {
+    margin-top: 30px; display: inline-flex; align-items: center; gap: 8px; background: var(--pop); color: var(--pine);
+    font-family: var(--display); font-weight: 600; font-size: 14.5px; padding: 15px 28px; border-radius: 100px;
+    transition: background .25s ease, transform .25s ease;
+  }
+  .buy-btn:hover { background: #d97442; transform: translateY(-2px); }
+  .buy-btn.payhip-buy-button, .buy-btn.payhip-styled-button, .buy-btn.payhip-green-styled-button {
+    background: var(--pop) !important; border: none !important; border-radius: 100px !important; color: var(--pine) !important;
+    font-family: var(--display) !important; font-weight: 600 !important; font-size: 14.5px !important; padding: 15px 28px !important;
+  }
+  .buy-btn.payhip-buy-button:hover { background: #d97442 !important; }
+  .back-link { display: block; margin-top: 18px; font-family: var(--display); font-weight: 600; font-size: 13.5px; color: var(--popd); opacity: .8; }
+  .back-link:hover { opacity: 1; }
+</style>
