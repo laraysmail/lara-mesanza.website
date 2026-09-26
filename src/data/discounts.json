@@ -44,6 +44,17 @@
     "logo": "/logos/yescapa-logo.png"
   },
   {
+    "id": "kangura",
+    "name": "Kangura",
+    "description": "Portabebés ergonómicos: las mochilas con las que viajamos con la peque.",
+    "category": "viaje",
+    "discountType": "link",
+    "value": null,
+    "code": "LARAMESANZA",
+    "url": "https://kangura.com/es/",
+    "logo": "/logos/kangura-logo.svg"
+  },
+  {
     "id": "nordkapp",
     "name": "NordKapp",
     "description": "Calefacción estacionaria homologable para tu furgo o camión.",

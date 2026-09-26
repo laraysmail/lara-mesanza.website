@@ -1299,5 +1299,29 @@
     ],
     "url": "https://amzn.to/43d7YKb",
     "image": "https://m.media-amazon.com/images/I/51Ev2ou2aCL._AC_SX679_.jpg"
+  },
+  {
+    "id": "boba-x-kangura-100",
+    "type": "afiliado",
+    "source": "Kangura",
+    "name": "Mochila portabebés Boba X",
+    "price": null,
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://kangura.com/es/tienda-online/mochilas/mochila-evolutiva-portabebe-boba-x",
+    "image": "https://kangura.com/uploads/colors/boba-x-grey-evolutiva-mochila-ergonomica-kangura-portabebes-3-800.jpg"
+  },
+  {
+    "id": "beco-fly-kangura-101",
+    "type": "afiliado",
+    "source": "Kangura",
+    "name": "Mochila portabebés ultraligera Beco Fly",
+    "price": null,
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://kangura.com/es/tienda-online/mochilas/mochila-portabebes-ultraligera-beco-fly",
+    "image": "https://kangura.com/uploads/colors/mochila-ultraligera-beco-fly-grey-kangura-portabebes-1-copia.jpg"
   }
 ]
