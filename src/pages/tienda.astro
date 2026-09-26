@@ -6,6 +6,7 @@ import FilterPills from '../components/FilterPills.astro';
 import ProductFeature from '../components/ProductFeature.astro';
 import ProductCard from '../components/ProductCard.astro';
 import products from '../data/products.json';
+import discounts from '../data/discounts.json';
 import diagrama200ah from '../assets/products/diagrama-200ah.png';
 import diagrama100ah from '../assets/products/diagrama-100ah.jpg';
 import esquemaFontaneria from '../assets/products/esquema-fontaneria.png';
@@ -22,6 +23,14 @@ const digitalImages: Record<string, ImageMetadata> = {
 
 const digital = products.filter((p) => p.type === 'propio');
 const affiliate = products.filter((p) => p.type === 'afiliado');
+
+const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+const discountFor = (source: string) => {
+  const d = discounts.find((x) => norm(x.name) === norm(source) && x.code);
+  if (!d) return undefined;
+  const amount = d.discountType === 'percentage' ? `-${d.value}%` : d.discountType === 'fixed' ? `-${d.value} €` : '';
+  return `Código ${d.code}${amount ? ` · ${amount}` : ''}`;
+};
 ---
 
 <BaseLayout title="Tienda — Lara Mesanza" description="Mis propios diagramas y guías descargables, más enlaces directos a los productos que uso de verdad en Amazon, AliExpress y Leroy Merlin.">
@@ -65,7 +74,7 @@ const affiliate = products.filter((p) => p.type === 'afiliado');
         />
         <div id="tienda-grid" class="product-grid">
           {affiliate.map((p) => (
-            <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} image={p.image} />
+            <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} image={p.image} discount={discountFor(p.source)} />
           ))}
         </div>
       </div>
