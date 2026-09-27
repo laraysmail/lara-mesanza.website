@@ -33,7 +33,7 @@ const rest = products.filter((p) => p.id !== featured.id).slice(0, 1);
       {rest.map((p, i) => (
         <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} image={digitalImages[p.id] ?? p.image} x="50px" d={`${0.05 + i * 0.1}s`} href={p.type === 'propio' ? `/tienda/${p.id}` : undefined} />
       ))}
-      <ProductCard source="Gratis · Checklist" name="Checklist: todo antes de un viaje largo" price="Gratis" url="https://payhip.com/b/9AglK" categories={['viaje']} image={checklistPhoto} x="50px" d="0.15s" href="/checklist-viaje-largo" />
+      <ProductCard source="Gratis · Checklist" name="Checklist de viaje gratuito" price="Gratis" url="https://payhip.com/b/9AglK" categories={['viaje']} image={checklistPhoto} x="50px" d="0.15s" href="/checklist-viaje-largo" />
     </div>
   </div>
 </section>
