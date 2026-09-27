@@ -27,7 +27,7 @@ const canBuy = product.url && product.url !== '#';
 const payhipProduct = canBuy ? product.url.split('/').pop() : undefined;
 ---
 
-<BaseLayout title={`${product.name} — Lara Mesanza`} description={product.intro ?? product.name}>
+<BaseLayout title={`${product.name} — Lara Mesanza`} description={product.intro ?? product.name} needsPayhip={true}>
   <PageHeader kicker="// producto propio" description={product.intro}>
     <Fragment slot="title">{product.name}</Fragment>
   </PageHeader>

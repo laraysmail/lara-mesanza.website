@@ -10,7 +10,7 @@ const payhipProduct = payhipUrl.split('/').pop();
 const intro = 'Todo lo que tienes que hacer antes de irte de viaje largo, en una checklist interactiva para ir marcando. Es la que uso yo, y la que sale en el vídeo.';
 ---
 
-<BaseLayout title="Checklist de viaje gratuito — Lara Mesanza" description={intro}>
+<BaseLayout title="Checklist de viaje gratuito — Lara Mesanza" description={intro} needsPayhip={true}>
   <PageHeader kicker="// checklist gratuita" description={intro} image={headerPhoto} imageAlt="Lara Mesanza caminando entre plantaciones de té durante un viaje">
     <Fragment slot="title">Checklist de <span>viaje gratuito</span></Fragment>
   </PageHeader>
