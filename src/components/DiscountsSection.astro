@@ -67,14 +67,20 @@ const xDirs = ['-40px', '40px', '-40px'];
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8a6 6 0 00-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
           </div>
           <h3>No te pierdas el próximo código</h3>
-          <p>Te aviso en cuanto consigo un descuento nuevo, directo a tu correo.</p>
+          <p>Apúntate a la lista de descuentos: te mando un email cada vez que consigo un código nuevo, nada más.</p>
         </div>
         <form class="email-feature-form" onsubmit="return false;">
-          <input type="email" placeholder="tu@email.com" required />
-          <button type="submit">
-            <span>Avisarme</span>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </button>
+          <div class="email-feature-row">
+            <input type="email" placeholder="tu@email.com" required />
+            <button type="submit">
+              <span>Avisarme</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+          </div>
+          <label class="consent-check">
+            <input type="checkbox" required />
+            <span>Acepto recibir estos correos con descuentos y he leído la <a href="/privacidad" target="_blank">política de privacidad</a>. Puedo darme de baja cuando quiera.</span>
+          </label>
         </form>
       </div>
     </div>
@@ -150,13 +156,21 @@ const xDirs = ['-40px', '40px', '-40px'];
   }
   .email-feature-text p { margin-top: 14px; font-size: .98rem; line-height: 1.55; opacity: .82; max-width: 380px; }
 
-  .email-feature-form { display: flex; gap: 10px; min-width: 300px; flex-wrap: wrap; }
-  .email-feature-form input {
+  .email-feature-form { display: flex; flex-direction: column; gap: 14px; min-width: 300px; }
+  .email-feature-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .email-feature-row input {
     flex: 1; background: var(--cream); border: 2px solid transparent; border-radius: 100px;
     padding: 15px 20px; color: var(--pine); font-family: var(--body); font-size: .95rem; min-width: 200px;
     transition: box-shadow .25s ease; position: relative; z-index: 1;
   }
-  .email-feature-form input:focus { outline: none; border-color: var(--pine); box-shadow: 0 0 0 4px rgba(16,25,21,0.12); }
+  .email-feature-row input:focus { outline: none; border-color: var(--pine); box-shadow: 0 0 0 4px rgba(16,25,21,0.12); }
+  .consent-check {
+    display: flex; align-items: flex-start; gap: 9px; position: relative; z-index: 1;
+    font-size: .8rem; line-height: 1.45; color: var(--pine); opacity: .85; cursor: pointer; max-width: 420px;
+  }
+  .consent-check input { margin-top: 3px; flex-shrink: 0; }
+  .consent-check a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+  .consent-check a:hover { opacity: .75; }
   .email-feature-form button {
     background: var(--pine); color: var(--cream); border: none; border-radius: 100px; padding: 15px 24px;
     font-family: var(--display); font-weight: 700; font-size: .95rem; cursor: pointer; white-space: nowrap;

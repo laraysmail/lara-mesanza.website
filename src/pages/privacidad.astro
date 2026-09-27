@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+
+const intro = 'Qué datos recojo en esta web, para qué los uso, y qué derechos tienes sobre ellos.';
+---
+
+<BaseLayout title="Política de privacidad — Lara Mesanza" description={intro}>
+  <PageHeader kicker="// legal" description={intro}>
+    <Fragment slot="title">Política de <span>privacidad</span></Fragment>
+  </PageHeader>
+
+  <section class="legal-body">
+    <div class="wrap reveal">
+      <p class="updated">Última actualización: {new Date().toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+
+      <h2>Responsable del tratamiento</h2>
+      <p>Lara Mesanza. Puedes contactarme en <a href="mailto:lara.mesanza@gmail.com">lara.mesanza@gmail.com</a> o a través del <a href="/contacto">formulario de contacto</a>.</p>
+
+      <h2>Qué datos recojo y para qué</h2>
+
+      <h3>Lista de avisos de descuentos</h3>
+      <p>Si te apuntas en la página de <a href="/descuentos">Descuentos</a> para que te avise de nuevos códigos, recojo tu dirección de email. La uso únicamente para enviarte avisos por email cuando publico un descuento nuevo. No la uso para nada más, y no se la doy ni la vendo a nadie salvo al proveedor técnico que gestiona el envío de estos correos (Mailchimp), que actúa como encargado del tratamiento.</p>
+      <p><strong>Base legal:</strong> tu consentimiento expreso, que das al marcar la casilla del formulario. Puedes retirarlo cuando quieras, dándote de baja desde el propio email que recibas o escribiéndome.</p>
+
+      <h3>Formulario de contacto</h3>
+      <p>Si me escribes a través del formulario de <a href="/contacto">Contacto</a>, recojo tu nombre, tu email y el mensaje que me envíes. Lo uso únicamente para responderte. Este formulario lo gestiona Netlify (el proveedor donde está alojada esta web).</p>
+      <p><strong>Base legal:</strong> tu propio interés en que te responda (relación precontractual o interés legítimo).</p>
+
+      <h2>Cuánto tiempo guardo tus datos</h2>
+      <p>Los emails de la lista de descuentos se guardan mientras sigas suscrito. Los mensajes de contacto se conservan el tiempo necesario para resolver tu consulta.</p>
+
+      <h2>Tus derechos</h2>
+      <p>Puedes pedirme acceder a tus datos, corregirlos, borrarlos, limitar su uso, oponerte al tratamiento o pedir la portabilidad, escribiendo a <a href="mailto:lara.mesanza@gmail.com">lara.mesanza@gmail.com</a>. También puedes reclamar ante la <a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer">Agencia Española de Protección de Datos (AEPD)</a> si consideras que no he tratado tus datos correctamente.</p>
+
+      <h2>Cambios en esta política</h2>
+      <p>Si esta política cambia de forma relevante, actualizaré la fecha de arriba.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .legal-body { padding: 70px 0 120px; }
+  .legal-body .wrap { max-width: 720px; }
+  .updated { font-family: var(--mono); font-size: .82rem; opacity: .55; margin-bottom: 40px; }
+  .legal-body h2 { font-family: var(--display); font-weight: 700; font-size: 1.3rem; margin: 40px 0 12px; letter-spacing: -.01em; }
+  .legal-body h2:first-of-type { margin-top: 0; }
+  .legal-body h3 { font-family: var(--display); font-weight: 600; font-size: 1.05rem; margin: 24px 0 8px; }
+  .legal-body p { font-size: .96rem; line-height: 1.65; opacity: .85; margin: 0 0 8px; }
+  .legal-body a { color: var(--popd); text-decoration: underline; text-underline-offset: 2px; }
+</style>
