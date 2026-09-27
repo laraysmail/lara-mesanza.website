@@ -9,6 +9,10 @@ const shopBlob = document.getElementById('shopBlob');
 
 function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
 
+// Below 760px the steps section becomes a plain swipeable row (see CategoryGallery.astro) —
+// don't fight that with inline styles from the scroll-scrub logic below.
+const isMobileSteps = () => window.innerWidth <= 760;
+
 // The pin needs exactly as much scroll room as the horizontal track needs to travel.
 // A fixed vh guess (e.g. 340vh) only matches one screen width — on narrower screens the
 // cards are narrower too, the horizontal scroll finishes early, and the rest of that fixed
@@ -16,6 +20,7 @@ function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
 // appears underneath it. Computing it from the actual track width fixes that at every width.
 function updateStepsPinHeight() {
   if (!stepsPin || !stepsTrack) return;
+  if (isMobileSteps()) { stepsPin.style.height = ''; return; }
   const maxTranslate = Math.max(0, stepsTrack.scrollWidth - window.innerWidth + 64);
   stepsPin.style.height = `${maxTranslate + window.innerHeight}px`;
 }
@@ -32,7 +37,7 @@ function onScroll() {
     heroBg.style.transform = `scale(${1 + heroProgress * 0.15}) translateY(${heroProgress * 30}px)`;
   }
 
-  if (stepsPin && stepsTrack) {
+  if (stepsPin && stepsTrack && !isMobileSteps()) {
     const sr = stepsPin.getBoundingClientRect();
     const stepsProgress = clamp(-sr.top / (sr.height - window.innerHeight), 0, 1);
     const maxTranslate = stepsTrack.scrollWidth - window.innerWidth + 64;

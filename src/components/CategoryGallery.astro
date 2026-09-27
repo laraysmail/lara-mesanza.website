@@ -23,7 +23,8 @@ const steps = [
         </a>
       ))}
     </div>
-    <div class="steps-hint">Sigue bajando para ver cada categoría →</div>
+    <div class="steps-hint hint-desktop">Sigue bajando para ver cada categoría →</div>
+    <div class="steps-hint hint-mobile">Desliza para ver cada categoría →</div>
   </div>
 </section>
 
@@ -49,4 +50,19 @@ const steps = [
   .step-card:nth-child(3) p { color: rgba(243,239,228,0.85); }
   .step-card:nth-child(4) { background: var(--pine); border: 1px solid rgba(243,239,228,0.12); }
   .steps-hint { padding: 0 32px; margin-top: 28px; font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; opacity: .45; }
+  .hint-mobile { display: none; }
+
+  /* Below 760px the pinned scroll-scrub becomes a native swipeable carousel instead —
+     a long vertical scroll distance to drag a horizontal row felt slow on phones. */
+  @media (max-width: 760px) {
+    .steps-pin { height: auto; }
+    .steps-sticky { position: static; height: auto; padding: 70px 0; overflow: visible; }
+    .steps-track {
+      overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+      transform: none !important; padding: 0 24px 8px;
+    }
+    .step-card { scroll-snap-align: start; }
+    .hint-desktop { display: none; }
+    .hint-mobile { display: block; }
+  }
 </style>
