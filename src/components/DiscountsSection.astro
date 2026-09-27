@@ -69,9 +69,15 @@ const xDirs = ['-40px', '40px', '-40px'];
           <h3>No te pierdas el próximo código</h3>
           <p>Apúntate a la lista de descuentos: te mando un email cada vez que consigo un código nuevo, nada más.</p>
         </div>
-        <form class="email-feature-form" onsubmit="return false;">
+        <form
+          class="email-feature-form"
+          id="discountSignupForm"
+          action="https://laramesanza.us17.list-manage.com/subscribe/post?u=12aa55c62771a61ebc894fe42&amp;id=4ce7672519&amp;f_id=001ec2e1f0"
+          method="post"
+          target="mc-hidden-iframe"
+        >
           <div class="email-feature-row">
-            <input type="email" placeholder="tu@email.com" required />
+            <input type="email" name="EMAIL" placeholder="tu@email.com" required />
             <button type="submit">
               <span>Avisarme</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -81,11 +87,27 @@ const xDirs = ['-40px', '40px', '-40px'];
             <input type="checkbox" required />
             <span>Acepto recibir estos correos con descuentos y he leído la <a href="/privacidad" target="_blank">política de privacidad</a>. Puedo darme de baja cuando quiera.</span>
           </label>
+          <div aria-hidden="true" class="mc-honeypot">
+            <input type="text" name="b_12aa55c62771a61ebc894fe42_4ce7672519" tabindex="-1" autocomplete="off" />
+          </div>
         </form>
+        <p class="email-feature-success" id="discountSignupSuccess">¡Gracias! Ya estás en la lista — te avisaré en cuanto haya un código nuevo.</p>
       </div>
     </div>
+    <iframe name="mc-hidden-iframe" title="mailchimp" style="display:none;"></iframe>
   </div>
 </section>
+
+<script>
+  const discountForm = document.getElementById('discountSignupForm');
+  const discountSuccess = document.getElementById('discountSignupSuccess');
+  discountForm?.addEventListener('submit', () => {
+    setTimeout(() => {
+      discountForm.style.display = 'none';
+      discountSuccess.classList.add('show');
+    }, 400);
+  });
+</script>
 
 <style>
   .discounts { padding: 100px 0 140px; }
@@ -171,6 +193,12 @@ const xDirs = ['-40px', '40px', '-40px'];
   .consent-check input { margin-top: 3px; flex-shrink: 0; }
   .consent-check a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
   .consent-check a:hover { opacity: .75; }
+  .mc-honeypot { position: absolute; left: -5000px; }
+  .email-feature-success {
+    display: none; position: relative; z-index: 1; margin-top: 4px; max-width: 420px;
+    font-family: var(--display); font-weight: 600; color: var(--pine); font-size: .98rem; line-height: 1.5;
+  }
+  .email-feature-success.show { display: block; }
   .email-feature-form button {
     background: var(--pine); color: var(--cream); border: none; border-radius: 100px; padding: 15px 24px;
     font-family: var(--display); font-weight: 700; font-size: .95rem; cursor: pointer; white-space: nowrap;
