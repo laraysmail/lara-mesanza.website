@@ -5,7 +5,6 @@ import diagrama200ah from '../assets/products/diagrama-200ah.png';
 import diagrama100ah from '../assets/products/diagrama-100ah.jpg';
 import esquemaFontaneria from '../assets/products/esquema-fontaneria.png';
 import plantillaConsumo from '../assets/products/plantilla-consumo.jpg';
-import checklistPhoto from '../assets/site/path-viaje-hitchhiking.jpg';
 
 const digitalImages: Record<string, ImageMetadata> = {
   'diagrama-200ah': diagrama200ah,
@@ -15,7 +14,9 @@ const digitalImages: Record<string, ImageMetadata> = {
 };
 
 const featured = products.find((p) => p.featured) ?? products[0];
-const rest = products.filter((p) => p.id !== featured.id).slice(0, 1);
+// Checklist temporarily paused on Payhip until its launch video goes live — re-add
+// its ProductFeature card below (and in src/pages/tienda.astro) when it's back.
+const rest = products.filter((p) => p.id !== featured.id).slice(0, 2);
 ---
 
 <section class="shop" id="tienda-teaser" style="position:relative; overflow:hidden;">
@@ -33,7 +34,6 @@ const rest = products.filter((p) => p.id !== featured.id).slice(0, 1);
       {rest.map((p) => (
         <ProductFeature tag={p.tag ?? 'Producto propio'} name={p.name} price={p.price} url={p.url} categories={p.categories} image={digitalImages[p.id] ?? p.image} href={p.type === 'propio' ? `/tienda/${p.id}` : undefined} />
       ))}
-      <ProductFeature tag="Gratis · Checklist" name="Checklist de viaje gratuito" price="Gratis" url="https://payhip.com/b/9AglK" categories={['viaje']} image={checklistPhoto} href="/checklist-viaje-largo" />
     </div>
   </div>
 </section>

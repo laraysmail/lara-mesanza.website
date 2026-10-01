@@ -12,7 +12,6 @@ import diagrama100ah from '../assets/products/diagrama-100ah.jpg';
 import esquemaFontaneria from '../assets/products/esquema-fontaneria.png';
 import plantillaConsumo from '../assets/products/plantilla-consumo.jpg';
 import tiendaHeaderPhoto from '../assets/site/path-diy-painting.webp';
-import checklistPhoto from '../assets/site/path-viaje-hitchhiking.jpg';
 
 const digitalImages: Record<string, ImageMetadata> = {
   'diagrama-200ah': diagrama200ah,
@@ -54,7 +53,9 @@ const discountFor = (source: string) => {
             {digital.map((p) => (
               <ProductFeature tag={p.tag ?? 'Producto propio'} name={p.name} price={p.price} url={p.url} categories={p.categories} image={digitalImages[p.id] ?? p.image} href={`/tienda/${p.id}`} />
             ))}
-            <ProductFeature tag="Gratis · Checklist" name="Checklist de viaje gratuito" price="Gratis" url="https://payhip.com/b/9AglK" categories={['viaje']} image={checklistPhoto} href="/checklist-viaje-largo" />
+            {/* Checklist temporarily paused on Payhip until its launch video goes live — re-add here
+                (and in src/components/ShopTeaser.astro) when it's back:
+                <ProductFeature tag="Gratis · Checklist" name="Checklist de viaje gratuito" price="Gratis" url="https://payhip.com/b/9AglK" categories={['viaje']} image={checklistPhoto} href="/checklist-viaje-largo" /> */}
           </div>
         </div>
       )}

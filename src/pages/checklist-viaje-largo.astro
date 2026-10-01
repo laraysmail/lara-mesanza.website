@@ -8,6 +8,9 @@ import sidePhoto from '../assets/site/path-viaje-hitchhiking.jpg';
 const payhipUrl = 'https://payhip.com/b/9AglK';
 const payhipProduct = payhipUrl.split('/').pop();
 const intro = 'Todo lo que tienes que hacer antes de irte de viaje largo, en una checklist interactiva para ir marcando. Es la que uso yo, y la que sale en el vídeo.';
+
+// Paused on Payhip until the launch video goes live — flip back to true when it's ready.
+const available = false;
 ---
 
 <BaseLayout title="Checklist de viaje gratuito — Lara Mesanza" description={intro} needsPayhip={true}>
@@ -29,8 +32,17 @@ const intro = 'Todo lo que tienes que hacer antes de irte de viaje largo, en una
           <li>Pensada para familias, parejas o viajeros en solitario</li>
           <li>Con los consejos que a mí me habría gustado saber antes de salir</li>
         </ul>
-        <p class="outro">Descárgala gratis: solo te pedirá tu email para enviártela.</p>
-        <a class="buy-btn payhip-buy-button" href={payhipUrl} data-product={payhipProduct} target="_blank" rel="noopener noreferrer">Descargar gratis →</a>
+        {available ? (
+          <>
+            <p class="outro">Descárgala gratis: solo te pedirá tu email para enviártela.</p>
+            <a class="buy-btn payhip-buy-button" href={payhipUrl} data-product={payhipProduct} target="_blank" rel="noopener noreferrer">Descargar gratis →</a>
+          </>
+        ) : (
+          <>
+            <p class="outro">Vuelve pronto: la checklist estará disponible en cuanto salga el vídeo.</p>
+            <span class="buy-btn is-disabled">Próximamente</span>
+          </>
+        )}
 
         <p class="format-note">📄 Es un archivo interactivo que se abre en cualquier navegador (Chrome, Safari...), no un PDF. Guárdalo o añádelo a la pantalla de inicio de tu móvil para tenerlo siempre a mano.</p>
 
@@ -58,6 +70,7 @@ const intro = 'Todo lo que tienes que hacer antes de irte de viaje largo, en una
     transition: background .25s ease, transform .25s ease;
   }
   .buy-btn:hover { background: #d97442; transform: translateY(-2px); }
+  .buy-btn.is-disabled { background: rgba(60,92,77,0.15); color: var(--forest); opacity: .6; cursor: default; }
   .buy-btn.payhip-buy-button, .buy-btn.payhip-styled-button, .buy-btn.payhip-green-styled-button {
     background: var(--pop) !important; border: none !important; border-radius: 100px !important; color: var(--pine) !important;
     font-family: var(--display) !important; font-weight: 600 !important; font-size: 14.5px !important; padding: 15px 28px !important;
