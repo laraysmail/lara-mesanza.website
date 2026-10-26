@@ -55,6 +55,17 @@
     "logo": "/logos/kangura-logo.svg"
   },
   {
+    "id": "revolut",
+    "name": "Revolut",
+    "description": "Tarjeta y cuenta sin comisiones para viajar y pagar en cualquier divisa.",
+    "category": "viaje vida",
+    "discountType": "link",
+    "value": null,
+    "code": null,
+    "url": "https://revolut.com/referral/?referral-code=lara_q4_n8kh!OCT1-26-AR&geo-redirect",
+    "logo": "/logos/revolut-logo.png"
+  },
+  {
     "id": "nordkapp",
     "name": "NordKapp",
     "description": "Calefacción estacionaria homologable para tu furgo o camión.",
@@ -152,6 +163,94 @@
     "code": null,
     "url": "https://tidd.ly/4hExD59",
     "logo": "/logos/leroymerlin-logo.png"
+  },
+  {
+    "id": "bluetti",
+    "name": "Bluetti",
+    "description": "Estaciones de energía portátil para tu camper o para viajar.",
+    "category": "camper",
+    "discountType": "link",
+    "value": null,
+    "code": null,
+    "url": "https://tidd.ly/4BsowzN",
+    "logo": "/logos/bluetti-logo.png"
+  },
+  {
+    "id": "agoda",
+    "name": "Agoda",
+    "description": "Hoteles y alojamientos en todo el mundo, con descuento.",
+    "category": "viaje",
+    "discountType": "percentage",
+    "value": 10,
+    "code": "LARAHOTELS",
+    "url": "https://ago-da.co/LARAHOTELS",
+    "logo": "/logos/agoda-logo.png"
+  },
+  {
+    "id": "saily",
+    "name": "Saily",
+    "description": "eSIM para tener datos móviles en el extranjero sin roaming.",
+    "category": "viaje",
+    "discountType": "percentage",
+    "value": 15,
+    "code": "laramesanza",
+    "url": "https://saily.com/laramesanza",
+    "logo": "/logos/saily-logo.png"
+  },
+  {
+    "id": "tripcom",
+    "name": "Trip.com",
+    "description": "Vuelos, hoteles y trenes para organizar tu viaje.",
+    "category": "viaje",
+    "discountType": "link",
+    "value": null,
+    "code": null,
+    "url": "https://www.trip.com/t/TT3ps0ceYV2",
+    "logo": "/logos/tripcom-logo.png"
+  },
+  {
+    "id": "nazza",
+    "name": "Nazza",
+    "description": "Platos de ducha y materiales para tu reforma o camperización.",
+    "category": "camper",
+    "discountType": "percentage",
+    "value": 8,
+    "code": "NAZZA_7MHR4",
+    "url": "https://www.nazza.es/?refs=113943",
+    "logo": "/logos/nazza-logo.png"
+  },
+  {
+    "id": "audible",
+    "name": "Audible",
+    "description": "Audiolibros para las horas de carretera, con prueba gratis.",
+    "category": "vida viaje",
+    "discountType": "free",
+    "value": null,
+    "code": null,
+    "url": "https://www.amazon.es/hz/audible/mlp",
+    "logo": "/logos/audible-logo.jpg"
+  },
+  {
+    "id": "temu",
+    "name": "Temu",
+    "description": "Pack de cupones de 200 € para nuevos usuarios, para todo lo del camper y del viaje.",
+    "category": "camper viaje",
+    "discountType": "fixed",
+    "value": 200,
+    "code": "apd81936",
+    "url": "https://temu.to/m/u5h5ca5f973",
+    "logo": "/logos/temu-logo.png"
+  },
+  {
+    "id": "homeexchange",
+    "name": "HomeExchange",
+    "description": "Intercambia casa con otros viajeros y duerme gratis. 250 puntos de bienvenida al registrarte.",
+    "category": "viaje",
+    "discountType": "points",
+    "value": 250,
+    "code": "LARAMESANZA",
+    "url": "https://www.homeexchange.com/?sponsorkey=LARAMESANZA&via=copy_link",
+    "logo": "/logos/homeexchange-logo.png"
   },
   {
     "id": "amazon-prime-student",

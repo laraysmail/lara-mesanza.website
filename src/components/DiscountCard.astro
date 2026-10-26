@@ -3,7 +3,7 @@ interface Props {
   name: string;
   description: string;
   category: string;
-  discountType: 'percentage' | 'fixed' | 'free' | 'link';
+  discountType: 'percentage' | 'fixed' | 'points' | 'free' | 'link';
   value: number | null;
   code: string | null;
   url: string;
@@ -19,6 +19,7 @@ const categoryLabel = category.split(' ').map((c) => categoryLabels[c] ?? c).joi
 
 const amountLabel = discountType === 'percentage' ? `${value}%`
   : discountType === 'fixed' ? `${value}€`
+  : discountType === 'points' ? `${value} puntos`
   : discountType === 'free' ? 'Gratis'
   : 'Oferta';
 ---
