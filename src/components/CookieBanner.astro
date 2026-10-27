@@ -1,0 +1,77 @@
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-labelledby="cookieTitle" aria-live="polite" hidden>
+  <h2 id="cookieTitle">Cookies</h2>
+  <p>Uso cookies de análisis (Google Analytics) para saber qué páginas y enlaces se visitan y mejorar la web. Solo se activan si las aceptas. <a href="/privacidad#cookies">Más información</a></p>
+  <div class="cookie-actions">
+    <button type="button" class="cookie-btn reject" id="cookieReject">Rechazar</button>
+    <button type="button" class="cookie-btn accept" id="cookieAccept">Aceptar</button>
+  </div>
+</div>
+
+<script>
+  const KEY = 'cookie-consent';
+  const banner = document.getElementById('cookieBanner');
+
+  function read() {
+    try { return localStorage.getItem(KEY); } catch (e) { return null; }
+  }
+  function save(value) {
+    try { localStorage.setItem(KEY, value); } catch (e) {}
+  }
+  function clearAnalyticsCookies() {
+    document.cookie.split(';').forEach((c) => {
+      const name = c.split('=')[0].trim();
+      if (name === '_ga' || name.startsWith('_ga_') || name === '_gid' || name.startsWith('_gat')) {
+        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/`;
+        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=.${location.hostname}`;
+      }
+    });
+  }
+
+  if (!read()) banner.hidden = false;
+
+  document.getElementById('cookieAccept')?.addEventListener('click', () => {
+    save('granted');
+    banner.hidden = true;
+    window.loadGoogleAnalytics?.();
+  });
+
+  document.getElementById('cookieReject')?.addEventListener('click', () => {
+    const hadGranted = read() === 'granted';
+    save('denied');
+    banner.hidden = true;
+    if (hadGranted) {
+      clearAnalyticsCookies();
+      location.reload();
+    }
+  });
+
+  // Footer "Cookies" link lets people change their mind at any time.
+  document.addEventListener('click', (e) => {
+    if (e.target instanceof Element && e.target.closest('[data-cookie-settings]')) {
+      e.preventDefault();
+      banner.hidden = false;
+    }
+  });
+</script>
+
+<style>
+  .cookie-banner {
+    position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 1000; max-width: 440px;
+    background: var(--forest); color: var(--cream); border-radius: 20px; padding: 22px 24px;
+    box-shadow: 0 18px 50px rgba(16,25,21,0.35); border: 1px solid rgba(243,239,228,0.14);
+  }
+  .cookie-banner[hidden] { display: none; }
+  .cookie-banner h2 { font-family: var(--display); font-weight: 700; font-size: 1.05rem; margin: 0 0 6px; }
+  .cookie-banner p { font-size: .88rem; line-height: 1.55; opacity: .88; margin: 0; }
+  .cookie-banner p a { color: var(--cream); text-decoration: underline; text-underline-offset: 2px; }
+  .cookie-actions { display: flex; gap: 10px; margin-top: 16px; }
+  .cookie-btn {
+    flex: 1; border-radius: 100px; padding: 12px 18px; font-family: var(--display); font-weight: 600; font-size: .88rem;
+    cursor: pointer; transition: background .2s ease, border-color .2s ease;
+  }
+  .cookie-btn.accept { background: var(--pop); color: var(--pine); border: 1px solid var(--pop); }
+  .cookie-btn.accept:hover { background: #d97442; border-color: #d97442; }
+  .cookie-btn.reject { background: transparent; color: var(--cream); border: 1px solid rgba(243,239,228,0.45); }
+  .cookie-btn.reject:hover { border-color: var(--cream); }
+  .cookie-btn:focus-visible { outline: 2px solid var(--cream); outline-offset: 2px; }
+</style>

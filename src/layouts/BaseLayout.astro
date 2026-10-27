@@ -2,6 +2,7 @@
 import { getImage } from 'astro:assets';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import CookieBanner from '../components/CookieBanner.astro';
 import defaultOgImage from '../assets/site/lara-avatar.jpg';
 import '../styles/global.css';
 
@@ -24,23 +25,33 @@ const siteName = 'Lara Mesanza';
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- Google Tag Manager -->
-  <script type="text/javascript" is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-NTBPBW2P');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Google Analytics (GA4) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQWYVWFY9G" is:inline></script>
+  <!-- Google Tag Manager + Google Analytics (GA4): only loaded after the visitor accepts cookies.
+       The choice is kept in localStorage ("cookie-consent"); see CookieBanner.astro. -->
   <script is:inline>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-YQWYVWFY9G');
+    (function () {
+      function consent() { try { return localStorage.getItem('cookie-consent'); } catch (e) { return null; } }
+      function load() {
+        if (window.__googleLoaded) return;
+        window.__googleLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-YQWYVWFY9G');
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+          var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NTBPBW2P');
+        var g = document.createElement('script');
+        g.async = true; g.src = 'https://www.googletagmanager.com/gtag/js?id=G-YQWYVWFY9G';
+        document.head.appendChild(g);
+      }
+      window.loadGoogleAnalytics = load;
+      if (consent() === 'granted') load();
+    })();
   </script>
-  <!-- End Google Analytics -->
+  <!-- End Google Tag Manager + Google Analytics -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
@@ -81,13 +92,10 @@ const siteName = 'Lara Mesanza';
   })} />
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTBPBW2P"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   <Header />
   <slot />
   <Footer />
+  <CookieBanner />
   <script src="../scripts/motion.js"></script>
   <script src="../scripts/filters.js"></script>
   <script src="../scripts/discount-copy.js"></script>

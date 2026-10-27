@@ -62,6 +62,7 @@ const discountFor = (source: string) => {
       <div class="affiliate-section">
         <span class="kicker">// lo que compramos de verdad</span>
         <h2>Todo lo que usamos</h2>
+        <p class="disclosure">Los productos de esta sección son enlaces de afiliado. Si compras a través de ellos, me llevo una pequeña comisión, sin coste extra para ti. Solo recomiendo lo que usamos de verdad.</p>
         <FilterPills
           targetId="tienda-grid"
           options={[
@@ -96,6 +97,7 @@ const discountFor = (source: string) => {
   .featured-row :global(.p-feature) { min-height: 340px; grid-row: auto; }
   @media (max-width: 760px) { .featured-row { grid-template-columns: 1fr; } }
 
+  .affiliate-section .disclosure { margin-top: 12px; max-width: 640px; font-size: .86rem; line-height: 1.55; opacity: .7; }
   .affiliate-section .filter-pills { margin-top: 20px; }
   .product-grid { margin-top: 30px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
   @media (max-width: 900px) { .product-grid { grid-template-columns: repeat(2, 1fr); } }

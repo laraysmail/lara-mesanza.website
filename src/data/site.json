@@ -7,7 +7,7 @@
     "subscribers": { "value": 86, "suffix": "K", "label": "Suscriptores en YouTube" },
     "countries": { "value": 31, "prefix": "+", "label": "Países recorridos juntos" },
     "diyProjects": { "value": 5, "label": "Proyectos DIY", "sub": "camper, piso y viaje" },
-    "currentLocation": { "value": "Asia", "label": "Ubicación actual", "sub": "rumbo con nuestro peque" }
+    "currentLocation": { "value": "Tailandia", "label": "Ubicación actual", "sub": "rumbo con nuestro peque" }
   },
   "youtubeChannelId": "UCr9mygLW--ewcTcrFRfxCzQ"
 }
