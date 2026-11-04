@@ -201,14 +201,13 @@ const reasons = [
 
     const data = Object.fromEntries(new FormData(form).entries());
 
-    // Optional opt-in: also add the email to the Mailchimp discounts list (same audience as the
+    // Optional opt-in: also add the email to the MailerLite "Avisos" group (same form as the
     // signup box on /descuentos). Fire-and-forget; the contact message never depends on it.
     if (data.avisos && data.email) {
-      fetch('https://laramesanza.us17.list-manage.com/subscribe/post?u=12aa55c62771a61ebc894fe42&id=4ce7672519&f_id=001ec2e1f0', {
+      fetch('https://assets.mailerlite.com/jsonp/2550225/forms/203177318913410427/subscribe', {
         method: 'POST',
-        mode: 'no-cors',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encode({ EMAIL: data.email, b_12aa55c62771a61ebc894fe42_4ce7672519: '' }),
+        body: encode({ 'fields[email]': data.email, 'ml-submit': '1', anticsrf: 'true' }),
       }).catch(() => {});
     }
 

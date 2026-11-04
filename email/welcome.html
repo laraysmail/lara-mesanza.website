@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
+  <title>Ya estás en la lista!</title>
+  <style>
+    body { margin: 0; padding: 0; background-color: #f3efe4; }
+    img { border: 0; display: block; max-width: 100%; height: auto; }
+    a { color: #a34f26; }
+    @media only screen and (max-width: 620px) {
+      .wrap { width: 100% !important; }
+      .pad { padding-left: 22px !important; padding-right: 22px !important; }
+      .title { font-size: 24px !important; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background-color:#f3efe4;">
+  <!-- Texto de vista previa (lo que se ve junto al asunto en la bandeja de entrada) -->
+  <div style="display:none; max-height:0; overflow:hidden; opacity:0; color:#f3efe4; font-size:1px; line-height:1px;">
+    Gracias por ser parte de esta aventura.&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+  </div>
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f3efe4;">
+    <tr>
+      <td align="center" style="padding:24px 12px;">
+
+        <table role="presentation" class="wrap" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#ffffff; border-radius:16px; overflow:hidden;">
+
+          <!-- Foto de cabecera. SUSTITUYE el src por la dirección de la imagen subida a MailerLite (o a tu web). -->
+          <tr>
+            <td style="padding:0;">
+              <img src="welcome-header.jpg" width="600" alt="Lara, su pareja y su peque en el aeropuerto, a punto de salir de viaje a Asia" style="width:100%; max-width:600px; height:auto;">
+            </td>
+          </tr>
+
+          <!-- Texto -->
+          <tr>
+            <td class="pad" style="padding:32px 40px 8px 40px; font-family:Arial, Helvetica, sans-serif; color:#101915; font-size:16px; line-height:1.65;">
+              <h1 class="title" style="margin:0 0 18px 0; font-family:Arial, Helvetica, sans-serif; font-size:28px; line-height:1.2; color:#1c352b;">Ya estás en la lista!</h1>
+
+              <p style="margin:0 0 16px 0;">Hola!</p>
+
+              <p style="margin:0 0 16px 0;">Gracias por apuntarte! Soy Lara y me alegra mucho que estés aquí. Llevamos años contando nuestra vida en YouTube, y ahora viajando por Asia con nuestro peque, y de verdad que me hace ilusión que seas parte de esta aventura. Me encanta poder conseguirte buenos descuentos que te puedan servir.</p>
+
+              <p style="margin:0 0 16px 0;">Solo te escribiré cuando haya algo bueno: un código de descuento nuevo, un producto nuestro nuevo o algo gratis. No es una newsletter, no vas a recibir un email cada semana (yo las odio, así que no quiero eso para ti) y tu email no se lo doy a nadie.</p>
+            </td>
+          </tr>
+
+          <!-- Botón -->
+          <tr>
+            <td class="pad" align="left" style="padding:8px 40px 24px 40px;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="center" bgcolor="#c1602f" style="border-radius:100px;">
+                    <a href="https://laramesanza.com/descuentos" target="_blank" style="display:inline-block; padding:14px 28px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#101915; text-decoration:none; border-radius:100px;">Ver los descuentos</a>
+                  </td>
+                </tr>
+              </table>
+              <p style="margin:12px 0 0 0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#4a5a52;">O copia este enlace: <a href="https://laramesanza.com/descuentos" style="color:#a34f26;">laramesanza.com/descuentos</a></p>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="pad" style="padding:0 40px 36px 40px; font-family:Arial, Helvetica, sans-serif; color:#101915; font-size:16px; line-height:1.65;">
+              <p style="margin:0 0 16px 0;">Ya sabes que si compras con uno de mis enlaces me llevo una pequeña comisión sin coste para ti, y eso me permite seguir creando contenido de forma gratuita para vosotros : ) Y si algún código no te funciona o tienes cualquier duda, respóndeme a este correo y lo miro!</p>
+
+              <p style="margin:0;">Un abrazo muy grande!<br>Lara</p>
+            </td>
+          </tr>
+
+          <!-- Pie obligatorio: el enlace de baja {$unsubscribe} no se puede quitar. La dirección postal la añade MailerLite desde Ajustes de la cuenta (perfil de empresa); si el correo de prueba no la muestra, añádela aquí como texto. -->
+          <tr>
+            <td class="pad" style="padding:20px 40px 28px 40px; background-color:#f3efe4; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:1.6; color:#4a5a52;">
+              Recibes este correo porque te apuntaste a los avisos de laramesanza.com. Puedes darte de baja cuando quieras: <a href="{$unsubscribe}" style="color:#4a5a52;">darme de baja</a>.<br>
+              <a href="https://laramesanza.com/privacidad" style="color:#4a5a52;">Política de privacidad</a>            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
