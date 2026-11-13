@@ -11,17 +11,6 @@
     "logo": "/logos/iati-logo.png"
   },
   {
-    "id": "chapka",
-    "name": "Chapka",
-    "description": "Seguro de viaje para las temporadas largas fuera.",
-    "category": "viaje",
-    "discountType": "percentage",
-    "value": 7,
-    "code": "LARAMESANZA",
-    "url": "https://www.chapkadirect.es/?app=cd_mesenza",
-    "logo": "/logos/chapka-logo.png"
-  },
-  {
     "id": "campercover",
     "name": "Campercover",
     "description": "Seguro específico para vehículos camperizados.",
