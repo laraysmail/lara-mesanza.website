@@ -6,6 +6,8 @@ import diagrama100ah from '../assets/products/diagrama-100ah.jpg';
 import esquemaFontaneria from '../assets/products/esquema-fontaneria.png';
 import plantillaConsumo from '../assets/products/plantilla-consumo.jpg';
 import checklistPhoto from '../assets/site/path-viaje-hitchhiking.jpg';
+import mochilaPhoto from '../assets/site/checklist-mochila.jpg';
+import { MOCHILA_LAUNCH, mochilaLaunched } from '../data/launch.js';
 
 const digitalImages: Record<string, ImageMetadata> = {
   'diagrama-200ah': diagrama200ah,
@@ -31,9 +33,14 @@ const rest = products.filter((p) => p.id !== featured.id).slice(0, 1);
     <div class="shop-grid">
       <ProductFeature tag={featured.tag ?? 'Producto propio'} name={featured.name} price={featured.price} url={featured.url} categories={featured.categories} image={digitalImages[featured.id] ?? featured.image} href={featured.type === 'propio' ? `/tienda/${featured.id}` : undefined} />
       {rest.map((p) => (
-        <ProductFeature tag={p.tag ?? 'Producto propio'} name={p.name} price={p.price} url={p.url} categories={p.categories} image={digitalImages[p.id] ?? p.image} href={p.type === 'propio' ? `/tienda/${p.id}` : undefined} />
+        <div class="launch-item" data-until={MOCHILA_LAUNCH} hidden={mochilaLaunched()}>
+          <ProductFeature tag={p.tag ?? 'Producto propio'} name={p.name} price={p.price} url={p.url} categories={p.categories} image={digitalImages[p.id] ?? p.image} href={p.type === 'propio' ? `/tienda/${p.id}` : undefined} />
+        </div>
       ))}
       <ProductFeature tag="Gratis · Checklist" name="Checklist de viaje gratuito" price="Gratis" url="https://payhip.com/b/9AglK" categories={['viaje']} image={checklistPhoto} href="/checklist-viaje-largo" />
+      <div class="launch-item" data-launch={MOCHILA_LAUNCH} hidden={!mochilaLaunched()}>
+        <ProductFeature tag="Gratis · Checklist" name="Checklist mochila gratuito" price="Gratis" url="https://payhip.com/b/tkgcR" categories={['viaje']} image={mochilaPhoto} href="/checklist-mochila" />
+      </div>
     </div>
   </div>
 </section>
@@ -45,5 +52,6 @@ const rest = products.filter((p) => p.id !== featured.id).slice(0, 1);
   .shop-head .see-all { display: inline-block; margin-top: 6px; opacity: 1; color: var(--popd); font-family: var(--display); font-weight: 600; font-size: .85rem; }
   .shop-grid { margin-top: 56px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
   .shop-grid :global(.p-feature) { min-height: 340px; grid-row: auto; }
+  .launch-item:not([hidden]) { display: contents; }
   @media (max-width: 860px) { .shop-grid { grid-template-columns: 1fr; } }
 </style>

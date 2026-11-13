@@ -13,6 +13,8 @@ import esquemaFontaneria from '../assets/products/esquema-fontaneria.png';
 import plantillaConsumo from '../assets/products/plantilla-consumo.jpg';
 import tiendaHeaderPhoto from '../assets/site/path-diy-painting.webp';
 import checklistPhoto from '../assets/site/path-viaje-hitchhiking.jpg';
+import mochilaPhoto from '../assets/site/checklist-mochila.jpg';
+import { MOCHILA_LAUNCH, mochilaLaunched } from '../data/launch.js';
 
 const digitalImages: Record<string, ImageMetadata> = {
   'diagrama-200ah': diagrama200ah,
@@ -55,6 +57,9 @@ const discountFor = (source: string) => {
               <ProductFeature tag={p.tag ?? 'Producto propio'} name={p.name} price={p.price} url={p.url} categories={p.categories} image={digitalImages[p.id] ?? p.image} href={`/tienda/${p.id}`} />
             ))}
             <ProductFeature tag="Gratis · Checklist" name="Checklist de viaje gratuito" price="Gratis" url="https://payhip.com/b/9AglK" categories={['viaje']} image={checklistPhoto} href="/checklist-viaje-largo" />
+            <div class="launch-item" data-launch={MOCHILA_LAUNCH} hidden={!mochilaLaunched()}>
+              <ProductFeature tag="Gratis · Checklist" name="Checklist mochila gratuito" price="Gratis" url="https://payhip.com/b/tkgcR" categories={['viaje']} image={mochilaPhoto} href="/checklist-mochila" />
+            </div>
           </div>
         </div>
       )}
@@ -95,6 +100,7 @@ const discountFor = (source: string) => {
   .digital-section { margin-bottom: 90px; }
   .featured-row { margin-top: 26px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
   .featured-row :global(.p-feature) { min-height: 340px; grid-row: auto; }
+  .launch-item:not([hidden]) { display: contents; }
   @media (max-width: 760px) { .featured-row { grid-template-columns: 1fr; } }
 
   .affiliate-section .disclosure { margin-top: 12px; max-width: 640px; font-size: .86rem; line-height: 1.55; opacity: .7; }
