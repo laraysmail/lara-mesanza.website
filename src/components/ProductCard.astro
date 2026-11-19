@@ -12,8 +12,10 @@ interface Props {
   d?: string;
   href?: string;
   discount?: string;
+  subs?: string[];
+  search?: string;
 }
-const { source, name, price, url, categories, image = null, x = '50px', d = '0s', href, discount } = Astro.props;
+const { source, name, price, url, categories, image = null, x = '50px', d = '0s', href, discount, subs, search } = Astro.props;
 const linkHref = href ?? url;
 const isExternal = linkHref.startsWith('http');
 ---
@@ -24,6 +26,8 @@ const isExternal = linkHref.startsWith('http');
   rel={isExternal ? 'noopener noreferrer' : undefined}
   class="p-small tilt-card slide-in"
   data-category={categories.join(' ')}
+  data-subs={subs ? subs.join('|') : undefined}
+  data-search={search}
   style={`--x:${x}; --d:${d}`}
 >
   <div class="p-small-visual">

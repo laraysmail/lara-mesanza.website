@@ -2,7 +2,6 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHeader from '../components/PageHeader.astro';
 import AmbientBlob from '../components/AmbientBlob.astro';
-import FilterPills from '../components/FilterPills.astro';
 import ProductFeature from '../components/ProductFeature.astro';
 import ProductCard from '../components/ProductCard.astro';
 import products from '../data/products.json';
@@ -25,6 +24,32 @@ const digitalImages: Record<string, ImageMetadata> = {
 
 const digital = products.filter((p) => p.type === 'propio');
 const affiliate = products.filter((p) => p.type === 'afiliado');
+
+// Subcategory order and labels come from the Notion "🛒 Product list" database.
+const SUB_ORDER = [
+  'Electricidad', 'Iluminación', 'Fontanería y agua', 'Calefacción y ventilación', 'Cocina', 'Baño', 'Dormitorio',
+  'Electrodomésticos', 'Muebles y carpintería', 'Suelos y paredes', 'Ventanas y claraboyas', 'Decoración y textil',
+  'Vehículo', 'Aire libre y camping', 'Herramientas', 'Tecnología y ocio', 'Seguridad', 'Mascotas', 'Bebé',
+  'Salud e higiene', 'Equipaje y organización', 'Ropa y calzado', 'Movilidad',
+];
+const ESPACIOS = [
+  { value: 'todo', label: 'Todo' },
+  { value: 'camper', label: 'Camper' },
+  { value: 'piso', label: 'Piso' },
+  { value: 'viaje', label: 'Viaje' },
+];
+const BLOCK_SIZE = 6;
+const fold = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const searchText = (p: any) => fold([p.name, p.source, ...(p.subcategorias ?? [])].join(' '));
+const subs = (p: any): string[] => p.subcategorias ?? [];
+const ultimoVideo = affiliate.filter((p: any) => p.destacado);
+const topProductos = affiliate.filter((p: any) => p.top);
+const blocks = SUB_ORDER
+  .map((sub) => ({ sub, items: affiliate.filter((p: any) => subs(p)[0] === sub) }))
+  .filter((b) => b.items.length > 0);
+const subChips = SUB_ORDER
+  .map((sub) => ({ sub, espacios: [...new Set(affiliate.filter((p: any) => subs(p).includes(sub)).flatMap((p: any) => p.espacios ?? []))] }))
+  .filter((c) => c.espacios.length > 0);
 
 const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
 const discountFor = (source: string) => {
@@ -68,24 +93,231 @@ const discountFor = (source: string) => {
         <span class="kicker">// lo que compramos de verdad</span>
         <h2>Todo lo que usamos</h2>
         <p class="disclosure">Los productos de esta sección son enlaces de afiliado. Si compras a través de ellos, me llevo una pequeña comisión, sin coste extra para ti. Solo recomiendo lo que usamos de verdad.</p>
-        <FilterPills
-          targetId="tienda-grid"
-          options={[
-            { value: 'todo', label: 'Todo' },
-            { value: 'camper', label: 'Camper' },
-            { value: 'piso', label: 'Piso' },
-            { value: 'viaje', label: 'Viaje' },
-          ]}
-        />
-        <div id="tienda-grid" class="product-grid">
-          {affiliate.map((p) => (
-            <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} image={p.image} discount={discountFor(p.source)} />
+        {ultimoVideo.length > 0 && (
+          <div class="highlight">
+            <h3 class="highlight-title">Del último vídeo</h3>
+            <div class="highlight-row">
+              {ultimoVideo.map((p: any) => (
+                <ProductFeature tag={p.etiqueta ?? `${p.source} · Del último vídeo`} name={p.name} price={p.price ?? ''} url={p.url} categories={p.categories} image={p.image} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {topProductos.length > 0 && (
+          <div class="highlight">
+            <h3 class="highlight-title">Nuestros top</h3>
+            <div class="highlight-row">
+              {topProductos.map((p: any) => (
+                <ProductFeature tag={p.etiqueta ?? `${p.source} · Top`} name={p.name} price={p.price ?? ''} url={p.url} categories={p.categories} image={p.image} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div class="shop-tools" id="shop-tools">
+          <label class="shop-search">
+            <span class="visually-hidden">Buscar un producto</span>
+            <input type="search" id="shop-search" placeholder="Busca un producto: nevera, batería, mochila…" autocomplete="off" />
+          </label>
+          <div class="espacio-pills" role="group" aria-label="Filtrar por espacio">
+            {ESPACIOS.map((e, i) => (
+              <button type="button" class:list={['shop-pill', { active: i === 0 }]} data-esp={e.value}>{e.label}</button>
+            ))}
+          </div>
+          <div class="sub-panel" hidden>
+            <button type="button" class="sub-toggle" aria-expanded="false" aria-controls="sub-chips">
+              <span>Subcategoría: <strong class="sub-current">Todas</strong></span>
+              <span class="sub-arrow" aria-hidden="true">▾</span>
+            </button>
+            <div class="sub-chips" id="sub-chips" role="group" aria-label="Filtrar por tipo de producto" hidden>
+              <button type="button" class="sub-chip active" data-sub="">Todas</button>
+              {subChips.map((c) => (
+                <button type="button" class="sub-chip" data-sub={c.sub} data-esps={c.espacios.join(' ')}>{c.sub}</button>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div id="shop-blocks">
+          {blocks.map((b) => (
+            <section class="shop-block" data-block={b.sub}>
+              <div class="shop-block-head">
+                <h3>{b.sub}</h3>
+                <span class="shop-block-count"></span>
+              </div>
+              <div class="product-grid">
+                {b.items.map((p: any) => (
+                  <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} image={p.image} discount={discountFor(p.source)} subs={subs(p)} search={searchText(p)} />
+                ))}
+              </div>
+              <button type="button" class="ver-mas" hidden>Ver más</button>
+            </section>
           ))}
+        </div>
+
+        <div id="shop-results" hidden>
+          <p class="results-count"></p>
+          <div class="product-grid">
+            {affiliate.map((p: any) => (
+              <ProductCard source={p.source} name={p.name} price={p.price} url={p.url} categories={p.categories} image={p.image} discount={discountFor(p.source)} subs={subs(p)} search={searchText(p)} />
+            ))}
+          </div>
+          <div class="no-results" hidden>
+            <p>No hemos encontrado nada con esa búsqueda. Prueba con otra palabra o quita algún filtro.</p>
+            <p class="no-results-cta">¿No lo encuentras? <a href="/contacto">Escríbenos</a> y te contamos qué usamos nosotros.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </BaseLayout>
+
+<script define:vars={{ BLOCK_SIZE }}>
+  const fold = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+  const input = document.getElementById('shop-search');
+  const blocksEl = document.getElementById('shop-blocks');
+  const resultsEl = document.getElementById('shop-results');
+  const espPills = [...document.querySelectorAll('.shop-pill')];
+  const subChips = [...document.querySelectorAll('.sub-chip')];
+  const blocks = [...document.querySelectorAll('.shop-block')];
+  const resultCards = [...resultsEl.querySelectorAll('[data-search]')];
+  const state = { esp: 'todo', sub: '', q: '' };
+
+  const matchEsp = (card) => state.esp === 'todo' || card.dataset.category.split(' ').includes(state.esp);
+
+  const subPanel = document.querySelector('.sub-panel');
+  const subToggle = subPanel.querySelector('.sub-toggle');
+  const subList = subPanel.querySelector('.sub-chips');
+  const setOpen = (open) => {
+    subList.hidden = !open;
+    subToggle.setAttribute('aria-expanded', String(open));
+    subPanel.classList.toggle('open', open);
+  };
+  subToggle.addEventListener('click', () => setOpen(subList.hidden));
+
+  function render() {
+    // Subcategories only appear once a space (Camper / Piso / Viaje) is chosen.
+    if (state.esp === 'todo') { state.sub = ''; setOpen(false); }
+    subPanel.hidden = state.esp === 'todo';
+    subPanel.querySelector('.sub-current').textContent = state.sub || 'Todas';
+    // Only offer subcategories that exist in the chosen space.
+    subChips.forEach((chip) => {
+      const ok = !chip.dataset.sub || state.esp === 'todo' || chip.dataset.esps.split(' ').includes(state.esp);
+      chip.hidden = !ok;
+      if (!ok && state.sub === chip.dataset.sub) state.sub = '';
+    });
+    subChips.forEach((chip) => chip.classList.toggle('active', chip.dataset.sub === state.sub));
+
+    const words = fold(state.q).split(/\s+/).filter(Boolean);
+    const listMode = !!state.sub || words.length > 0;
+    blocksEl.hidden = listMode;
+    resultsEl.hidden = !listMode;
+
+    if (listMode) {
+      let n = 0;
+      resultCards.forEach((card) => {
+        const show = matchEsp(card)
+          && (!state.sub || card.dataset.subs.split('|').includes(state.sub))
+          && words.every((w) => card.dataset.search.includes(w));
+        card.style.display = show ? '' : 'none';
+        if (show) n++;
+      });
+      resultsEl.querySelector('.results-count').textContent = `${n} producto${n === 1 ? '' : 's'}`;
+      resultsEl.querySelector('.no-results').hidden = n > 0;
+      return;
+    }
+
+    blocks.forEach((block) => {
+      const cards = [...block.querySelectorAll('[data-search]')].filter(matchEsp);
+      const expanded = block.dataset.expanded === 'true';
+      block.querySelectorAll('[data-search]').forEach((c) => (c.style.display = 'none'));
+      cards.forEach((c, i) => (c.style.display = expanded || i < BLOCK_SIZE ? '' : 'none'));
+      block.hidden = cards.length === 0;
+      block.querySelector('.shop-block-count').textContent = `${cards.length}`;
+      const more = block.querySelector('.ver-mas');
+      more.hidden = cards.length <= BLOCK_SIZE;
+      more.textContent = expanded ? 'Ver menos' : `Ver más (${cards.length - BLOCK_SIZE})`;
+    });
+  }
+
+  espPills.forEach((pill) => pill.addEventListener('click', () => {
+    state.esp = pill.dataset.esp;
+    espPills.forEach((p) => p.classList.toggle('active', p === pill));
+    render();
+  }));
+  subChips.forEach((chip) => chip.addEventListener('click', () => { state.sub = chip.dataset.sub; setOpen(false); render(); }));
+  input.addEventListener('input', () => { state.q = input.value; render(); });
+  blocks.forEach((block) => block.querySelector('.ver-mas').addEventListener('click', () => {
+    block.dataset.expanded = block.dataset.expanded === 'true' ? 'false' : 'true';
+    render();
+    if (block.dataset.expanded === 'false') block.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }));
+  render();
+</script>
+
+<style>
+  .highlight { margin-top: 34px; }
+  .highlight-title, .shop-block-head h3 {
+    font-family: var(--display); font-weight: 700; font-size: 1.25rem; letter-spacing: -.01em;
+  }
+  .highlight-row { margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 22px; }
+  .highlight-row :global(.p-feature) { min-height: 360px; grid-row: auto; }
+
+  .shop-tools {
+    margin-top: 48px; padding: 22px; border-radius: 22px; background: rgba(16,25,21,0.04);
+    display: flex; flex-direction: column; gap: 16px;
+  }
+  .shop-search input {
+    width: 100%; font: inherit; font-size: 1rem; padding: 14px 18px; border-radius: 100px;
+    border: 1px solid rgba(16,25,21,0.18); background: var(--cream, #fff); color: var(--ink);
+  }
+  .shop-search input:focus { outline: 2px solid var(--pop); outline-offset: 2px; }
+  .espacio-pills, .sub-chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .shop-pill, .sub-chip {
+    font-family: var(--mono); text-transform: uppercase; letter-spacing: .04em; border-radius: 100px; cursor: pointer;
+    border: 1px solid rgba(16,25,21,0.15); background: transparent; color: var(--ink); transition: all .2s ease;
+  }
+  .shop-pill { font-size: 12px; padding: 9px 18px; opacity: .7; }
+  .sub-chip { font-size: 10.5px; padding: 6px 12px; opacity: .6; }
+  .shop-pill:hover, .sub-chip:hover { opacity: 1; }
+  .shop-pill.active { background: var(--pop); border-color: var(--pop); color: var(--cream); opacity: 1; }
+  .sub-chip.active { background: var(--ink); border-color: var(--ink); color: var(--cream); opacity: 1; }
+  .sub-chip[hidden], .sub-panel[hidden], .sub-chips[hidden] { display: none; }
+  .sub-toggle {
+    display: inline-flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: 11.5px;
+    text-transform: uppercase; letter-spacing: .04em; color: var(--ink); background: transparent; cursor: pointer;
+    border: 1px solid rgba(16,25,21,0.2); border-radius: 100px; padding: 8px 16px;
+  }
+  .sub-toggle strong { color: var(--popd, var(--pop)); font-weight: 600; }
+  .sub-arrow { transition: transform .2s ease; }
+  .sub-panel.open .sub-arrow { transform: rotate(180deg); }
+  .sub-panel .sub-chips { margin-top: 12px; }
+  @media (max-width: 600px) {
+    .shop-tools { padding: 16px; }
+    .espacio-pills { gap: 5px; flex-wrap: nowrap; }
+    .shop-pill { font-size: 10.5px; padding: 7px 10px; flex: 1 1 auto; }
+    .sub-chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
+    .sub-chip { flex: 0 0 auto; }
+  }
+
+  .shop-block { margin-top: 44px; scroll-margin-top: 90px; }
+  .shop-block-head { display: flex; align-items: baseline; gap: 10px; }
+  .shop-block-count { font-family: var(--mono); font-size: 12px; opacity: .5; }
+  .shop-block .product-grid, #shop-results .product-grid { margin-top: 16px; }
+  .ver-mas {
+    margin-top: 18px; font-family: var(--display); font-weight: 600; font-size: 15px; color: var(--pop);
+    background: none; border: 1px solid rgba(193,96,47,0.4); padding: 10px 20px; border-radius: 100px; cursor: pointer;
+  }
+  .ver-mas:hover { background: var(--pop); color: var(--cream); }
+  #shop-results { margin-top: 36px; }
+  .results-count { font-family: var(--mono); font-size: 12px; text-transform: uppercase; opacity: .6; }
+  .no-results { margin-top: 20px; }
+  .no-results p { opacity: .7; }
+  .no-results .no-results-cta { margin-top: 10px; opacity: 1; font-weight: 500; }
+  .no-results-cta a { color: var(--pop); text-decoration: underline; text-underline-offset: 3px; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+</style>
 
 <style>
   .tienda-body { padding: 80px 0 120px; position: relative; overflow: hidden; }
@@ -105,7 +337,23 @@ const discountFor = (source: string) => {
 
   .affiliate-section .disclosure { margin-top: 12px; max-width: 640px; font-size: .86rem; line-height: 1.55; opacity: .7; }
   .affiliate-section .filter-pills { margin-top: 20px; }
-  .product-grid { margin-top: 30px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
-  @media (max-width: 900px) { .product-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 600px) { .product-grid { grid-template-columns: 1fr; } }
+  /* Compact tiles: 6 per row on desktop (one block = one row), 3 per row on tablet and phone (two rows). */
+  .product-grid { margin-top: 30px; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; }
+  .product-grid :global(.p-small) { min-height: 0; border-radius: 14px; }
+  .product-grid :global(.p-small-visual) { aspect-ratio: 1 / 1; background: #fff; }
+  .product-grid :global(.p-small-visual img) { object-fit: contain; padding: 6px; }
+  .product-grid :global(.p-small-body) { padding: 10px 12px 12px; }
+  .product-grid :global(.p-small h4) { font-size: .86rem; line-height: 1.25; padding-top: 6px; }
+  .product-grid :global(.p-small .tag) { font-size: 9px; }
+  .product-grid :global(.p-small .price) { font-size: .75rem; margin-top: 4px; }
+  .product-grid :global(.discount-chip) { top: 6px; left: 6px; font-size: 8.5px; padding: 4px 7px; }
+  @media (max-width: 900px) { .product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 600px) {
+    .product-grid { gap: 8px; }
+    .product-grid :global(.p-small-body) { padding: 8px 8px 10px; }
+    .product-grid :global(.p-small h4) { font-size: .74rem; }
+    .product-grid :global(.p-small .tag) { font-size: 8px; }
+    .product-grid :global(.p-small .price) { font-size: .68rem; }
+    .product-grid :global(.discount-chip) { display: none; }
+  }
 </style>

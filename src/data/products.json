@@ -84,1255 +84,2861 @@
     "outro": "Si todavía no sabes qué batería o qué solar necesitas, empieza por aquí antes de comprar nada."
   },
   {
-    "id": "sillas-camping-amazon-0",
+    "id": "2-repelentes-de-mosquitos-aptos-para-bebe",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Sillas de camping",
+    "name": "2 repelentes de mosquitos aptos para bebé",
     "price": null,
-    "categories": [
-      "camper"
+    "espacios": [
+      "viaje"
     ],
-    "url": "https://amzn.to/49kaaDz",
-    "image": "https://m.media-amazon.com/images/I/61iziy0G6VL._AC_SY879_.jpg"
+    "subcategorias": [
+      "Bebé",
+      "Salud e higiene"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/B022nuCOp",
+    "image": "https://m.media-amazon.com/images/I/61c6XlLX9eL._AC_SL1200_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
   },
   {
-    "id": "estabilizador-de-tension-amazon-1",
+    "id": "adaptador-internacional",
     "type": "afiliado",
     "source": "Amazon",
-    "name": "Estabilizador de tensión",
-    "price": "15,99 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/4b74ZaU",
-    "image": "https://m.media-amazon.com/images/I/51xsiLw8jEL._AC_SX679_.jpg"
-  },
-  {
-    "id": "terminales-aliexpress-2",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Terminales eléctricos",
-    "price": "5,38 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_Dlk2dMZ",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S44afbc4e94354447ba005228cfcf1eb94.jpg?has_lang=1&ver=2_960x960q75.jpg_.avif"
-  },
-  {
-    "id": "nordkapp-nordkapp-3",
-    "type": "afiliado",
-    "source": "Nordkapp",
-    "name": "Calefacción diésel NordKapp",
+    "name": "Adaptador internacional",
     "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://nord-kapp.com/products/nordkapp™-air-gsm-5kw-8kw-diesel-air-heater?bg_ref=XSjWxanWq7",
-    "image": "https://nord-kapp.com/cdn/shop/files/7_79de457b-746a-47b0-b96d-abfecc703f3b.png?v=1770492901&width=1000"
-  },
-  {
-    "id": "termometro-aliexpress-4",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Termómetro digital",
-    "price": "20,02 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_ooSqBBI",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa0f74e25150344eda7f666ef1062b9387.jpg?has_lang=1&ver=2_960x960q75.jpg_.avif"
-  },
-  {
-    "id": "bomba-flush-aliexpress-5",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Bomba de flush para WC",
-    "price": "75€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_oBMwMJi",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb1f748f2e3d24526afdb1716be07de8fQ.jpg_480x480q75.jpg_.avif"
-  },
-  {
-    "id": "usb-port-aliexpress-7",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Puerto USB empotrable",
-    "price": "€4.08",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_onYdFCC",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se4e49f45077d42ab852305718605a14eI.jpg?has_lang=1&ver=3_220x220q75.jpg_.avif"
-  },
-  {
-    "id": "taza-cobre-temu-8",
-    "type": "afiliado",
-    "source": "Temu",
-    "name": "Taza de cobre",
-    "price": "9,45 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://temu.to/k/ec9nch07wvf",
-    "image": "https://img.kwcdn.com/product/fancy/10e11df7-a2c7-475c-98c2-83e3e87efc3a.jpg?imageView2/2/w/800/q/70/format/avif"
-  },
-  {
-    "id": "fregadero-cami-n-leroy-merlin-9",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Fregadero (camión)",
-    "price": "82,99 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://tidd.ly/4kDO303",
-    "image": "https://media.adeo.com/media/4009751/media.png?width=650&height=650&format=jpg&quality=80&fit=bounds"
-  },
-  {
-    "id": "playstation-amazon-10",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Consola PlayStation",
-    "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/4mQLMAc",
-    "image": "https://m.media-amazon.com/images/I/71bF3ErRGML._AC_SX679_.jpg"
-  },
-  {
-    "id": "pantalla-portatil-amazon-11",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Pantalla portátil",
-    "price": "139,99 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/4kOmzo1",
-    "image": "https://m.media-amazon.com/images/I/81Gv77eHXJL._AC_SX679_.jpg"
-  },
-  {
-    "id": "mppt-amazon-12",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Regulador solar MPPT",
-    "price": "178,29 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/43Nk5PT",
-    "image": "https://m.media-amazon.com/images/I/51T8Zl-YuBL._SX522_.jpg"
-  },
-  {
-    "id": "riel-cortina-armario-temu-13",
-    "type": "afiliado",
-    "source": "Temu",
-    "name": "Riel para cortina de armario",
-    "price": "6,92 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://temu.to/k/eg18u8y2x1w",
-    "image": "https://img.kwcdn.com/product/fancy/daf36c43-d362-4625-a68e-ba117dac0344.jpg?imageView2/2/w/800/q/70/format/avif"
-  },
-  {
-    "id": "stove-amazon-14",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Hornillo portátil",
-    "price": "79,99 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/4kWsQy9",
-    "image": "https://m.media-amazon.com/images/I/71ogJ+spRtL._AC_SX679_.jpg"
-  },
-  {
-    "id": "silla-outdoor-decathlon-15",
-    "type": "afiliado",
-    "source": "Decathlon",
-    "name": "Silla plegable de camping",
-    "price": "17,99 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://www.decathlon.es/es/p/silla-plegable-de-camping-con-reposabrazos-quechua-basic/_/R-p-13372?mc=8852991&c=azul&utm_source=emas&utm_medium=affiliate&utm_campaign=es_t-perf_f-cv_o-conv_31040-creadores",
-    "image": "https://contents.mediadecathlon.com/p2598175/k$ef0cd18cf948c705e900c9cf2e92dc64/picture.jpg?format=auto&f=800x0"
-  },
-  {
-    "id": "cafetera-cami-n-amazon-16",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Cafetera (camión)",
-    "price": "59,90 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/43w4h5n",
-    "image": "https://m.media-amazon.com/images/I/61ykeQlZTfL._AC_SX679_.jpg"
-  },
-  {
-    "id": "luces-lectura-temu-17",
-    "type": "afiliado",
-    "source": "Temu",
-    "name": "Luz de lectura",
-    "price": "12,10 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://temu.to/k/ev8wgs19xck",
-    "image": "https://img.kwcdn.com/product/fancy/c0530111-b8b9-42dc-9735-a21dc4592c0d.jpg?imageView2/2/w/800/q/70/format/avif"
-  },
-  {
-    "id": "lavabo-temu-19",
-    "type": "afiliado",
-    "source": "Temu",
-    "name": "Lavabo",
-    "price": "6,30 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://temu.to/k/e3yawfdjxyr",
-    "image": "https://img.kwcdn.com/product/fancy/2a5fd027-e82f-4745-ad93-950049ed684a.jpg?imageView2/2/w/800/q/70/format/avif"
-  },
-  {
-    "id": "bateria-sanfou-20",
-    "type": "afiliado",
-    "source": "Sanfou",
-    "name": "Batería de litio Sanfou",
-    "price": "59,90€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://www.sanfoupower.com/?ref=oolgddle",
-    "image": "https://www.sanfoupower.com/cdn/shop/collections/IMG_9524.jpg?v=1729825327&width=1080"
-  },
-  {
-    "id": "cargador-amazon-22",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Cargador de batería",
-    "price": "49,99 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/4jGPSrZ",
-    "image": "https://m.media-amazon.com/images/I/716pPKjfvaL._AC_SX679_.jpg"
-  },
-  {
-    "id": "riel-cortina-temu-23",
-    "type": "afiliado",
-    "source": "Temu",
-    "name": "Riel para cortina",
-    "price": "15,50 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://temu.to/k/ehcjuqlhujl",
-    "image": "https://img.kwcdn.com/product/fancy/f3a7b0cf-647b-4213-830e-c7a5b479d92e.jpg?imageView2/2/w/800/q/70/format/avif"
-  },
-  {
-    "id": "suelo-laminado-cami-n-leroy-merlin-24",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Suelo laminado (camión)",
-    "price": "15,49 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://tidd.ly/3HHtpxm",
-    "image": "https://media.adeo.com/media/2861724/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds"
-  },
-  {
-    "id": "cortina-ba-o-temu-25",
-    "type": "afiliado",
-    "source": "Temu",
-    "name": "Cortina de baño",
-    "price": "11,45 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://temu.to/k/e6wbanny16o",
-    "image": "https://img.kwcdn.com/product/fancy/3d168901-5e7c-4bc3-bed0-c44bd70a75a9.jpg?imageView2/2/w/800/q/70/format/avif"
-  },
-  {
-    "id": "claraboyas-y-ventana-baiecar-26",
-    "type": "afiliado",
-    "source": "Baiecar",
-    "name": "Claraboyas y ventanas",
-    "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://www.baie-car.com/es/",
-    "image": "https://www.baie-car.com/wp-content/uploads/2019/10/IMG-8729-1-440x330.jpg"
-  },
-  {
-    "id": "proyector-amazon-27",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Proyector portátil",
-    "price": "309,97 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3SEkyio",
-    "image": "https://m.media-amazon.com/images/I/71OBMkT5biL._AC_SX522_.jpg"
-  },
-  {
-    "id": "inversor-amazon-29",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Inversor de corriente",
-    "price": "134,99 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3FIh8bw",
-    "image": "https://m.media-amazon.com/images/I/710qt9zRuEL._AC_SX679_.jpg"
-  },
-  {
-    "id": "luces-focos-efectoled-31",
-    "type": "afiliado",
-    "source": "Efectoled",
-    "name": "Foco LED empotrable",
-    "price": "2,95 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://www.efectoled.com/es/comprar-placas-downlight-led-basic/75597-downlight-led-3w-12v-dc-circular-mueble-corte-o-63-mm.html",
-    "image": "https://www.efectoled.com/2612906-thickbox_sklum/downlight-led-3w-12v-dc-circular-mueble-corte-o-63-mm.jpg"
-  },
-  {
-    "id": "pata-lagun-temu-32",
-    "type": "afiliado",
-    "source": "Temu",
-    "name": "Pata de mesa Lagun",
-    "price": "€84.54",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://temu.to/k/e828kaabbta",
-    "image": "https://img.kwcdn.com/product/fancy/cc3c31e1-3d97-4a06-8a7c-9021b1614862.jpg?imageView2/2/w/800/q/70/format/avif"
-  },
-  {
-    "id": "porton-registro-leroy-merlin-33",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Portón de registro",
-    "price": "15,49 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://tidd.ly/4kSNTle",
-    "image": "https://media.adeo.com/media/1825772/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds"
-  },
-  {
-    "id": "sonda-nivel-agua-aliexpress-34",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Sonda de nivel de agua",
-    "price": "€18.81",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_opsvwu4",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S906ef2f1fe1a4a8684c9c0d61d792aabP.png_960x960.png_.avif"
-  },
-  {
-    "id": "separador-de-orina-amazon-35",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Separador de orina para WC",
-    "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/4dO3sZ0",
-    "image": "https://m.media-amazon.com/images/I/41fe+ET9qsL._AC_SX679_.jpg"
-  },
-  {
-    "id": "booster-cami-n-amazon-36",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Booster de batería (camión)",
-    "price": "129,19 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3T9dytZ",
-    "image": "https://m.media-amazon.com/images/I/51MBwRc+pWL._AC_SX679_.jpg"
-  },
-  {
-    "id": "mononmando-ducha-aliexpress-37",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Monomando de ducha",
-    "price": "€71.18",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_ok8dYj2",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Hb05bab17db2747f18c1e4539118fd941d.jpg_220x220q75.jpg_.avif"
-  },
-  {
-    "id": "champi-on-ba-o-aliexpress-38",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Rejilla de ventilación de baño",
-    "price": "24€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_oEa8yGy",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S813453afcd384b38bb397af6e8923beaH.jpg_480x480q75.jpg_.avif"
-  },
-  {
-    "id": "resina-plato-ducha-nazza-39",
-    "type": "afiliado",
-    "source": "Nazza",
-    "name": "Resina para plato de ducha",
-    "price": "45,56 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://www.nazza.es/?refs=113943",
-    "image": "https://www.nazza.es/1274-large_default/kit-antideslizante.jpg"
-  },
-  {
-    "id": "temporazidaor-boiler-aliexpress-40",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Temporizador para calentador",
-    "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_oBVP2Fi",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf8e56bf02e9646019c39fda87dff12b1l.jpg_480x480q75.jpg_.avif"
-  },
-  {
-    "id": "interruptores-aliexpress-41",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Interruptores eléctricos",
-    "price": "€4.08",
-    "categories": [
-      "camper"
+    "espacios": [
+      "viaje"
     ],
-    "url": "https://s.click.aliexpress.com/e/_onYdFCC",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se4e49f45077d42ab852305718605a14eI.jpg?has_lang=1&ver=3_220x220q75.jpg_.avif"
-  },
-  {
-    "id": "nevera-cami-n-electrodepot-42",
-    "type": "afiliado",
-    "source": "Electrodepot",
-    "name": "Nevera (camión)",
-    "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://tidd.ly/43OMxkm",
-    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10013280.jpg"
-  },
-  {
-    "id": "grifo-ba-o-leroy-merlin-43",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Grifo de baño",
-    "price": "7,45 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://tidd.ly/4iVXl6d",
-    "image": "https://media.adeo.com/media/2007574/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds"
-  },
-  {
-    "id": "cob-led-aliexpress-44",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Tira LED COB",
-    "price": "€8.12",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_oDmSPzw",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se0c5dd44263e427ba77d8fd3413559c3s.jpg_220x220q75.jpg_.avif"
-  },
-  {
-    "id": "gancho-de-puerta-aliexpress-45",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Gancho de puerta",
-    "price": "€11.10",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_opQuSVm",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S831c755213084b8695b0f853d97cb50da.jpg_220x220q75.jpg_.avif"
-  },
-  {
-    "id": "mesa-outdoor-decathlon-47",
-    "type": "afiliado",
-    "source": "Decathlon",
-    "name": "Mesa de camping",
-    "price": "19,99 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://www.decathlon.es/es/p/mobiliario-camping-mesa-4-personas-verde/_/R-p-6330?mc=8750555&c=azul&utm_source=emas&utm_medium=affiliate&utm_campaign=es_t-perf_f-cv_o-conv_31040-creadores",
-    "image": "https://contents.mediadecathlon.com/p3103187/k$0bffa0432e006902fe3d7516a72ad864/picture.jpg?format=auto&f=800x0"
-  },
-  {
-    "id": "camara-de-marcha-atras-aliexpress-48",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Cámara de marcha atrás",
-    "price": "20,00€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_DCyxtqB",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3b58a3cdabed42109cf82de1f4a03223m.jpg_480x480q75.jpg_.avif"
-  },
-  {
-    "id": "fregadero-piso-leroy-merlin-49",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Fregadero (piso)",
-    "price": "95,89 €",
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/47NMR3k",
-    "image": "https://media.adeo.com/media/4009763/media.png?width=650&height=650&format=jpg&quality=80&fit=bounds"
-  },
-  {
-    "id": "termostato-electric-box-aliexpress-50",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Termostato para caja eléctrica",
-    "price": "3,69€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_DmIZeyd",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4f64dc7b346d45e6800f3a5dfd4918476.jpg_480x480q75.jpg_.avif"
-  },
-  {
-    "id": "portable-fan-amazon-51",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Ventilador portátil",
-    "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/4435fo1",
-    "image": "https://m.media-amazon.com/images/I/51IpYhKQLGL._AC_UL320_.jpg"
-  },
-  {
-    "id": "cortina-mosquitera-ikea-52",
-    "type": "afiliado",
-    "source": "IKEA",
-    "name": "Cortina mosquitera",
-    "price": "6,99 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://www.ikea.com/es/es/p/lill-cortinas-red-par-blanco-10070262/",
-    "image": "https://www.ikea.com/es/es/images/products/lill-cortinas-red-pack-2-unidades-blanco-con-bolsillo-barra__0598717_pe677784_s5.jpg?f=s"
-  },
-  {
-    "id": "pata-de-mesa-amazon-53",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Pata de mesa",
-    "price": "5,85€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/40lIpq9",
-    "image": "https://m.media-amazon.com/images/I/41nIaKtttuL._AC_SX679_.jpg"
-  },
-  {
-    "id": "nevera-furgo-electrodepot-54",
-    "type": "afiliado",
-    "source": "Electrodepot",
-    "name": "Nevera (furgo)",
-    "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://tidd.ly/3uGRD4k",
-    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10013280.jpg"
-  },
-  {
-    "id": "computer-fan-aliexpress-55",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Ventilador 12V",
-    "price": "€7.04",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_DCQKguN",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scae0284f5cd54ee3bc93b7d9795016c6J.jpg?has_lang=1&ver=2_220x220q75.jpg_.avif"
-  },
-  {
-    "id": "mesa-plegable-amazon-56",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Mesa plegable",
-    "price": "18,99€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/40rHRPi",
-    "image": "https://m.media-amazon.com/images/I/51jzuMRkBsL._AC_SX679_.jpg"
-  },
-  {
-    "id": "barra-de-cortina-ikea-57",
-    "type": "afiliado",
-    "source": "IKEA",
-    "name": "Barra de cortina",
-    "price": "2,99 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://www.ikea.com/es/es/p/irja-juego-p-cortina-blanco-70117172/",
-    "image": "https://www.ikea.com/es/es/images/products/irja-set-barra-cortina-blanco__0601962_pe680072_s5.jpg?f=u"
-  },
-  {
-    "id": "fiamma-vent-amazon-58",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Claraboya Fiamma Vent",
-    "price": "291,90 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/49YtmH4",
-    "image": "https://m.media-amazon.com/images/I/71oC3e0UODL._AC_SX679_.jpg"
-  },
-  {
-    "id": "patas-zapatero-aliexpress-59",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Patas para zapatero",
-    "price": null,
-    "categories": [
-      "piso"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_DB0aC2h",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbc1c2912dbb74fdda297d281e0fcb7f4l.jpg_480x480q75.jpg_.avif"
-  },
-  {
-    "id": "rodapies-leroy-merlin-60",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Rodapiés",
-    "price": null,
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/3uwpwVv",
-    "image": "https://media.adeo.com/media/1837326/media.png?width=640"
-  },
-  {
-    "id": "cruzetas-nivelante-lidl-61",
-    "type": "afiliado",
-    "source": "Lidl",
-    "name": "Crucetas nivelantes para baldosas",
-    "price": "3,49 €",
-    "categories": [
-      "piso"
-    ],
-    "url": "https://clk.tradedoubler.com/click?p(297358)a(3297946)g(24849500)url(https://www.lidl.es/es/sistema-de-nivelacion-de-baldosas/p51539)",
-    "image": "https://www.lidl.es/assets/gcp345292472b79464d9efc9b09fb009015.jpg"
-  },
-  {
-    "id": "lavavajillas-electrodepot-62",
-    "type": "afiliado",
-    "source": "Electrodepot",
-    "name": "Lavavajillas",
-    "price": "219,95€",
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/3RjIhEC",
-    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10001092.jpg"
-  },
-  {
-    "id": "mueble-alto-leroy-merlin-63",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Mueble alto de cocina",
-    "price": null,
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/3v0f88R",
-    "image": "https://media.adeo.com/media/2262955/media.png?width=640"
-  },
-  {
-    "id": "azulejos-otro-64",
-    "type": "afiliado",
-    "source": "Otro",
-    "name": "Azulejos",
-    "price": "6,05€/m2",
-    "categories": [
-      "piso"
-    ],
-    "url": "https://www.artegres.es/",
-    "image": "https://www.artegres.es/wp-content/uploads/2026/07/stn1002a.jpg"
-  },
-  {
-    "id": "calzos-amazon-65",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Calzos para caravana",
-    "price": "20,00€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3n7JKS6",
-    "image": "https://m.media-amazon.com/images/I/81F+dMArXhL._AC_SX679_.jpg"
-  },
-  {
-    "id": "horno-electrodepot-66",
-    "type": "afiliado",
-    "source": "Electrodepot",
-    "name": "Horno",
-    "price": null,
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/3RjDHVV",
-    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10016650.jpg"
-  },
-  {
-    "id": "calefaccion-china-amazon-67",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Calefacción diésel",
-    "price": "599€",
-    "categories": [
-      "camper"
+    "subcategorias": [
+      "Tecnología y ocio"
     ],
-    "url": "https://amzn.to/47wwFTr",
-    "image": "https://m.media-amazon.com/images/I/7122DeN0ofL._AC_UL320_.jpg"
-  },
-  {
-    "id": "stove-leroy-merlin-68",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Placa de cocina",
-    "price": "79,99 €",
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/49Twpk3",
-    "image": "https://media.adeo.com/media/3084560/media.png?width=650&height=650&format=jpg&quality=80&fit=bounds"
-  },
-  {
-    "id": "bisagras-hidraulicas-amazon-69",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Bisagras hidráulicas",
-    "price": "12,99 €",
-    "categories": [
-      "piso"
-    ],
-    "url": "https://amzn.to/47ZOgnc",
-    "image": "https://m.media-amazon.com/images/I/41sxGEiw5vL._AC_SX679_.jpg"
-  },
-  {
-    "id": "camping-gaz-amazon-70",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Bombona de camping gas",
-    "price": "24€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/43Tz2jh",
-    "image": "https://m.media-amazon.com/images/I/61-WM6vLIFL._AC_SX679_.jpg"
-  },
-  {
-    "id": "suelo-laminado-piso-leroy-merlin-71",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Suelo laminado (piso)",
-    "price": null,
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/3sQP9ju",
-    "image": "https://media.adeo.com/media/3059331/media.jpg?width=640"
-  },
-  {
-    "id": "camara-de-marche-atras-otro-72",
-    "type": "afiliado",
-    "source": "Otro",
-    "name": "Cámara de marcha atrás",
-    "price": "20,00€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3u7iOF7",
-    "image": "https://m.media-amazon.com/images/I/61p3vkXzFsL._AC_SX679_.jpg"
-  },
-  {
-    "id": "pomos-armario-cocina-aliexpress-73",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Pomos para armario y cocina",
-    "price": "1,50€",
-    "categories": [
-      "piso"
-    ],
-    "url": "https://rb.gy/onzjq0",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Ha60a017d35384d01a266a0b071bb5deds.jpg_480x480q75.jpg_.avif"
-  },
-  {
-    "id": "boca-de-agua-amazon-74",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Boca de llenado de agua",
-    "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/45YWTNQ",
-    "image": "https://m.media-amazon.com/images/I/51amR1mZ27L._AC_SX679_.jpg"
-  },
-  {
-    "id": "booster-furgo-amazon-75",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Booster de batería (furgo)",
-    "price": "153,28 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/47vCkdt",
-    "image": "https://m.media-amazon.com/images/I/71Uojd5syML._AC_SX679_.jpg"
-  },
-  {
-    "id": "anclaje-para-perros-4pcs-amazon-76",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Anclajes para perros (4 uds)",
-    "price": null,
     "categories": [
-      "camper"
+      "viaje"
     ],
-    "url": "https://amzn.to/3NlidHO",
-    "image": "https://m.media-amazon.com/images/I/61g1P31O-9L._AC_UL320_.jpg"
+    "url": "https://link.amazon/B03W1Uxcb",
+    "image": "https://m.media-amazon.com/images/I/61ZJb1vKy6L._AC_SL1500_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
   },
   {
-    "id": "adaptador-mariposa-amazon-77",
+    "id": "adaptador-mariposa-de-gas",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Adaptador mariposa de gas",
     "price": "4,92€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Cocina"
+    ],
     "categories": [
       "camper"
     ],
     "url": "https://amzn.to/3tTfwoY",
-    "image": "https://m.media-amazon.com/images/I/81gNB-48CCL._AC_SX679_.jpg"
+    "image": "https://m.media-amazon.com/images/I/81gNB-48CCL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
   },
   {
-    "id": "griffo-otro-78",
+    "id": "anclajes-para-perros-4-uds",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Anclajes para perros (4 uds)",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Mascotas"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3NlidHO",
+    "image": "https://m.media-amazon.com/images/I/61g1P31O-9L._AC_UL320_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-04-27"
+  },
+  {
+    "id": "azulejos",
     "type": "afiliado",
     "source": "Otro",
-    "name": "Grifo",
-    "price": null,
-    "categories": [
-      "camper",
+    "name": "Azulejos",
+    "price": "6,05€/m2",
+    "espacios": [
       "piso"
     ],
-    "url": "https://s.click.aliexpress.com/e/_DEtyVYZ",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0a7d36856440490695c2b00d243147bbJ.jpg_480x480q75.jpg_.avif"
-  },
-  {
-    "id": "plato-de-ducha-brico-dep-t-79",
-    "type": "afiliado",
-    "source": "Brico Depôt",
-    "name": "Plato de ducha",
-    "price": "131 €",
+    "subcategorias": [
+      "Suelos y paredes",
+      "Baño",
+      "Cocina"
+    ],
     "categories": [
       "piso"
     ],
-    "url": "https://rb.gy/o2qu0a",
-    "image": "https://www.bricodepot.es/media/catalog/product/cache/181b0992bdbb42961a53e6d1e13ca178/a/b/ab699419881878c.jpg"
+    "url": "https://www.artegres.es/",
+    "image": "https://www.artegres.es/wp-content/uploads/2026/07/stn1002a.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2024-02-02"
   },
   {
-    "id": "nevera-piso-electrodepot-80",
+    "id": "barra-de-cortina",
     "type": "afiliado",
-    "source": "Electrodepot",
-    "name": "Nevera (piso)",
-    "price": null,
-    "categories": [
-      "piso"
+    "source": "IKEA",
+    "name": "Barra de cortina",
+    "price": "2,99 €",
+    "espacios": [
+      "camper"
     ],
-    "url": "https://tidd.ly/47PmDO0",
-    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10013280.jpg"
-  },
-  {
-    "id": "cierre-automatico-otro-81",
-    "type": "afiliado",
-    "source": "Otro",
-    "name": "Cierre automático",
-    "price": "25,99 €",
+    "subcategorias": [
+      "Decoración y textil"
+    ],
     "categories": [
       "camper"
     ],
-    "url": "https://amzn.to/3u2egQJ",
-    "image": "https://m.media-amazon.com/images/I/61bedA2nCIL._AC_SX679_.jpg"
+    "url": "https://www.ikea.com/es/es/p/irja-juego-p-cortina-blanco-70117172/",
+    "image": "https://www.ikea.com/es/es/images/products/irja-set-barra-cortina-blanco__0601962_pe680072_s5.jpg?f=u",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-12-02"
   },
   {
-    "id": "tablero-madera-maciza-leroy-merlin-82",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Tablero de madera maciza",
-    "price": null,
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/406rUMQ",
-    "image": "https://media.adeo.com/media/1835417/media.jpg?width=640"
-  },
-  {
-    "id": "mueble-ba-o-leroy-merlin-83",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Mueble de baño",
-    "price": null,
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/49gnPdY",
-    "image": "https://media.adeo.com/mkp/673c390c48f70613b635696d7a89e43c/media.png?width=640"
-  },
-  {
-    "id": "cafetera-piso-amazon-84",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Cafetera (piso)",
-    "price": "59,90 €",
-    "categories": [
-      "piso"
-    ],
-    "url": "https://amzn.to/3uavdZE",
-    "image": "https://m.media-amazon.com/images/I/71426+uppqL._AC_SX679_.jpg"
-  },
-  {
-    "id": "luz-pared-aliexpress-85",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Luz de pared",
-    "price": null,
-    "categories": [
-      "piso"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_DdNIyAZ",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Seb126a038f0d423ea75760771a34f9d3W.jpg_480x480q75.jpg_.avif"
-  },
-  {
-    "id": "proyetor-portatil-amazon-86",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Proyector portátil",
-    "price": "309,97 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3MtgtLl",
-    "image": "https://m.media-amazon.com/images/I/71OBMkT5biL._AC_SX522_.jpg"
-  },
-  {
-    "id": "renogy-mppt-amazon-87",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Regulador solar Renogy MPPT",
-    "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3N5IbxY",
-    "image": "https://m.media-amazon.com/images/I/51oSnt0uweL._AC_SX679_.jpg"
-  },
-  {
-    "id": "kit-termoretractiles-aliexpress-88",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Kit de termoretráctiles",
-    "price": "1,33€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_DcQ3Zy1",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35790e457fe14cfb9c16387699d211ac5.png_480x480.png_.avif"
-  },
-  {
-    "id": "fiamma-40-amazon-89",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Toldo Fiamma F40",
-    "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3MtC0U4",
-    "image": "https://m.media-amazon.com/images/I/71zs8Usg0ML._AC_SX679_.jpg"
-  },
-  {
-    "id": "double-stove-amazon-90",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Hornillo doble",
-    "price": "92,59 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/47wnDGR",
-    "image": "https://m.media-amazon.com/images/I/71uE-UaUOvL._AC_SY879_.jpg"
-  },
-  {
-    "id": "cantos-sin-colar-leroy-merlin-91",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Cantos sin cola",
-    "price": "5,49 €",
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/3toKOnK",
-    "image": "https://media.adeo.com/media/1835242/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds"
-  },
-  {
-    "id": "fiamma-28-amazon-92",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Toldo Fiamma F28",
-    "price": "98,76 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/47iNDVL",
-    "image": "https://m.media-amazon.com/images/I/519GNqdx1wL._AC_SX679_.jpg"
-  },
-  {
-    "id": "autoterm-calefaccion-amazon-93",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Calefacción diésel Autoterm",
-    "price": "599,00 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3tAhYkF",
-    "image": "https://m.media-amazon.com/images/I/61R3plE6h1L._AC_SX679_.jpg"
-  },
-  {
-    "id": "encimera-bauhaus-95",
-    "type": "afiliado",
-    "source": "Bauhaus",
-    "name": "Encimera de cocina",
-    "price": "93,59 €",
-    "categories": [
-      "piso"
-    ],
-    "url": "https://rb.gy/o2zr7i",
-    "image": "https://media.cdn.bauhaus/m/509196/12.jpg"
-  },
-  {
-    "id": "pelacable-amazon-96",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Pelacables",
-    "price": "20,81€",
-    "categories": [
-      "camper",
-      "piso"
-    ],
-    "url": "https://amzn.to/40Yhz62",
-    "image": "https://m.media-amazon.com/images/I/51N+PF0RyQS._AC_SX679_.jpg"
-  },
-  {
-    "id": "radio-emitter-aliexpress-97",
-    "type": "afiliado",
-    "source": "AliExpress",
-    "name": "Emisor de radio FM",
-    "price": null,
-    "categories": [
-      "camper"
-    ],
-    "url": "https://s.click.aliexpress.com/e/_DBiE0SD",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd6a07f18837942db8c736823ad4f5e715.jpg_480x480q75.jpg_.avif"
-  },
-  {
-    "id": "muebles-esquinero-leroy-merlin-98",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Mueble esquinero",
-    "price": null,
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/3uwoJUx",
-    "image": "https://media.adeo.com/mkp/952721cb0f4ba9a014a0e92d145e7ae2/media.jpg?width=640"
-  },
-  {
-    "id": "bateria-eco-worthy-amazon-99",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Batería de litio Eco-Worthy",
-    "price": "199,99€",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3sSR4UA",
-    "image": "https://m.media-amazon.com/images/I/61dp9Jd1DoL._AC_SX679_.jpg"
-  },
-  {
-    "id": "poti-amazon-100",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Inodoro portátil",
-    "price": "43,49 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/41VJ2aM",
-    "image": "https://m.media-amazon.com/images/I/51YDHg8-HpL._AC_SX679_.jpg"
-  },
-  {
-    "id": "edecoa-inversor-amazon-101",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Inversor de corriente Edecoa",
-    "price": "139,99 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3MJhtII",
-    "image": "https://m.media-amazon.com/images/I/71qT+k5adBL._AC_SX679_.jpg"
-  },
-  {
-    "id": "campana-leroy-merlin-102",
-    "type": "afiliado",
-    "source": "Leroy Merlin",
-    "name": "Campana extractora",
-    "price": "45 €",
-    "categories": [
-      "piso"
-    ],
-    "url": "https://tidd.ly/47UB0Au",
-    "image": "https://media.adeo.com/media/3118759/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds"
-  },
-  {
-    "id": "centralita-350a-amazon-103",
-    "type": "afiliado",
-    "source": "Amazon",
-    "name": "Centralita de corte de batería",
-    "price": "32,75 €",
-    "categories": [
-      "camper"
-    ],
-    "url": "https://amzn.to/3Vnv8Li",
-    "image": "https://m.media-amazon.com/images/I/71g4RbL-uFL._SX522_.jpg"
-  },
-  {
-    "id": "base-aislante-leroy-merlin-104",
+    "id": "base-aislante-para-suelo",
     "type": "afiliado",
     "source": "Leroy Merlin",
     "name": "Base aislante para suelo",
     "price": "3,19€/m2",
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Suelos y paredes"
+    ],
     "categories": [
       "piso"
     ],
     "url": "https://tidd.ly/3uyrsNn",
-    "image": "https://media.adeo.com/media/1921783/media.jpg?width=640"
+    "image": "https://media.adeo.com/media/1921783/media.jpg?width=640",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-27"
   },
   {
-    "id": "paint-ba-o-leroy-merlin-105",
+    "id": "bateria-de-litio-eco-worthy",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Batería de litio Eco-Worthy",
+    "price": "199,99€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3sSR4UA",
+    "image": "https://m.media-amazon.com/images/I/61dp9Jd1DoL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
+  },
+  {
+    "id": "bateria-de-litio-sanfou",
+    "type": "afiliado",
+    "source": "Sanfou",
+    "name": "Batería de litio Sanfou",
+    "price": "59,90€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://www.sanfoupower.com/?ref=oolgddle",
+    "image": "https://www.sanfoupower.com/cdn/shop/collections/IMG_9524.jpg?v=1729825327&width=1080",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "bicicleta-electrica-plegable-hitway-bk35-hitway",
+    "type": "afiliado",
+    "source": "Hitway",
+    "name": "Bicicleta eléctrica plegable Hitway BK35 (Hitway)",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Movilidad"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://hitway.eu/products/bk35",
+    "image": "https://hitway.eu/cdn/shop/files/hitway-bk35s-app_3.jpg?v=1763709459",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-09-26"
+  },
+  {
+    "id": "bisagras-hidraulicas",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Bisagras hidráulicas",
+    "price": "12,99 €",
+    "espacios": [
+      "camper",
+      "piso"
+    ],
+    "subcategorias": [
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "camper",
+      "piso"
+    ],
+    "url": "https://amzn.to/47ZOgnc",
+    "image": "https://m.media-amazon.com/images/I/41sxGEiw5vL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-04-16"
+  },
+  {
+    "id": "boca-de-llenado-de-agua",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Boca de llenado de agua",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Fontanería y agua"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/45YWTNQ",
+    "image": "https://m.media-amazon.com/images/I/51amR1mZ27L._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
+  },
+  {
+    "id": "bolsas-de-malla-para-organizar",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Bolsas de malla para organizar",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Equipaje y organización"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/A0c3vTqLO",
+    "image": "https://m.media-amazon.com/images/I/61z+2PnbpbL._AC_SL1430_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "bolsita-para-documentos",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Bolsita para documentos",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Equipaje y organización"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://www.temu.com/es-en/portable-travel-airplane-bag-passport-bag-multi-functional-id-document-wallet-card-bag--passport-bag-storage-bag-portable-travel-bag-document-collection-bag-g-601099561829713.html",
+    "image": "https://img.kwcdn.com/product/fancy/0a23bd32-49a1-4101-b19b-a708f0b7986d.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "bomba-de-flush-para-wc",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Bomba de flush para WC",
+    "price": "75€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Baño",
+      "Fontanería y agua"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_oBMwMJi",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb1f748f2e3d24526afdb1716be07de8fQ.jpg_480x480q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "bombona-de-camping-gas",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Bombona de camping gas",
+    "price": "24€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Cocina"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/43Tz2jh",
+    "image": "https://m.media-amazon.com/images/I/61-WM6vLIFL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
+  },
+  {
+    "id": "booster-de-bateria-camion",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Booster de batería (camión)",
+    "price": "129,19 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3T9dytZ",
+    "image": "https://m.media-amazon.com/images/I/51MBwRc+pWL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "booster-de-bateria-furgo",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Booster de batería (furgo)",
+    "price": "153,28 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/47vCkdt",
+    "image": "https://m.media-amazon.com/images/I/71Uojd5syML._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
+  },
+  {
+    "id": "bote-pequeno-de-gel-limpiador-desmaquillante",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Bote pequeño de gel limpiador desmaquillante",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Salud e higiene"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://www.temu.com/es-en/9pcs-set-leak-proof-travel-toiletry-airplane-approved-size-spray-bottle-squeeze-tubes-with-bag-g-605813204704156.html",
+    "image": "https://img.kwcdn.com/product/fancy/d633957d-7a7c-42f2-8a3f-765dee970328.jpg?imageView2/2/w/800/q/70",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "botella-o-termo-reutilizable",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Botella o termo reutilizable",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Equipaje y organización"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://www.temu.com/es-en/-40oz-insulated-water-bottle-with-2-in-1-straw-and-spout-lid--leak-proof-random-nozzle-double-wall-stainless-steel-water-bottle-for-sports-gym-travel-and-school-g-601099703207557.html",
+    "image": "https://img.kwcdn.com/product/fancy/80fa5249-83e0-4b14-b772-f829c30e4e28.jpg?imageView2/2/w/800/q/70",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "botiquin-completo",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Botiquín completo",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Salud e higiene"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/B0a1L3ziF",
+    "image": "https://m.media-amazon.com/images/I/61mSrFlJh8L._AC_SL1000_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "cafetera",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Cafetera",
+    "price": "59,90 €",
+    "espacios": [
+      "camper",
+      "piso"
+    ],
+    "subcategorias": [
+      "Cocina",
+      "Electrodomésticos"
+    ],
+    "categories": [
+      "camper",
+      "piso"
+    ],
+    "url": "https://amzn.to/43w4h5n",
+    "image": "https://m.media-amazon.com/images/I/61ykeQlZTfL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "calefaccion-diesel",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Calefacción diésel",
+    "price": "599€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Calefacción y ventilación"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/47wwFTr",
+    "image": "https://m.media-amazon.com/images/I/7122DeN0ofL._AC_UL320_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2024-01-07"
+  },
+  {
+    "id": "calefaccion-diesel-autoterm",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Calefacción diésel Autoterm",
+    "price": "599,00 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Calefacción y ventilación"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3tAhYkF",
+    "image": "https://m.media-amazon.com/images/I/61R3plE6h1L._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2024-01-07"
+  },
+  {
+    "id": "calefaccion-diesel-nordkapp",
+    "type": "afiliado",
+    "source": "NordKapp",
+    "name": "Calefacción diésel NordKapp",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Calefacción y ventilación"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://nord-kapp.com/products/nordkapp™-air-gsm-5kw-8kw-diesel-air-heater?bg_ref=XSjWxanWq7",
+    "image": "https://nord-kapp.com/cdn/shop/files/7_79de457b-746a-47b0-b96d-abfecc703f3b.png?v=1770492901&width=1000",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "calzos-para-caravana",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Calzos para caravana",
+    "price": "20,00€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Vehículo",
+      "Aire libre y camping"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3n7JKS6",
+    "image": "https://m.media-amazon.com/images/I/81F+dMArXhL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-04-18"
+  },
+  {
+    "id": "camara-de-marcha-atras-amazon",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Cámara de marcha atrás (Amazon)",
+    "price": "20,00€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Vehículo"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3u7iOF7",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3b58a3cdabed42109cf82de1f4a03223m.jpg_480x480q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
+  },
+  {
+    "id": "camara-wi-fi-carga-por-usb",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Cámara Wi-Fi (carga por USB)",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Bebé",
+      "Seguridad"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/B02uNCBHk",
+    "image": "https://m.media-amazon.com/images/I/71X94K9haHL._AC_SL1500_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "campana-extractora",
     "type": "afiliado",
     "source": "Leroy Merlin",
-    "name": "Pintura para baño",
-    "price": null,
+    "name": "Campana extractora",
+    "price": "45 €",
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Cocina",
+      "Electrodomésticos"
+    ],
     "categories": [
       "piso"
     ],
-    "url": "https://tidd.ly/486DYS5",
-    "image": "https://media.adeo.com/media/3523874/media.png?width=640"
+    "url": "https://tidd.ly/47UB0Au",
+    "image": "https://media.adeo.com/media/3118759/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
   },
   {
-    "id": "extinctor-amazon-106",
+    "id": "candado",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Candado",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Seguridad"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://tidd.ly/4A2w0Io",
+    "image": "https://media.adeo.com/media/3770449/media.jpg?width=640",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "cantos-sin-cola",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Cantos sin cola",
+    "price": "5,49 €",
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3toKOnK",
+    "image": "https://media.adeo.com/media/1835242/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-12-15"
+  },
+  {
+    "id": "capota-de-lluvia-del-carrito-deryan",
+    "type": "afiliado",
+    "source": "Deryan",
+    "name": "Capota de lluvia del carrito (Deryan)",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Bebé"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://es.deryan.com/products/rolo-regenhoes",
+    "image": "https://www.deryan.com/cdn/shop/files/ROLO-Rain-1-Web.jpg?v=1777554614&width=2048",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-11-17"
+  },
+  {
+    "id": "cargador-de-bateria",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Cargador de batería",
+    "price": "49,99 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/4jGPSrZ",
+    "image": "https://m.media-amazon.com/images/I/716pPKjfvaL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "carrito-de-bebe-ligero-deryan-luxe-easy-verde",
+    "type": "afiliado",
+    "source": "Deryan",
+    "name": "Carrito de bebé ligero Deryan Luxe Easy (verde)",
+    "price": "149 €",
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Bebé"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://en.deryan.com/products/luxe-easy-lichtgewicht-buggy-green",
+    "image": "https://www.deryan.com/cdn/shop/files/Easygreen-2.jpg?v=1777625160&width=2048",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-11-13"
+  },
+  {
+    "id": "cascos-de-diadema",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Cascos de diadema",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Tecnología y ocio"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/B02t8gaMK",
+    "image": "https://m.media-amazon.com/images/I/61+2Wr079NL._AC_SL1500_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "centralita-de-corte-de-bateria",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Centralita de corte de batería",
+    "price": "32,75 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3Vnv8Li",
+    "image": "https://m.media-amazon.com/images/I/71g4RbL-uFL._SX522_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-04-29"
+  },
+  {
+    "id": "cierre-automatico",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Cierre automático",
+    "price": "25,99 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3u2egQJ",
+    "image": "https://m.media-amazon.com/images/I/61bedA2nCIL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
+  },
+  {
+    "id": "claraboya-fiamma-vent",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Claraboya Fiamma Vent",
+    "price": "291,90 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Ventanas y claraboyas"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/49YtmH4",
+    "image": "https://m.media-amazon.com/images/I/71oC3e0UODL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
+  },
+  {
+    "id": "claraboyas-y-ventanas",
+    "type": "afiliado",
+    "source": "Baiecar",
+    "name": "Claraboyas y ventanas",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Ventanas y claraboyas"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://www.baie-car.com/es/",
+    "image": "https://www.baie-car.com/wp-content/uploads/2019/10/IMG-8729-1-440x330.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "consola-playstation",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Consola PlayStation",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Tecnología y ocio"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/4mQLMAc",
+    "image": "https://m.media-amazon.com/images/I/71bF3ErRGML._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "cortapelos",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Cortapelos",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Salud e higiene"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/B03WlWQfp",
+    "image": "https://m.media-amazon.com/images/I/713YmksfpZL._AC_SL1500_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "cortina-de-bano",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Cortina de baño",
+    "price": "11,45 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Baño",
+      "Decoración y textil"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://temu.to/k/e6wbanny16o",
+    "image": "https://img.kwcdn.com/product/fancy/3d168901-5e7c-4bc3-bed0-c44bd70a75a9.jpg?imageView2/2/w/800/q/70/format/avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "cortina-mosquitera",
+    "type": "afiliado",
+    "source": "IKEA",
+    "name": "Cortina mosquitera",
+    "price": "6,99 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Decoración y textil"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://www.ikea.com/es/es/p/lill-cortinas-red-par-blanco-10070262/",
+    "image": "https://www.ikea.com/es/es/images/products/lill-cortinas-red-pack-2-unidades-blanco-con-bolsillo-barra__0598717_pe677784_s5.jpg?f=s",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-12-02"
+  },
+  {
+    "id": "crucetas-niveladoras-2mm",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Crucetas niveladoras 2mm",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Suelos y paredes",
+      "Baño"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://amzn.to/43d7YKb",
+    "image": "https://m.media-amazon.com/images/I/51Ev2ou2aCL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-05-21"
+  },
+  {
+    "id": "crucetas-nivelantes-para-baldosas",
+    "type": "afiliado",
+    "source": "Lidl",
+    "name": "Crucetas nivelantes para baldosas",
+    "price": "3,49 €",
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Suelos y paredes",
+      "Baño"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://clk.tradedoubler.com/click?p(297358)a(3297946)g(24849500)url(https://www.lidl.es/es/sistema-de-nivelacion-de-baldosas/p51539)",
+    "image": "https://www.lidl.es/assets/gcp345292472b79464d9efc9b09fb009015.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-05-01"
+  },
+  {
+    "id": "emisor-de-radio-fm",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Emisor de radio FM",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Vehículo",
+      "Tecnología y ocio"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DBiE0SD",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd6a07f18837942db8c736823ad4f5e715.jpg_480x480q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-04-16"
+  },
+  {
+    "id": "encimera-de-cocina",
+    "type": "afiliado",
+    "source": "Bauhaus",
+    "name": "Encimera de cocina",
+    "price": "93,59 €",
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Cocina",
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://rb.gy/o2zr7i",
+    "image": "https://media.cdn.bauhaus/m/509196/12.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-27"
+  },
+  {
+    "id": "estabilizador-de-tension",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Estabilizador de tensión",
+    "price": "15,99 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/4b74ZaU",
+    "image": "https://m.media-amazon.com/images/I/51xsiLw8jEL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2024-01-23"
+  },
+  {
+    "id": "extintor",
     "type": "afiliado",
     "source": "Amazon",
     "name": "Extintor",
     "price": "18,80€",
+    "espacios": [
+      "camper",
+      "piso"
+    ],
+    "subcategorias": [
+      "Seguridad"
+    ],
     "categories": [
       "camper",
       "piso"
     ],
     "url": "https://amzn.to/46PtNSh",
-    "image": "https://m.media-amazon.com/images/I/61qVNEmJ3FL._SY679_.jpg"
+    "image": "https://m.media-amazon.com/images/I/61qVNEmJ3FL._SY679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
   },
   {
-    "id": "crucetas-2mm-amazon-107",
+    "id": "foco-led-empotrable",
     "type": "afiliado",
-    "source": "Amazon",
-    "name": "Crucetas niveladoras 2mm",
-    "price": null,
+    "source": "Efectoled",
+    "name": "Foco LED empotrable",
+    "price": "2,95 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Iluminación"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://www.efectoled.com/es/comprar-placas-downlight-led-basic/75597-downlight-led-3w-12v-dc-circular-mueble-corte-o-63-mm.html?gad_source=1&gad_campaignid=19637303464&gbraid=0AAAAADM8HxNUvkcLIxInJQ7_eAY-BQsAh&gclid=CjwKCAjwo4rCBhAbEiwAxhJlCb_wdmgay_gbUsdJ60CKqRF0SUxyhgkHrETlsaswQRfsd8zmN5NC4hoCqtMQAvD_BwE&id_c=152789",
+    "image": "https://www.efectoled.com/2612906-thickbox_sklum/downlight-led-3w-12v-dc-circular-mueble-corte-o-63-mm.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "fregadero-camion",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Fregadero (camión)",
+    "price": "82,99 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Cocina"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://tidd.ly/4kDO303",
+    "image": "https://media.adeo.com/media/4009751/media.png?width=650&height=650&format=jpg&quality=80&fit=bounds",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "fregadero-piso",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Fregadero (piso)",
+    "price": "95,89 €",
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Cocina"
+    ],
     "categories": [
       "piso"
     ],
-    "url": "https://amzn.to/43d7YKb",
-    "image": "https://m.media-amazon.com/images/I/51Ev2ou2aCL._AC_SX679_.jpg"
+    "url": "https://tidd.ly/47NMR3k",
+    "image": "https://media.adeo.com/media/4009763/media.png?width=650&height=650&format=jpg&quality=80&fit=bounds",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
   },
   {
-    "id": "boba-x-kangura-100",
+    "id": "gafas-de-snorkel-tubo",
+    "type": "afiliado",
+    "source": "Decathlon",
+    "name": "Gafas de snorkel + tubo",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Aire libre y camping"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://afiliacion.decathlon.es/tracking/clk?act=11229&gel=0&pub=31040&org=2615&url=https://www.decathlon.es/es/p/kit-mascara-tubo-buceo-snorkel-subea-100-adulto-negro/330225/c381m8810835",
+    "image": "https://contents.mediadecathlon.com/p2296924/k$d2b2b93d0f60cc3c0dbf1d8f2e294b51/picture.jpg?format=auto&f=800x0",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-11-17"
+  },
+  {
+    "id": "gancho-de-puerta",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Gancho de puerta",
+    "price": "€11.10",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_opQuSVm",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S831c755213084b8695b0f853d97cb50da.jpg_220x220q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "grifo-de-bano",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Grifo de baño",
+    "price": "7,45 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Baño"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://tidd.ly/4iVXl6d",
+    "image": "https://media.adeo.com/media/2007574/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "grifo-de-cocina",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Grifo de cocina",
+    "price": null,
+    "espacios": [
+      "camper",
+      "piso"
+    ],
+    "subcategorias": [
+      "Cocina"
+    ],
+    "categories": [
+      "camper",
+      "piso"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DEtyVYZ",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0a7d36856440490695c2b00d243147bbJ.jpg_480x480q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
+  },
+  {
+    "id": "hornillo-doble",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Hornillo doble",
+    "price": "92,59 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Cocina"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/47wnDGR",
+    "image": "https://m.media-amazon.com/images/I/71uE-UaUOvL._AC_SY879_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
+  },
+  {
+    "id": "hornillo-portatil",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Hornillo portátil",
+    "price": "79,99 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Cocina"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/4kWsQy9",
+    "image": "https://m.media-amazon.com/images/I/71ogJ+spRtL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "horno",
+    "type": "afiliado",
+    "source": "Electro Depot",
+    "name": "Horno",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Cocina",
+      "Electrodomésticos"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3RjDHVV",
+    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10016650.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
+  },
+  {
+    "id": "inodoro-portatil",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Inodoro portátil",
+    "price": "43,49 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Baño"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/41VJ2aM",
+    "image": "https://m.media-amazon.com/images/I/51YDHg8-HpL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2024-01-07"
+  },
+  {
+    "id": "interruptores-electricos",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Interruptores eléctricos",
+    "price": "€4.08",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_onYdFCC",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se4e49f45077d42ab852305718605a14eI.jpg?has_lang=1&ver=3_220x220q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "inversor-de-corriente",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Inversor de corriente",
+    "price": "134,99 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3FIh8bw",
+    "image": "https://m.media-amazon.com/images/I/710qt9zRuEL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "inversor-de-corriente-edecoa",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Inversor de corriente Edecoa",
+    "price": "139,99 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3MJhtII",
+    "image": "https://m.media-amazon.com/images/I/71qT+k5adBL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
+  },
+  {
+    "id": "kindles-2",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Kindles (2)",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Tecnología y ocio"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/B0ionXgcr",
+    "image": "https://m.media-amazon.com/images/I/71J9n+mqpJL._AC_SL1500_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "kit-de-costura-ropa",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Kit de costura (ropa)",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Equipaje y organización"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://www.temu.com/es-en/multifunctional-mini-travel-sewing-kit--hand-sewing-set-with-scissors-clips-threader-pins-needles-buttons-sewing-thread-g-601099616278567.html",
+    "image": "https://img.kwcdn.com/product/fancy/d75af0fd-c80a-4762-b591-bbae8f2e4b31.jpg?imageView2/2/w/800/q/70",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "kit-de-termoretractiles",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Kit de termoretráctiles",
+    "price": "1,33€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad",
+      "Herramientas"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DcQ3Zy1",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35790e457fe14cfb9c16387699d211ac5.png_480x480.png_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-12-02"
+  },
+  {
+    "id": "lampara-caja-de-musica-carga-por-usb",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Lámpara / caja de música (carga por USB)",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Bebé"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://www.temu.com/es-en/colorful-sleep-aid-white-noise-night-light-with-switchable-white-noise-built-in-battery-adjustable--with-timer-sleep-sounds-white-noise-has-natural--memory-function-portable-sleep--1200mah-rechargeable-g-605940627642323.html",
+    "image": "https://img.kwcdn.com/product/fancy/643ad4b3-5024-4d1f-ab8e-37f2fc8b6a20.jpg?imageView2/2/w/800/q/70",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "lavabo",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Lavabo",
+    "price": "6,30 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Baño"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://temu.to/k/e3yawfdjxyr",
+    "image": "https://img.kwcdn.com/product/fancy/2a5fd027-e82f-4745-ad93-950049ed684a.jpg?imageView2/2/w/800/q/70/format/avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "lavavajillas",
+    "type": "afiliado",
+    "source": "Electro Depot",
+    "name": "Lavavajillas",
+    "price": "219,95€",
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Cocina",
+      "Electrodomésticos"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3RjIhEC",
+    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10001092.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
+  },
+  {
+    "id": "linterna-frontal",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Linterna frontal",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Aire libre y camping"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/B0anrpQhZ",
+    "image": "https://m.media-amazon.com/images/I/71-EoHVJgvL._AC_SL1500_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "llave-usb",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Llave USB",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Tecnología y ocio"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/B01FjcF1o",
+    "image": "https://m.media-amazon.com/images/I/615SWzrEsmL._AC_SL1500_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "luz-de-lectura",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Luz de lectura",
+    "price": "12,10 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Iluminación"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://temu.to/k/ev8wgs19xck",
+    "image": "https://img.kwcdn.com/product/fancy/c0530111-b8b9-42dc-9735-a21dc4592c0d.jpg?imageView2/2/w/800/q/70/format/avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "luz-de-pared",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Luz de pared",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Iluminación",
+      "Baño"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DdNIyAZ",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Seb126a038f0d423ea75760771a34f9d3W.jpg_480x480q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2024-02-02"
+  },
+  {
+    "id": "mantas-de-emergencia",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Mantas de emergencia",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Aire libre y camping",
+      "Seguridad"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_c4kM2Edl",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sad49ec1a3871425ba010b5088dd17bb8E.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "mesa-de-camping",
+    "type": "afiliado",
+    "source": "Decathlon",
+    "name": "Mesa de camping",
+    "price": "19,99 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Aire libre y camping"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://www.decathlon.es/es/p/mobiliario-camping-mesa-4-personas-verde/_/R-p-6330?mc=8750555&c=azul&utm_source=emas&utm_medium=affiliate&utm_campaign=es_t-perf_f-cv_o-conv_31040-creadores",
+    "image": "https://contents.mediadecathlon.com/p3103187/k$0bffa0432e006902fe3d7516a72ad864/picture.jpg?format=auto&f=3000x0",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "mesa-plegable",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Mesa plegable",
+    "price": "18,99€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Aire libre y camping",
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/40rHRPi",
+    "image": "https://m.media-amazon.com/images/I/51jzuMRkBsL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
+  },
+  {
+    "id": "mini-bote-de-gel-limpiador-facial",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Mini bote de gel limpiador facial",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Salud e higiene"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://www.temu.com/es-en/9pcs-set-leak-proof-travel-toiletry-airplane-approved-size-spray-bottle-squeeze-tubes-with-bag-g-605813204704156.html",
+    "image": "https://img.kwcdn.com/product/fancy/d633957d-7a7c-42f2-8a3f-765dee970328.jpg?imageView2/2/w/800/q/70",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "mochila-portabebes-boba-x-kangura",
     "type": "afiliado",
     "source": "Kangura",
-    "name": "Mochila portabebés Boba X",
+    "name": "Mochila portabebés Boba X (Kangura)",
     "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Bebé"
+    ],
     "categories": [
       "viaje"
     ],
     "url": "https://kangura.com/es/tienda-online/mochilas/mochila-evolutiva-portabebe-boba-x",
-    "image": "https://kangura.com/uploads/colors/boba-x-grey-evolutiva-mochila-ergonomica-kangura-portabebes-3-800.jpg"
+    "image": "https://kangura.com/uploads/colors/boba-x-grey-evolutiva-mochila-ergonomica-kangura-portabebes-3-800.jpg",
+    "destacado": true,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-09-26"
   },
   {
-    "id": "beco-fly-kangura-101",
+    "id": "mochila-portabebes-ultraligera-beco-fly-kangura",
     "type": "afiliado",
     "source": "Kangura",
-    "name": "Mochila portabebés ultraligera Beco Fly",
+    "name": "Mochila portabebés ultraligera Beco Fly (Kangura)",
     "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Bebé"
+    ],
     "categories": [
       "viaje"
     ],
     "url": "https://kangura.com/es/tienda-online/mochilas/mochila-portabebes-ultraligera-beco-fly",
-    "image": "https://kangura.com/uploads/colors/mochila-ultraligera-beco-fly-grey-kangura-portabebes-1-copia.jpg"
+    "image": "https://kangura.com/uploads/colors/mochila-ultraligera-beco-fly-grey-kangura-portabebes-1-copia.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-09-26"
   },
   {
-    "id": "bk35-hitway-102",
+    "id": "monomando-de-ducha",
     "type": "afiliado",
-    "source": "Hitway",
-    "name": "Bicicleta eléctrica plegable Hitway BK35",
-    "price": null,
+    "source": "AliExpress",
+    "name": "Monomando de ducha",
+    "price": "€71.18",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Baño",
+      "Fontanería y agua"
+    ],
     "categories": [
-      "camper",
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_ok8dYj2",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Hb05bab17db2747f18c1e4539118fd941d.jpg_220x220q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "mueble-alto-de-cocina",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Mueble alto de cocina",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Cocina",
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3v0f88R",
+    "image": "https://media.adeo.com/media/2262955/media.png?width=640",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-12-15"
+  },
+  {
+    "id": "mueble-de-bano",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Mueble de baño",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Baño",
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/49gnPdY",
+    "image": "https://media.adeo.com/mkp/673c390c48f70613b635696d7a89e43c/media.png?width=640",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2024-02-02"
+  },
+  {
+    "id": "mueble-esquinero",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Mueble esquinero",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Cocina",
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3uwoJUx",
+    "image": "https://media.adeo.com/mkp/952721cb0f4ba9a014a0e92d145e7ae2/media.jpg?width=640",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-24"
+  },
+  {
+    "id": "nevera-furgo",
+    "type": "afiliado",
+    "source": "Electro Depot",
+    "name": "Nevera (furgo)",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Cocina",
+      "Electrodomésticos"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://tidd.ly/3uGRD4k",
+    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10013280.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
+  },
+  {
+    "id": "nevera-piso",
+    "type": "afiliado",
+    "source": "Electro Depot",
+    "name": "Nevera (piso)",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Cocina",
+      "Electrodomésticos"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/47PmDO0",
+    "image": "https://www.electrodepot.es/media/catalog/product/cache/50e64802d8187e9f9ddbcc3156725056/P10013280.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
+  },
+  {
+    "id": "pantalla-portatil",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Pantalla portátil",
+    "price": "139,99 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Tecnología y ocio"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/4kOmzo1",
+    "image": "https://m.media-amazon.com/images/I/81Gv77eHXJL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "paraguas-upf-50",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Paraguas UPF 50",
+    "price": null,
+    "espacios": [
       "viaje"
     ],
-    "url": "https://hitway.eu/products/bk35",
-    "image": "https://hitway.eu/cdn/shop/files/hitway-bk35s-app_3.jpg?v=1763709459"
+    "subcategorias": [
+      "Aire libre y camping"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/B0g14Ay3Y",
+    "image": "https://m.media-amazon.com/images/I/51v06VabvaL._AC_SL1254_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "pata-de-mesa",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Pata de mesa",
+    "price": "5,85€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/40lIpq9",
+    "image": "https://m.media-amazon.com/images/I/41nIaKtttuL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
+  },
+  {
+    "id": "pata-de-mesa-lagun",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Pata de mesa Lagun",
+    "price": "€84.54",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://temu.to/k/e828kaabbta",
+    "image": "https://img.kwcdn.com/product/fancy/cc3c31e1-3d97-4a06-8a7c-9021b1614862.jpg?imageView2/2/w/800/q/70/format/avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "patas-para-zapatero",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Patas para zapatero",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DB0aC2h",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbc1c2912dbb74fdda297d281e0fcb7f4l.jpg_480x480q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2024-02-02"
+  },
+  {
+    "id": "pelacables",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Pelacables",
+    "price": "20,81€",
+    "espacios": [
+      "camper",
+      "piso"
+    ],
+    "subcategorias": [
+      "Herramientas",
+      "Electricidad"
+    ],
+    "categories": [
+      "camper",
+      "piso"
+    ],
+    "url": "https://amzn.to/40Yhz62",
+    "image": "https://m.media-amazon.com/images/I/51N+PF0RyQS._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-05-01"
+  },
+  {
+    "id": "pintura-para-bano",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Pintura para baño",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Baño",
+      "Suelos y paredes"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/486DYS5",
+    "image": "https://media.adeo.com/media/3523874/media.png?width=640",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2024-02-02"
+  },
+  {
+    "id": "placa-de-cocina",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Placa de cocina",
+    "price": "79,99 €",
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Cocina",
+      "Electrodomésticos"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/49Twpk3",
+    "image": "https://media.adeo.com/media/3084560/media.png?width=650&height=650&format=jpg&quality=80&fit=bounds",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
+  },
+  {
+    "id": "plato-de-ducha",
+    "type": "afiliado",
+    "source": "Brico Dépôt",
+    "name": "Plato de ducha",
+    "price": "131 €",
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Baño"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://rb.gy/o2qu0a",
+    "image": "https://www.bricodepot.es/media/catalog/product/cache/181b0992bdbb42961a53e6d1e13ca178/a/b/ab699419881878c.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-05-21"
+  },
+  {
+    "id": "pomos-para-armario-y-cocina",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Pomos para armario y cocina",
+    "price": "1,50€",
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Muebles y carpintería",
+      "Cocina"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://rb.gy/onzjq0",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Ha60a017d35384d01a266a0b071bb5deds.jpg_480x480q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-04-29"
+  },
+  {
+    "id": "portabebes-ultraligero-boba-air",
+    "type": "afiliado",
+    "source": "Kangura",
+    "name": "Portabebés ultraligero (Boba Air)",
+    "price": "69,95 €",
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Bebé"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://kangura.com/es/tienda-online/mochilas/mochila-portabebes-ultraligera-boba-air",
+    "image": "https://kangura.com/uploads/colors/boba-air-grey-mochila-portabebes-ligera-kangura-23.png",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "porton-de-registro",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Portón de registro",
+    "price": "15,49 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://tidd.ly/4kSNTle",
+    "image": "https://media.adeo.com/media/1825772/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "pouch-rellenable-pompote",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Pouch rellenable (pompote)",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Bebé"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/B0jcclEpi",
+    "image": "https://m.media-amazon.com/images/I/6151sz0lWtL._AC_SL1500_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "power-bank-iniu-p50",
+    "type": "afiliado",
+    "source": "INIU",
+    "name": "Power bank INIU P50",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Tecnología y ocio"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://inchesllc.pxf.io/KBNeVy",
+    "image": "https://eu-main.iniushop.com/cdn/shop/files/p50_-Photoroom.png?v=1790155085",
+    "destacado": true,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "proyector-portatil",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Proyector portátil",
+    "price": "309,97 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Tecnología y ocio"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3SEkyio",
+    "image": "https://m.media-amazon.com/images/I/71OBMkT5biL._AC_SX522_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "puerto-usb-empotrable",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Puerto USB empotrable",
+    "price": "€4.08",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_onYdFCC",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se4e49f45077d42ab852305718605a14eI.jpg?has_lang=1&ver=3_220x220q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "regulador-solar-mppt",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Regulador solar MPPT",
+    "price": "178,29 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/43Nk5PT",
+    "image": "https://m.media-amazon.com/images/I/51T8Zl-YuBL._SX522_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "regulador-solar-renogy-mppt",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Regulador solar Renogy MPPT",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3N5IbxY",
+    "image": "https://m.media-amazon.com/images/I/51oSnt0uweL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-28"
+  },
+  {
+    "id": "rejilla-de-ventilacion-de-bano",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Rejilla de ventilación de baño",
+    "price": "24€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Calefacción y ventilación",
+      "Baño"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_oEa8yGy",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S813453afcd384b38bb397af6e8923beaH.jpg_480x480q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "repelente-de-mosquitos-adultos",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Repelente de mosquitos (adultos)",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Salud e higiene"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://link.amazon/B02PQT6E4",
+    "image": "https://m.media-amazon.com/images/I/61b+5yg6+SL._AC_SL1500_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "resina-para-plato-de-ducha",
+    "type": "afiliado",
+    "source": "Nazza",
+    "name": "Resina para plato de ducha",
+    "price": "45,56 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Baño"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://www.nazza.es/?refs=113943",
+    "image": "https://www.nazza.es/1274-large_default/kit-antideslizante.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "riel-para-cortina",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Riel para cortina",
+    "price": "15,50 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Decoración y textil"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://temu.to/k/ehcjuqlhujl",
+    "image": "https://img.kwcdn.com/product/fancy/f3a7b0cf-647b-4213-830e-c7a5b479d92e.jpg?imageView2/2/w/800/q/70/format/avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "riel-para-cortina-de-armario",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Riel para cortina de armario",
+    "price": "6,92 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Decoración y textil"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://temu.to/k/eg18u8y2x1w",
+    "image": "https://img.kwcdn.com/product/fancy/daf36c43-d362-4625-a68e-ba117dac0344.jpg?imageView2/2/w/800/q/70/format/avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "rodapies",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Rodapiés",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Suelos y paredes"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3uwpwVv",
+    "image": "https://media.adeo.com/media/1837326/media.png?width=640",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-27"
+  },
+  {
+    "id": "sandalias-lara",
+    "type": "afiliado",
+    "source": "Decathlon",
+    "name": "Sandalias Lara",
+    "price": null,
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Ropa y calzado"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://afiliacion.decathlon.es/tracking/clk/31GMbjF",
+    "image": "https://contents.mediadecathlon.com/p3079248/k$19425041308c961da79bc9ed6938fc43/picture.jpg?format=auto&f=800x0",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-11-05"
+  },
+  {
+    "id": "separador-de-orina-para-wc",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Separador de orina para WC",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Baño"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/4dO3sZ0",
+    "image": "https://m.media-amazon.com/images/I/41fe+ET9qsL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "silla-plegable-de-camping",
+    "type": "afiliado",
+    "source": "Decathlon",
+    "name": "Silla plegable de camping",
+    "price": "17,99 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Aire libre y camping"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://www.decathlon.es/es/p/silla-plegable-de-camping-con-reposabrazos-quechua-basic/_/R-p-13372?mc=8852991&c=azul&utm_source=emas&utm_medium=affiliate&utm_campaign=es_t-perf_f-cv_o-conv_31040-creadores",
+    "image": "https://contents.mediadecathlon.com/p2598175/k$ef0cd18cf948c705e900c9cf2e92dc64/picture.jpg?format=auto&f=3000x0",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "sillas-de-camping",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Sillas de camping",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Aire libre y camping"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/49kaaDz",
+    "image": "https://m.media-amazon.com/images/I/61iziy0G6VL._AC_SY879_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
+  },
+  {
+    "id": "sonda-de-nivel-de-agua",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Sonda de nivel de agua",
+    "price": "€18.81",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Fontanería y agua"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_opsvwu4",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S906ef2f1fe1a4a8684c9c0d61d792aabP.png_960x960.png_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "suelo-laminado-camion",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Suelo laminado (camión)",
+    "price": "15,49 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Suelos y paredes"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://tidd.ly/3HHtpxm",
+    "image": "https://media.adeo.com/media/2861724/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "suelo-laminado-piso",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Suelo laminado (piso)",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Suelos y paredes"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/3sQP9ju",
+    "image": "https://media.adeo.com/media/3059331/media.jpg?width=640",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-27"
+  },
+  {
+    "id": "tablero-de-madera-maciza",
+    "type": "afiliado",
+    "source": "Leroy Merlin",
+    "name": "Tablero de madera maciza",
+    "price": null,
+    "espacios": [
+      "piso"
+    ],
+    "subcategorias": [
+      "Dormitorio",
+      "Muebles y carpintería"
+    ],
+    "categories": [
+      "piso"
+    ],
+    "url": "https://tidd.ly/406rUMQ",
+    "image": "https://media.adeo.com/media/1835417/media.jpg?width=640",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-04-16"
+  },
+  {
+    "id": "taza-de-cobre",
+    "type": "afiliado",
+    "source": "Temu",
+    "name": "Taza de cobre",
+    "price": "9,45 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Cocina"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://temu.to/k/ec9nch07wvf",
+    "image": "https://img.kwcdn.com/product/fancy/10e11df7-a2c7-475c-98c2-83e3e87efc3a.jpg?imageView2/2/w/800/q/70/format/avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "temporizador-para-calentador",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Temporizador para calentador",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad",
+      "Fontanería y agua"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_oBVP2Fi",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf8e56bf02e9646019c39fda87dff12b1l.jpg_480x480q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "terminales-electricos",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Terminales eléctricos",
+    "price": "5,38 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_Dlk2dMZ",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S44afbc4e94354447ba005228cfcf1eb94.jpg?has_lang=1&ver=2_960x960q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-12-02"
+  },
+  {
+    "id": "termometro-digital",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Termómetro digital",
+    "price": "20,02 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Calefacción y ventilación"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_ooSqBBI",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa0f74e25150344eda7f666ef1062b9387.jpg?has_lang=1&ver=2_960x960q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "termostato-para-caja-electrica",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Termostato para caja eléctrica",
+    "price": "3,69€",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Electricidad"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DmIZeyd",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4f64dc7b346d45e6800f3a5dfd4918476.jpg_480x480q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-04-27"
+  },
+  {
+    "id": "tira-led-cob",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Tira LED COB",
+    "price": "€8.12",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Iluminación"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_oDmSPzw",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se0c5dd44263e427ba77d8fd3413559c3s.jpg_220x220q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2025-06-06"
+  },
+  {
+    "id": "toalla-de-microfibra",
+    "type": "afiliado",
+    "source": "Decathlon",
+    "name": "Toalla de microfibra",
+    "price": "7,99 €",
+    "espacios": [
+      "viaje"
+    ],
+    "subcategorias": [
+      "Equipaje y organización"
+    ],
+    "categories": [
+      "viaje"
+    ],
+    "url": "https://afiliacion.decathlon.es/tracking/clk?act=11229&gel=0&pub=31040&org=2615&url=https://www.decathlon.es/es/p/toalla-microfibra-talla-l-80x130-cm-verde-abeto/158325/c273c192m8543246",
+    "image": "https://contents.mediadecathlon.com/p3015666/k$d0b9fa8b142b21fe5fa19eb75b8786b5/picture.jpg?format=auto&f=800x0",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2026-10-28"
+  },
+  {
+    "id": "toldo-fiamma-f28",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Toldo Fiamma F28",
+    "price": "98,76 €",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Aire libre y camping"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/47iNDVL",
+    "image": "https://m.media-amazon.com/images/I/519GNqdx1wL._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
+  },
+  {
+    "id": "toldo-fiamma-f40",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Toldo Fiamma F40",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Aire libre y camping"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/3MtC0U4",
+    "image": "https://m.media-amazon.com/images/I/71zs8Usg0ML._AC_SX679_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-11-04"
+  },
+  {
+    "id": "ventilador-12v",
+    "type": "afiliado",
+    "source": "AliExpress",
+    "name": "Ventilador 12V",
+    "price": "€7.04",
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Calefacción y ventilación"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://s.click.aliexpress.com/e/_DCQKguN",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scae0284f5cd54ee3bc93b7d9795016c6J.jpg?has_lang=1&ver=2_220x220q75.jpg_.avif",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-04-16"
+  },
+  {
+    "id": "ventilador-portatil",
+    "type": "afiliado",
+    "source": "Amazon",
+    "name": "Ventilador portátil",
+    "price": null,
+    "espacios": [
+      "camper"
+    ],
+    "subcategorias": [
+      "Calefacción y ventilación"
+    ],
+    "categories": [
+      "camper"
+    ],
+    "url": "https://amzn.to/4435fo1",
+    "image": "https://m.media-amazon.com/images/I/51IpYhKQLGL._AC_UL320_.jpg",
+    "destacado": false,
+    "top": false,
+    "etiqueta": null,
+    "added": "2023-04-16"
   }
 ]
